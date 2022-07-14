@@ -1,0 +1,19 @@
+{
+  "name": "@iclinic/axiom",
+  "version": "1.0.1",
+  "description": "Axiom design tokens",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iclinic/axiom.git"
+  },
+  "author": "iClinic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iclinic/axiom/issues"
+  },
+  "homepage": "https://github.com/iclinic/axiom#readme"
+}
