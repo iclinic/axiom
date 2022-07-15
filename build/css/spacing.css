@@ -1,0 +1,16 @@
+/**
+ * Do not edit directly
+ * Generated on Fri, 15 Jul 2022 20:07:11 GMT
+ */
+
+:root {
+  --global-spacing-nano: 0.5rem / 2 ;
+  --global-spacing-base: 0.5rem;
+  --global-spacing-xs: 0.5rem * 1.5;
+  --global-spacing-sm: 0.5rem * 2;
+  --global-spacing-md: 0.5rem * 3;
+  --global-spacing-lg: 0.5rem * 4;
+  --global-spacing-xl: 0.5rem * 5;
+  --global-spacing-xxl: 0.5rem * 6;
+  --global-spacing-xxxl: 0.5rem * 7;
+}
