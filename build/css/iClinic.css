@@ -1,9 +1,21 @@
 /**
  * Do not edit directly
- * Generated on Fri, 15 Jul 2022 20:07:11 GMT
+ * Generated on Mon, 18 Jul 2022 20:13:25 GMT
  */
 
 :root {
+  --i-clinic-color-branding-10: #041a2f;
+  --i-clinic-color-branding-20: #052443;
+  --i-clinic-color-branding-30: #003270;
+  --i-clinic-color-branding-40: #004bad;
+  --i-clinic-color-branding-50: #0066d6;
+  --i-clinic-color-branding-60: #228bf0;
+  --i-clinic-color-branding-70: #53a5f3;
+  --i-clinic-color-branding-80: #70b4f5;
+  --i-clinic-color-branding-90: #88c0f7;
+  --i-clinic-color-branding-100: #a4cff9;
+  --i-clinic-color-branding-110: #d3e8fd;
+  --i-clinic-color-branding-120: #e6f0fe;
   --i-clinic-color-interactive-accent-default: #0066d6;
   --i-clinic-color-interactive-accent-hovered: #004bad;
   --i-clinic-color-interactive-accent-pressed: #003270;
@@ -83,7 +95,7 @@
   --i-clinic-color-inverse-interactive-alert-accent-hovered: #fee1e1;
   --i-clinic-color-inverse-interactive-alert-accent-pressed: #fccbca;
   --i-clinic-color-inverse-interactive-alert-subtle-default: #e03233;
-  --i-clinic-color-inverse-interactive-alert-subtle-hovered: #c92224;
+  --i-clinic-color-inverse-interactive-alert-subtle-hoverd: #c92224;
   --i-clinic-color-inverse-interactive-alert-subtle-pressed: #b20c10;
   --i-clinic-color-inverse-typeface-strong: rgba(255,255,255,0.94);
   --i-clinic-color-inverse-typeface-pure: rgba(255,255,255,0.89);
@@ -93,16 +105,16 @@
   --i-clinic-color-inverse-typeface-feedback-warning: #fecf4d;
   --i-clinic-color-inverse-typeface-feedback-success: #6cca58;
   --i-clinic-color-inverse-typeface-feedback-info: #228bf0;
-  --i-clinic-color-inverse-typeface-on-interactive-accent: #052443;
+  --i-clinic-color-inverse-typeface-on-interactive-accent: #003270;
   --i-clinic-color-inverse-typeface-on-interactive-subtle: #e6f0fe;
   --i-clinic-color-inverse-typeface-on-interactive-alert-accent: #600110;
   --i-clinic-color-inverse-typeface-on-interactive-alert-subtle: #ffeceb;
   --i-clinic-color-inverse-typeface-on-interactive-disabled: rgba(255,255,255,0.06);
-  --i-clinic-color-inverse-surface-neutral-default: rgba(0,0,0,0.09);
+  --i-clinic-color-inverse-surface-neutral-default: rgba(255,255,255,0.06);
   --i-clinic-color-inverse-surface-neutral-hovered: rgba(255,255,255,0.11);
   --i-clinic-color-inverse-surface-neutral-pressed: rgba(255,255,255,0.08);
-  --i-clinic-color-inverse-surface-neutral-disabled: rgba(255,255,255,0.06);
-  --i-clinic-color-inverse-surface-selected-default: #0066d6;
+  --i-clinic-color-inverse-surface-neutral-disabled: rgba(0,0,0,0.08);
+  --i-clinic-color-inverse-surface-selected-defautl: #0066d6;
   --i-clinic-color-inverse-surface-selected-hovered: #004bad;
   --i-clinic-color-inverse-surface-selected-pressed: #003270;
   --i-clinic-color-inverse-surface-feedback-alert-accent: #ffeceb;
@@ -117,15 +129,15 @@
   --i-clinic-color-inverse-icon-hovered: rgba(255,255,255,0.62);
   --i-clinic-color-inverse-icon-pressed: rgba(255,255,255,0.56);
   --i-clinic-color-inverse-icon-active: #0066d6;
-  --i-clinic-color-inverse-icon-disabled: rgba(255,255,255,0.97);
+  --i-clinic-color-inverse-icon-disabled: rgba(255,255,255,0.2);
   --i-clinic-color-inverse-icon-feedback-alert: #fccbca;
   --i-clinic-color-inverse-icon-feedback-warning: #fecf4d;
   --i-clinic-color-inverse-icon-feedback-success: #88db6b;
   --i-clinic-color-inverse-icon-feedback-info: #a4cff9;
-  --i-clinic-color-inverse-border-default: rgba(255,255,255,0.89);
+  --i-clinic-color-inverse-border-default: rgba(255,255,255,0.33);
   --i-clinic-color-inverse-border-subtle: rgba(255,255,255,0.56);
   --i-clinic-color-inverse-border-active: #70b4f5;
-  --i-clinic-color-inverse-border-disable: rgba(255,255,255,0.11);
+  --i-clinic-color-inverse-border-disable: rgba(255,255,255,0.13);
   --i-clinic-color-inverse-border-feedback-alert: #fc6061;
   --i-clinic-color-inverse-border-feedback-warning: #fdb202;
   --i-clinic-color-inverse-border-feedback-success: #1bb237;
@@ -135,6 +147,8 @@
   --i-clinic-color-inverse-background-accent: #494849;
   --i-clinic-color-inverse-link-default: #53a5f3;
   --i-clinic-color-inverse-link-visited: #beace1;
+  --i-clinic-color-inverse-focus-default: #0066d6;
+  --i-clinic-color-inverse-focus-inset: rgba(0,0,0,0.04);
   --i-clinic-color-inverse-highlight-default: #228bf0;
   --i-clinic-color-inverse-others-backdrop: rgba(255,255,255,0.56);
   --i-clinic-color-inverse-others-divider: rgba(255,255,255,0.06);

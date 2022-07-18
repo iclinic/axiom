@@ -1,10 +1,18 @@
 /**
  * Do not edit directly
- * Generated on Fri, 15 Jul 2022 20:07:11 GMT
+ * Generated on Mon, 18 Jul 2022 20:13:25 GMT
  */
 
 :root {
   --global-font-weight-bold: Bold;
   --global-font-weight-medium: Medium;
   --global-font-weight-regular: Regular;
+  --global-font-size-base: 1rem;
+  --global-font-size-xxxs: 1rem * 0.75;
+  --global-font-size-xxs: 1rem * 0.875;
+  --global-font-size-sm: 1rem * 1.125;
+  --global-font-size-md: 1rem * 2;
+  --global-font-size-lg: 1rem*1.75;
+  --global-font-size-xl: 1rem*2.25;
+  --global-font-size-xxl: 1rem * 2.5;
 }

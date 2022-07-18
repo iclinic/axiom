@@ -132,11 +132,12 @@
           "format": "javascript/es6",
           "filter": "isGlobalColor"
         }, {
-          "destination": "iClinic.js",
+          "destination": "iClinic/color.js",
           "format": "javascript/es6",
           "filter": {
             "attributes": {
-              "category": "iClinic"
+              "category": "iClinic",
+              "type": "color"
             }
           }
         }
