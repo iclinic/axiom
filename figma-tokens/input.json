@@ -620,6 +620,7 @@
     }
   },
   "iClinic-light": {
+  "iClinic-light": {
     "color": {
       "branding": {
         "10": {
@@ -1604,15 +1605,15 @@
         },
         "background": {
           "default": {
-            "value": "{color.branding.50}",
+            "value": "{iClinic-light.color.branding.50}",
             "type": "color"
           },
           "subtle": {
-            "value": "{color.branding.40}",
+            "value": "{iClinic-light.color.branding.40}",
             "type": "color"
           },
           "accent": {
-            "value": "{color.branding.30}",
+            "value": "{iClinic-light.color.branding.30}",
             "type": "color"
           }
         },
@@ -1654,6 +1655,7 @@
         }
       }
     }
+  }
   },
   "$themes": []
 }
