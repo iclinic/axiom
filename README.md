@@ -32,3 +32,7 @@ Esse projeto também utiliza a biblioteca [token-transformer](https://www.npmjs.
 `npm run build` -  Executa o arquivo build.js, que é o arquivo que roda o Style Dictionary, lendo o arquivo output.json e gera a pasta `build`, que contém dentro dela todas as plataformas prontas para serem consumidas.
 As configurações de plataformas e arquivos que devem ser gerados estão na pasta `config`.
 
+
+### Referências
+[Automatizando o handoff de Design Tokens](https://dsvault.io/automatizando-handoff-design-tokens/#nao-sofra)
+[Repositório do Style Dictionary](https://github.com/amzn/style-dictionary)
