@@ -6,7 +6,7 @@
   "scripts": {
     "test": "npm test",
     "build": "node ./build.js",
-    "token-transformer": "token-transformer tokens/input.json tokens/output.json",
+    "token-transformer": "token-transformer tokens/input.json tokens/output.json --expandShadow=true",
     "clean": "rm -rf build"
   },
   "repository": {

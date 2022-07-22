@@ -36,6 +36,14 @@ const jsFiles = [
       }
     }
   }, {
+    "destination": `shadow.js`,
+    "format": "javascript/es6",
+    "filter": {
+      "attributes": {
+        "category": "shadow"
+      }
+    }
+  },{
     "destination": "iClinic/iClinic-light.js",
     "format": "javascript/es6",
     "filter": {

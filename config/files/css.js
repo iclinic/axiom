@@ -35,7 +35,15 @@ const scssFiles = [
         "category": "color"
       }
     }
-  }, {
+  },{
+    "destination": `shadow.css`,
+    "format": "css/variables",
+    "filter": {
+      "attributes": {
+        "category": "shadow"
+      }
+    }
+  },{
     "destination": "iClinic/iClinic-light.css",
     "format": "css/variables",
     "filter": {

@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 20 Jul 2022 17:19:21 GMT
+ * Generated on Thu, 21 Jul 2022 19:41:29 GMT
  */
 
 export const ColorPureWhite = "#ffffff";
@@ -81,7 +81,7 @@ export const ColorBlue10 = "#041a2f";
 export const ColorBlue20 = "#052443";
 export const ColorBlue30 = "#003270";
 export const ColorBlue40 = "#004bad";
-export const ColorBlue50 = "#0066d6";
+export const ColorBlue50 = "#0063d7";
 export const ColorBlue60 = "#228bf0";
 export const ColorBlue70 = "#53a5f3";
 export const ColorBlue80 = "#70b4f5";
