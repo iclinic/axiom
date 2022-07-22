@@ -1,15 +1,15 @@
 /**
  * Do not edit directly
- * Generated on Mon, 18 Jul 2022 20:13:25 GMT
+ * Generated on Wed, 20 Jul 2022 14:16:16 GMT
  */
 
-export const GlobalSpacingBase = "0.5rem";
-export const GlobalSpacingNano = "0.5rem * 0.25 ";
-export const GlobalSpacingXs = "0.5rem * 1.5";
-export const GlobalSpacingSm = "0.5rem * 2";
-export const GlobalSpacingMd = "0.5rem * 3";
-export const GlobalSpacingLg = "0.5rem * 4";
-export const GlobalSpacingXl = "0.5rem * 5";
-export const GlobalSpacingXxl = "0.5rem * 6";
-export const GlobalSpacingXxx = "0.5rem * 7";
-export const GlobalSpacingGiant = "0.5rem * 8";
+export const SpacingBase = "0.5rem";
+export const SpacingNano = "0.125rem";
+export const SpacingXs = "0.75rem";
+export const SpacingSm = "1rem";
+export const SpacingMd = "1.5rem";
+export const SpacingLg = "2rem";
+export const SpacingXl = "2.5rem";
+export const SpacingXxl = "3rem";
+export const SpacingXxx = "3.5rem";
+export const SpacingGiant = "4rem";

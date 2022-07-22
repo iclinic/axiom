@@ -1,16 +1,16 @@
 /**
  * Do not edit directly
- * Generated on Mon, 18 Jul 2022 20:13:25 GMT
+ * Generated on Wed, 20 Jul 2022 14:16:16 GMT
  */
 
-export const GlobalFontWeightBold = "Bold";
-export const GlobalFontWeightMedium = "Medium";
-export const GlobalFontWeightRegular = "Regular";
-export const GlobalFontSizeBase = "1rem";
-export const GlobalFontSizeXxxs = "1rem * 0.75";
-export const GlobalFontSizeXxs = "1rem * 0.875";
-export const GlobalFontSizeSm = "1rem * 1.125";
-export const GlobalFontSizeMd = "1rem * 2";
-export const GlobalFontSizeLg = "1rem*1.75";
-export const GlobalFontSizeXl = "1rem*2.25";
-export const GlobalFontSizeXxl = "1rem * 2.5";
+export const FontWeightBold = "Bold";
+export const FontWeightMedium = "Medium";
+export const FontWeightRegular = "Regular";
+export const FontSizeBase = "1rem";
+export const FontSizeXxxs = "0.75rem";
+export const FontSizeXxs = "0.875rem";
+export const FontSizeSm = "1.125rem";
+export const FontSizeMd = "2rem";
+export const FontSizeLg = "1.75rem";
+export const FontSizeXl = "2.25rem";
+export const FontSizeXxl = "2.5rem";

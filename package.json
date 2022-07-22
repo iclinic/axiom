@@ -6,6 +6,7 @@
   "scripts": {
     "test": "npm test",
     "build": "node ./build.js",
+    "token-transformer": "token-transformer tokens/input.json tokens/output.json",
     "clean": "rm -rf build"
   },
   "repository": {
@@ -20,5 +21,8 @@
   "homepage": "https://github.com/iclinic/axiom#readme",
   "devDependencies": {
     "style-dictionary": "^3.7.1"
+  },
+  "dependencies": {
+    "token-transformer": "^0.0.24"
   }
 }

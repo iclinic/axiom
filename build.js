@@ -9,7 +9,15 @@ console.log('\n==============================================');
 StyleDictionary.registerFilter({
     name: 'isBorder',
     matcher: function(token) {
-      return ['borderRadius', 'borderWidth'].includes(token.attributes.type)
+      return ['borderRadius', 'borderWidth'].includes(token.attributes.category)
+    }
+});
+
+StyleDictionary.registerFilter({
+    name: 'isSpacing',
+    matcher: function(token) {
+      console.log ('>', token)
+      return ['borderRadius', 'borderWidth'].includes(token.attributes.category)
     }
 });
   
@@ -20,10 +28,21 @@ StyleDictionary.registerFilter({
     }
 });
 
+// StyleDictionary.registerTransform({
+//   type: `value`,
+//   transitive: true,
+//   name: `removeGlobalTransform`,
+//   matcher: (token) => {},
+//   transformer: (token) => {
+//     // token.value will be resolved and transformed at this point
+//   }
+// })
+
 // APPLY THE CONFIGURATION
 // IMPORTANT: the registration of custom transforms
 // needs to be done _before_ applying the configuration
-const StyleDictionaryExtended = StyleDictionary.extend(__dirname + '/config.json');
+const config = require(__dirname + '/config/index.js');
+const StyleDictionaryExtended = StyleDictionary.extend(config);
 
 
 // FINALLY, BUILD ALL THE PLATFORMS

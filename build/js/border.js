@@ -1,14 +1,14 @@
 /**
  * Do not edit directly
- * Generated on Mon, 18 Jul 2022 20:13:25 GMT
+ * Generated on Wed, 20 Jul 2022 14:16:16 GMT
  */
 
-export const GlobalBorderRadiusNone = "0";
-export const GlobalBorderRadiusNano = "4";
-export const GlobalBorderRadiusSm = "8";
-export const GlobalBorderRadiusMd = "16";
-export const GlobalBorderRadiusLg = "24";
-export const GlobalBorderRadiusXl = "32";
-export const GlobalBorderRadiusCircular = "100%";
-export const GlobalBorderWidthHairline = "1";
-export const GlobalBorderWidthThin = "2";
+export const BorderRadiusNone = 0;
+export const BorderRadiusNano = 4;
+export const BorderRadiusSm = 8;
+export const BorderRadiusMd = 16;
+export const BorderRadiusLg = 24;
+export const BorderRadiusXl = 32;
+export const BorderRadiusCircular = "100%";
+export const BorderWidthHairline = 1;
+export const BorderWidthThin = 2;
