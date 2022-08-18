@@ -1,12 +1,13 @@
 /**
  * Do not edit directly
- * Generated on Thu, 21 Jul 2022 19:41:29 GMT
+ * Generated on Thu, 18 Aug 2022 17:33:52 GMT
  */
 
 :root {
-  --line-height-sm: 16;
-  --line-height-md: 24;
-  --line-height-lg: 32;
-  --line-height-xl: 40;
-  --line-height-xxl: 48;
+  --line-height-xxs: 100%;
+  --line-height-xs: 116%;
+  --line-height-sm: 128%;
+  --line-height-md: 132%;
+  --line-height-lg: 142%;
+  --line-height-xl: 150%;
 }

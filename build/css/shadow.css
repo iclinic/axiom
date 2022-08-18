@@ -1,25 +1,13 @@
 /**
  * Do not edit directly
- * Generated on Thu, 21 Jul 2022 19:41:29 GMT
+ * Generated on Thu, 18 Aug 2022 17:33:52 GMT
  */
 
 :root {
-  --shadow-level-6-0-x: 0;
-  --shadow-level-6-0-y: 0;
-  --shadow-level-6-0-blur: 4;
-  --shadow-level-6-0-spread: 0;
-  --shadow-level-6-0-color: #0063cf0a;
-  --shadow-level-6-0-type: dropShadow;
-  --shadow-level-6-1-x: 0;
-  --shadow-level-6-1-y: 8;
-  --shadow-level-6-1-blur: 14;
-  --shadow-level-6-1-spread: 0;
-  --shadow-level-6-1-color: #0063cf0a;
-  --shadow-level-6-1-type: dropShadow;
-  --shadow-level-6-2-x: 0;
-  --shadow-level-6-2-y: 14;
-  --shadow-level-6-2-blur: 16;
-  --shadow-level-6-2-spread: 0;
-  --shadow-level-6-2-color: #0063cf0a;
-  --shadow-level-6-2-type: dropShadow;
+  --shadow-level-1: [object Object],[object Object];
+  --shadow-level-2: [object Object],[object Object];
+  --shadow-level-3: [object Object],[object Object];
+  --shadow-level-4: [object Object],[object Object];
+  --shadow-level-5: [object Object],[object Object];
+  --shadow-level-6: [object Object],[object Object];
 }

@@ -8,17 +8,20 @@ const config = {
     "scss": {
       "transformGroup": "scss",
       "buildPath": "build/scss/",
-      "files": scssFiles
+      "files": scssFiles,
+      // "transforms": ["shadow/css"],
     },
     "css": {
       "transformGroup": "css",
       "buildPath": "build/css/",
-      "files": cssFiles
+      "files": cssFiles,
+      // "transforms": ["shadow/css"],
     },
     "js": {
       "transformGroup": "js",
       "buildPath": "build/js/",
-      "files": jsFiles
+      "files": jsFiles,
+      "transforms": ["shadow/css"],
     }
   }
 }
