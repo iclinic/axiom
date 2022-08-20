@@ -1,38 +1,94 @@
 const StyleDictionary = require('style-dictionary').extend('config/index.js');
+const Color = require('tinycolor2');
 
 console.log('Build started...');
 console.log('\n==============================================');
 
-
 // REGISTER THE CUSTOM FILTERS
 
 StyleDictionary.registerFilter({
-    name: 'isBorder',
-    matcher: function(token) {
-        // console.log(token);
-      return ['borderRadius', 'borderWidth'].includes(token.attributes.category)
-    }
+  name: 'isBorder',
+  matcher: function (token) {
+    return ['borderRadius', 'borderWidth'].includes(token.attributes.category);
+  },
 });
 
+const hexToRgba = (hexColor) => {
+  var color = Color(hexColor);
+  console.log('color', color, color.getAlpha());
+  if (color.getAlpha() === 1) {
+    return color.toHexString();
+  } else {
+    return color.toRgbString();
+  }
+};
+
 StyleDictionary.registerTransform({
-    name: "shadow/css",
-    // transitive: true,
-    type: "value",
-    matcher: function (token) {
-        // console.log(token)
-        return token.type === "boxShadow";
-    },
-    transformer: (token) => {
-        const shadows = Object.values(token.value);
-        // console.log(shadows);
-        // console.log(shadows.length);
-        const result = shadows.map(
-            (shadow) =>
-                `${shadow.x} ${shadow.y} ${shadow.blur} ${shadow.spread} ${shadow.color}`
-        );
-        console.log(result.join(","));
-        return result.join(",");
-    },
+  name: 'shadow/css',
+  type: 'value',
+  matcher: function (token) {
+    return token.type === 'boxShadow';
+  },
+  transformer: (token) => {
+    const shadows = Object.values(token.value);
+    const result = shadows.map(
+      (shadow) =>
+        `${shadow.x}px ${shadow.y}px ${shadow.blur}px ${
+          shadow.spread
+        }px ${hexToRgba(shadow.color)}`,
+    );
+    return result.join(', ');
+  },
+});
+
+console.log(
+  'tranformGroup original: css: ',
+  StyleDictionary.transformGroup['css'],
+);
+console.log(
+  'tranformGroup original: js: ',
+  StyleDictionary.transformGroup['js'],
+);
+console.log(
+  'tranformGroup original: scss: ',
+  StyleDictionary.transformGroup['scss'],
+);
+
+StyleDictionary.registerTransformGroup({
+  name: 'tokens-scss',
+  transforms: [
+    'attribute/cti',
+    'name/cti/kebab',
+    'time/seconds',
+    'content/icon',
+    'size/rem',
+    'color/css',
+    'shadow/css',
+  ],
+});
+
+StyleDictionary.registerTransformGroup({
+  name: 'tokens-js',
+  transforms: [
+    'attribute/cti',
+    'name/cti/pascal',
+    'size/rem',
+    'color/hex',
+    'shadow/css',
+  ],
+});
+
+StyleDictionary.registerTransformGroup({
+  name: 'tokens-css',
+  transforms: [
+    'attribute/cti',
+    'name/cti/kebab',
+    'time/seconds',
+    'content/icon',
+    'size/rem',
+    'color/css',
+    'shadow/css',
+  ],
 });
 
 // APPLY THE CONFIGURATION
@@ -41,12 +97,8 @@ StyleDictionary.registerTransform({
 // const config = require(__dirname + '/config/index.js');
 // const StyleDictionaryExtended = StyleDictionary.extend(config);
 
-
-
 // FINALLY, BUILD ALL THE PLATFORMS
 StyleDictionary.buildAllPlatforms();
-
-
 
 console.log('\n==============================================');
 console.log('\nBuild completed!');
