@@ -1,13 +1,13 @@
 /**
  * Do not edit directly
- * Generated on Thu, 18 Aug 2022 17:33:52 GMT
+ * Generated on Sat, 20 Aug 2022 01:37:30 GMT
  */
 
 :root {
-  --shadow-level-1: [object Object],[object Object];
-  --shadow-level-2: [object Object],[object Object];
-  --shadow-level-3: [object Object],[object Object];
-  --shadow-level-4: [object Object],[object Object];
-  --shadow-level-5: [object Object],[object Object];
-  --shadow-level-6: [object Object],[object Object];
+  --shadow-level-1: 0px 1px 2px 0px rgba(0, 0, 0, 0.04), 0px 5px 4px -4px rgba(0, 0, 0, 0.04);
+  --shadow-level-2: 0px 2px 2px 0px rgba(0, 0, 0, 0.08), 0px 0px 2px 0px rgba(0, 0, 0, 0.04);
+  --shadow-level-3: 0px 12px 12px -8px rgba(0, 0, 0, 0.08), 0px 0px 4px 0px rgba(0, 0, 0, 0.04);
+  --shadow-level-4: 0px 32px 40px -16px rgba(0, 0, 0, 0.09), 0px 2px 6px 0px rgba(0, 0, 0, 0.08);
+  --shadow-level-5: 0px 24px 48px -12px rgba(0, 0, 0, 0.09), 0px 48px 64px -24px rgba(0, 0, 0, 0.09);
+  --shadow-level-6: 0px 24px 48px -8px rgba(0, 0, 0, 0.09), 0px 48px 64px -24px rgba(0, 0, 0, 0.09);
 }
