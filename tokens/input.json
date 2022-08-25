@@ -1009,7 +1009,7 @@
           },
           "pure": {
             "type": "color",
-            "value": "{color.alfaBlack.40}"
+            "value": "{color.alfaBlack.50}"
           },
           "smooth": {
             "type": "color",
