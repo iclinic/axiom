@@ -1013,7 +1013,7 @@
           },
           "smooth": {
             "type": "color",
-            "value": "{color.alfaBlack.50}"
+            "value": "{color.alfaBlack.60}"
           },
           "meld": {
             "type": "color",
@@ -1363,7 +1363,7 @@
               "type": "color"
             },
             "smooth": {
-              "value": "{color.alfaWhite.40}",
+              "value": "{color.alfaWhite.50}",
               "type": "color"
             },
             "meld": {
@@ -1555,7 +1555,7 @@
               "type": "color"
             },
             "subtle": {
-              "value": "{color.alfaWhite.60}",
+              "value": "{color.alfaWhite.70}",
               "type": "color"
             },
             "activated": {
@@ -1908,7 +1908,7 @@
             },
             "subtle": {
               "type": "color",
-              "value": "{color.alfaWhite.80}"
+              "value": "{color.alfaWhite.70}"
             },
             "activated": {
               "value": "{iClinic-light.color.branding.110}",
@@ -2125,5 +2125,11 @@
       }
     }
   },
-  "$themes": []
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "global",
+      "iClinic-light"
+    ]
+  }
 }
