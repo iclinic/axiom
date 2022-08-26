@@ -603,6 +603,10 @@
         "120": {
           "value": "#e6f0fe",
           "type": "color"
+        },
+        "130": {
+          "value": "#f5f9ff",
+          "type": "color"
         }
       },
       "purple": {
@@ -707,7 +711,7 @@
       }
     },
     "shadow": {
-      "level": {
+      "shadowNeutral": {
         "1": {
           "value": [
             {
@@ -934,7 +938,7 @@
             "type": "color"
           },
           "130": {
-            "value": "#f5f9ff",
+            "value": "{color.blue.130}",
             "type": "color"
           }
         },
@@ -1009,7 +1013,7 @@
           },
           "pure": {
             "type": "color",
-            "value": "{color.alfaBlack.50}"
+            "value": "{color.alfaBlack.40}"
           },
           "smooth": {
             "type": "color",
@@ -1640,7 +1644,7 @@
             }
           }
         },
-        "onBrand": {
+        "Brand": {
           "interactive": {
             "accent": {
               "default": {
@@ -1993,7 +1997,7 @@
           }
         }
       },
-      "shadow": {
+      "shadowBrand": {
         "level": {
           "1": {
             "value": [
