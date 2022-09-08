@@ -25,7 +25,7 @@ Ele foi criado utilizando a integração com o plugin do [Figma Tokens](https://
 Esse projeto também utiliza a biblioteca [token-transformer](https://www.npmjs.com/package/token-transformer) para processar o arquivo de definições de tokens (`tokens/input.json`) e gerar uma versão compatível com o Style Dictionary no arquivo `tokens/output.json`
 
 ### **Axiom Design Tokens**
-Uim *token de design* é uma **decsão de design codificado e armazenado em variáveis promovendo a padronização de vários elementos de estilo** como: tipografia, cores, regras de espaçamento, elevação e relacionados. São os alicerces para um Design System e promovem unidade entre os diferentes produtos de nosso Pilar, sendo compartilhados entre designers e pessoas desenvolvedoras.
+Um *token de design* é uma **decsão de design codificado e armazenado em variáveis promovendo a padronização de vários elementos de estilo** como: tipografia, cores, regras de espaçamento, elevação e relacionados. São os alicerces para um Design System e promovem unidade entre os diferentes produtos de nosso Pilar, sendo compartilhados entre designers e pessoas desenvolvedoras.
 
 #### [Global Tokens](https://www.figma.com/file/RbSJs5TvWqiQVxij5iDaiU/Axiom---Estudos?node-id=6888%3A18918)
 Tokens globais são os valores em nossa linguagem de design, representados por nomes primitivos independentes de contexto. Nossa paleta de cores, animação, tipografia e valores de dimensão são todos registrados como tokens globais. Eles podem ser usados ​​diretamente e são herdados por todos os outros tipos de token.
