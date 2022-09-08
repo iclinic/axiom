@@ -15,7 +15,6 @@ StyleDictionary.registerFilter({
 
 const hexToRgba = (hexColor) => {
   var color = Color(hexColor);
-  console.log('color', color, color.getAlpha());
   if (color.getAlpha() === 1) {
     return color.toHexString();
   } else {
@@ -40,19 +39,6 @@ StyleDictionary.registerTransform({
     return result.join(', ');
   },
 });
-
-console.log(
-  'tranformGroup original: css: ',
-  StyleDictionary.transformGroup['css'],
-);
-console.log(
-  'tranformGroup original: js: ',
-  StyleDictionary.transformGroup['js'],
-);
-console.log(
-  'tranformGroup original: scss: ',
-  StyleDictionary.transformGroup['scss'],
-);
 
 StyleDictionary.registerTransformGroup({
   name: 'tokens-scss',
