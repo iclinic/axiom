@@ -1,25 +1,13 @@
 /**
  * Do not edit directly
- * Generated on Thu, 21 Jul 2022 19:41:29 GMT
+ * Generated on Sat, 20 Aug 2022 01:37:30 GMT
  */
 
 :root {
-  --shadow-level-6-0-x: 0;
-  --shadow-level-6-0-y: 0;
-  --shadow-level-6-0-blur: 4;
-  --shadow-level-6-0-spread: 0;
-  --shadow-level-6-0-color: #0063cf0a;
-  --shadow-level-6-0-type: dropShadow;
-  --shadow-level-6-1-x: 0;
-  --shadow-level-6-1-y: 8;
-  --shadow-level-6-1-blur: 14;
-  --shadow-level-6-1-spread: 0;
-  --shadow-level-6-1-color: #0063cf0a;
-  --shadow-level-6-1-type: dropShadow;
-  --shadow-level-6-2-x: 0;
-  --shadow-level-6-2-y: 14;
-  --shadow-level-6-2-blur: 16;
-  --shadow-level-6-2-spread: 0;
-  --shadow-level-6-2-color: #0063cf0a;
-  --shadow-level-6-2-type: dropShadow;
+  --shadow-level-1: 0px 1px 2px 0px rgba(0, 0, 0, 0.04), 0px 5px 4px -4px rgba(0, 0, 0, 0.04);
+  --shadow-level-2: 0px 2px 2px 0px rgba(0, 0, 0, 0.08), 0px 0px 2px 0px rgba(0, 0, 0, 0.04);
+  --shadow-level-3: 0px 12px 12px -8px rgba(0, 0, 0, 0.08), 0px 0px 4px 0px rgba(0, 0, 0, 0.04);
+  --shadow-level-4: 0px 32px 40px -16px rgba(0, 0, 0, 0.09), 0px 2px 6px 0px rgba(0, 0, 0, 0.08);
+  --shadow-level-5: 0px 24px 48px -12px rgba(0, 0, 0, 0.09), 0px 48px 64px -24px rgba(0, 0, 0, 0.09);
+  --shadow-level-6: 0px 24px 48px -8px rgba(0, 0, 0, 0.09), 0px 48px 64px -24px rgba(0, 0, 0, 0.09);
 }

@@ -1,23 +1,11 @@
 /**
  * Do not edit directly
- * Generated on Thu, 21 Jul 2022 19:41:29 GMT
+ * Generated on Sat, 20 Aug 2022 01:37:31 GMT
  */
 
-export const ShadowLevel60X = 0;
-export const ShadowLevel60Y = 0;
-export const ShadowLevel60Blur = 4;
-export const ShadowLevel60Spread = 0;
-export const ShadowLevel60Color = "#0063cf0a";
-export const ShadowLevel60Type = "dropShadow";
-export const ShadowLevel61X = 0;
-export const ShadowLevel61Y = 8;
-export const ShadowLevel61Blur = 14;
-export const ShadowLevel61Spread = 0;
-export const ShadowLevel61Color = "#0063cf0a";
-export const ShadowLevel61Type = "dropShadow";
-export const ShadowLevel62X = 0;
-export const ShadowLevel62Y = 14;
-export const ShadowLevel62Blur = 16;
-export const ShadowLevel62Spread = 0;
-export const ShadowLevel62Color = "#0063cf0a";
-export const ShadowLevel62Type = "dropShadow";
+export const ShadowLevel1 = "0px 1px 2px 0px rgba(0, 0, 0, 0.04), 0px 5px 4px -4px rgba(0, 0, 0, 0.04)";
+export const ShadowLevel2 = "0px 2px 2px 0px rgba(0, 0, 0, 0.08), 0px 0px 2px 0px rgba(0, 0, 0, 0.04)";
+export const ShadowLevel3 = "0px 12px 12px -8px rgba(0, 0, 0, 0.08), 0px 0px 4px 0px rgba(0, 0, 0, 0.04)";
+export const ShadowLevel4 = "0px 32px 40px -16px rgba(0, 0, 0, 0.09), 0px 2px 6px 0px rgba(0, 0, 0, 0.08)";
+export const ShadowLevel5 = "0px 24px 48px -12px rgba(0, 0, 0, 0.09), 0px 48px 64px -24px rgba(0, 0, 0, 0.09)";
+export const ShadowLevel6 = "0px 24px 48px -8px rgba(0, 0, 0, 0.09), 0px 48px 64px -24px rgba(0, 0, 0, 0.09)";

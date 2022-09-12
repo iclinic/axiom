@@ -1,10 +1,11 @@
 /**
  * Do not edit directly
- * Generated on Thu, 21 Jul 2022 19:41:29 GMT
+ * Generated on Sat, 20 Aug 2022 01:37:31 GMT
  */
 
-export const LineHeightSm = 16;
-export const LineHeightMd = 24;
-export const LineHeightLg = 32;
-export const LineHeightXl = 40;
-export const LineHeightXxl = 48;
+export const LineHeightXxs = "100%";
+export const LineHeightXs = "116%";
+export const LineHeightSm = "128%";
+export const LineHeightMd = "132%";
+export const LineHeightLg = "142%";
+export const LineHeightXl = "150%";

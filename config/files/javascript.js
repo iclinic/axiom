@@ -42,7 +42,8 @@ const jsFiles = [
       "attributes": {
         "category": "shadow"
       }
-    }
+    },
+
   },{
     "destination": "iClinic/iClinic-light.js",
     "format": "javascript/es6",
