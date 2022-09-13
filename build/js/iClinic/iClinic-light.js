@@ -1,227 +1,428 @@
-/**
- * Do not edit directly
- * Generated on Sat, 20 Aug 2022 01:37:31 GMT
- */
-
-export const IClinicLightColorBranding10 = "#041a2f";
-export const IClinicLightColorBranding20 = "#052443";
-export const IClinicLightColorBranding30 = "#003270";
-export const IClinicLightColorBranding40 = "#004bad";
-export const IClinicLightColorBranding50 = "#0063d7";
-export const IClinicLightColorBranding60 = "#228bf0";
-export const IClinicLightColorBranding70 = "#53a5f3";
-export const IClinicLightColorBranding80 = "#70b4f5";
-export const IClinicLightColorBranding90 = "#88c0f7";
-export const IClinicLightColorBranding100 = "#a4cff9";
-export const IClinicLightColorBranding110 = "#d3e8fd";
-export const IClinicLightColorBranding120 = "#e6f0fe";
-export const IClinicLightColorInteractiveAccentDefault = "#0063d7";
-export const IClinicLightColorInteractiveAccentHovered = "#004bad";
-export const IClinicLightColorInteractiveAccentPressed = "#003270";
-export const IClinicLightColorInteractiveSubtleDefault = "#e6f0fe";
-export const IClinicLightColorInteractiveSubtleHovered = "#d3e8fd";
-export const IClinicLightColorInteractiveSubtlePressed = "#a4cff9";
-export const IClinicLightColorInteractiveDisable = "#00000017";
-export const IClinicLightColorInteractiveAlertAccentDefault = "#c92224";
-export const IClinicLightColorInteractiveAlertAccentHovered = "#b20c10";
-export const IClinicLightColorInteractiveAlertAccentPressed = "#941415";
-export const IClinicLightColorInteractiveAlertSubtleDefault = "#ffeceb";
-export const IClinicLightColorInteractiveAlertSubtleHovered = "#fee1e1";
-export const IClinicLightColorInteractiveAlertSubtlePressed = "#fccbca";
-export const IClinicLightColorTypefaceStrong = "#000000de";
-export const IClinicLightColorTypefacePure = "#000000c9";
-export const IClinicLightColorTypefaceSmooth = "#00000094";
-export const IClinicLightColorTypefaceMeld = "#00000038";
-export const IClinicLightColorTypefaceFeedbackAlert = "#e03233";
-export const IClinicLightColorTypefaceFeedbackWarning = "#cc7700";
-export const IClinicLightColorTypefaceFeedbackSuccess = "#128120";
-export const IClinicLightColorTypefaceFeedbackInfo = "#0063d7";
-export const IClinicLightColorTypefaceOnInteractiveAccent = "#e6f0fe";
-export const IClinicLightColorTypefaceOnInteractiveSubtle = "#052443";
-export const IClinicLightColorTypefaceOnInteractiveAlertAccent = "#ffeceb";
-export const IClinicLightColorTypefaceOnInteractiveAlertSubtle = "#600110";
-export const IClinicLightColorTypefaceOnInteractiveDisabled = "#00000038";
-export const IClinicLightColorSurfaceNeutralDefault = "#ffffff0f";
-export const IClinicLightColorSurfaceNeutralHovered = "#0000000a";
-export const IClinicLightColorSurfaceNeutralPressed = "#00000014";
-export const IClinicLightColorSurfaceNeutralDisabled = "#00000014";
-export const IClinicLightColorSurfaceSelectedDefault = "#d3e8fd";
-export const IClinicLightColorSurfaceSelectedHovered = "#a4cff9";
-export const IClinicLightColorSurfaceSelectedPressed = "#88c0f7";
-export const IClinicLightColorSurfaceFeedbackAlertAccent = "#e03233";
-export const IClinicLightColorSurfaceFeedbackAlertSubtle = "#fee1e1";
-export const IClinicLightColorSurfaceFeedbackWarningAccent = "#cc7700";
-export const IClinicLightColorSurfaceFeedbackWarningSubtle = "#fff3cc";
-export const IClinicLightColorSurfaceFeedbackSuccessAccent = "#149817";
-export const IClinicLightColorSurfaceFeedbackSuccessSubtle = "#e6fdd6";
-export const IClinicLightColorSurfaceFeedbackInfoAccent = "#0063d7";
-export const IClinicLightColorSurfaceFeedbackInfoSubtle = "#d3e8fd";
-export const IClinicLightColorIconDefault = "#00000038";
-export const IClinicLightColorIconHovered = "#0000001f";
-export const IClinicLightColorIconPressed = "#00000066";
-export const IClinicLightColorIconSelected = "#0063d7";
-export const IClinicLightColorIconDisabled = "#00000038";
-export const IClinicLightColorIconFeedbackAlert = "#c92224";
-export const IClinicLightColorIconFeedbackWarning = "#cc7700";
-export const IClinicLightColorIconFeedbackSuccess = "#128120";
-export const IClinicLightColorIconFeedbackInfo = "#004bad";
-export const IClinicLightColorBorderDefault = "#00000038";
-export const IClinicLightColorBorderSubtle = "#0000001f";
-export const IClinicLightColorBorderActive = "#0063d7";
-export const IClinicLightColorBorderDisabled = "#0000000a";
-export const IClinicLightColorBorderFeedbackAlert = "#941415";
-export const IClinicLightColorBorderFeedbackWarning = "#cc7700";
-export const IClinicLightColorBorderFeedbackSuccess = "#128120";
-export const IClinicLightColorBorderFeedbackInfo = "#0063d7";
-export const IClinicLightColorBackground01 = "#fff";
-export const IClinicLightColorBackground02 = "#f5f5f5";
-export const IClinicLightColorBackground03 = "#e4e3e3";
-export const IClinicLightColorLinkDefault = "#0063d7";
-export const IClinicLightColorLinkVisited = "#7553b6";
-export const IClinicLightColorFocusDefault = "#0063d7";
-export const IClinicLightColorFocusInset = "#0000000a";
-export const IClinicLightColorHighlightDefault = "#8467c0";
-export const IClinicLightColorOthersBackdrop = "#00000094";
-export const IClinicLightColorOthersDivider = "#00000017";
-export const IClinicLightColorInverseInteractiveAccentDefault = "#e6f0fe";
-export const IClinicLightColorInverseInteractiveAccentHovered = "#d3e8fd";
-export const IClinicLightColorInverseInteractiveAccentPressed = "#a4cff9";
-export const IClinicLightColorInverseInteractiveSubtleDefault = "#0063d7";
-export const IClinicLightColorInverseInteractiveSubtleHovered = "#004bad";
-export const IClinicLightColorInverseInteractiveSubtlePressed = "#003270";
-export const IClinicLightColorInverseInteractiveDisable = "#ffffff0f";
-export const IClinicLightColorInverseInteractiveAlertAccentDefault = "#ffeceb";
-export const IClinicLightColorInverseInteractiveAlertAccentHovered = "#fee1e1";
-export const IClinicLightColorInverseInteractiveAlertAccentPressed = "#fccbca";
-export const IClinicLightColorInverseInteractiveAlertSubtleDefault = "#e03233";
-export const IClinicLightColorInverseInteractiveAlertSubtleHoverd = "#c92224";
-export const IClinicLightColorInverseInteractiveAlertSubtlePressed = "#b20c10";
-export const IClinicLightColorInverseTypefaceStrong = "#fffffff0";
-export const IClinicLightColorInverseTypefacePure = "#ffffffe3";
-export const IClinicLightColorInverseTypefaceSmooth = "#ffffffc9";
-export const IClinicLightColorInverseTypefaceMeld = "#ffffff54";
-export const IClinicLightColorInverseTypefaceFeedbackAlert = "#f9a5a4";
-export const IClinicLightColorInverseTypefaceFeedbackWarning = "#fecf4d";
-export const IClinicLightColorInverseTypefaceFeedbackSuccess = "#6cca58";
-export const IClinicLightColorInverseTypefaceFeedbackInfo = "#228bf0";
-export const IClinicLightColorInverseTypefaceOnInteractiveAccent = "#052443";
-export const IClinicLightColorInverseTypefaceOnInteractiveSubtle = "#e6f0fe";
-export const IClinicLightColorInverseTypefaceOnInteractiveAlertAccent = "#600110";
-export const IClinicLightColorInverseTypefaceOnInteractiveAlertSubtle = "#ffeceb";
-export const IClinicLightColorInverseTypefaceOnInteractiveDisabled = "#ffffff0f";
-export const IClinicLightColorInverseSurfaceNeutralDefault = "#ffffff0f";
-export const IClinicLightColorInverseSurfaceNeutralHovered = "#ffffff1c";
-export const IClinicLightColorInverseSurfaceNeutralPressed = "#ffffff14";
-export const IClinicLightColorInverseSurfaceNeutralDisabled = "#ffffff1c";
-export const IClinicLightColorInverseSurfaceSelectedDefautl = "#d3e8fd";
-export const IClinicLightColorInverseSurfaceSelectedHovered = "#a4cff9";
-export const IClinicLightColorInverseSurfaceSelectedPressed = "#88c0f7";
-export const IClinicLightColorInverseSurfaceFeedbackAlertAccent = "#ffeceb";
-export const IClinicLightColorInverseSurfaceFeedbackAlertSubtle = "#e03233";
-export const IClinicLightColorInverseSurfaceFeedbackWarningAccent = "#fff3cc";
-export const IClinicLightColorInverseSurfaceFeedbackWarningSubtle = "#f59f00";
-export const IClinicLightColorInverseSurfaceFeedbackSuccessAccent = "#e6fdd6";
-export const IClinicLightColorInverseSurfaceFeedbackSuccessSubtle = "#1bb237";
-export const IClinicLightColorInverseSurfaceFeedbackInfoAccent = "#d3e8fd";
-export const IClinicLightColorInverseSurfaceFeedbackInfoSubtle = "#0063d7";
-export const IClinicLightColorInverseIconDefault = "#ffffffc9";
-export const IClinicLightColorInverseIconHovered = "#ffffff9e";
-export const IClinicLightColorInverseIconPressed = "#ffffff8f";
-export const IClinicLightColorInverseIconActive = "#0063d7";
-export const IClinicLightColorInverseIconDisabled = "#ffffff33";
-export const IClinicLightColorInverseIconFeedbackAlert = "#fccbca";
-export const IClinicLightColorInverseIconFeedbackWarning = "#fecf4d";
-export const IClinicLightColorInverseIconFeedbackSuccess = "#88db6b";
-export const IClinicLightColorInverseIconFeedbackInfo = "#a4cff9";
-export const IClinicLightColorInverseBorderDefault = "#ffffff54";
-export const IClinicLightColorInverseBorderSubtle = "#ffffff8f";
-export const IClinicLightColorInverseBorderActive = "#70b4f5";
-export const IClinicLightColorInverseBorderDisable = "#ffffff21";
-export const IClinicLightColorInverseBorderFeedbackAlert = "#fc6061";
-export const IClinicLightColorInverseBorderFeedbackWarning = "#fdb202";
-export const IClinicLightColorInverseBorderFeedbackSuccess = "#1bb237";
-export const IClinicLightColorInverseBorderFeedbackInfo = "#70b4f5";
-export const IClinicLightColorInverseBackground01 = "#141414";
-export const IClinicLightColorInverseBackground02 = "#303030";
-export const IClinicLightColorInverseBackground03 = "#494849";
-export const IClinicLightColorInverseLinkDefault = "#53a5f3";
-export const IClinicLightColorInverseLinkVisited = "#beace1";
-export const IClinicLightColorInverseFocusDefault = "#0063d7";
-export const IClinicLightColorInverseFocusInset = "#0000000a";
-export const IClinicLightColorInverseHighlightDefault = "#beace1";
-export const IClinicLightColorInverseOthersBackdrop = "#ffffff8f";
-export const IClinicLightColorInverseOthersDivider = "#ffffff0f";
-export const IClinicLightColorOnBrandInteractiveAccentDefault = "#e6f0fe";
-export const IClinicLightColorOnBrandInteractiveAccentHovered = "#d3e8fd";
-export const IClinicLightColorOnBrandInteractiveAccentPressed = "#a4cff9";
-export const IClinicLightColorOnBrandInteractiveSubtleDefault = "#a4cff9";
-export const IClinicLightColorOnBrandInteractiveSubtleHovered = "#88c0f7";
-export const IClinicLightColorOnBrandInteractiveSubtlePressed = "#70b4f5";
-export const IClinicLightColorOnBrandInteractiveDisable = "#ffffff54";
-export const IClinicLightColorOnBrandInteractiveAlertAccentDefault = "#ffeceb";
-export const IClinicLightColorOnBrandInteractiveAlertAccentHovered = "#fccbca";
-export const IClinicLightColorOnBrandInteractiveAlertAccentPressed = "#f9a5a4";
-export const IClinicLightColorOnBrandInteractiveAlertSubtleDefault = "#fccbca";
-export const IClinicLightColorOnBrandInteractiveAlertSubtleHovered = "#f9a5a4";
-export const IClinicLightColorOnBrandInteractiveAlertSubtlePressed = "#fc6061";
-export const IClinicLightColorOnBrandTypefaceStrong = "#fffffff7";
-export const IClinicLightColorOnBrandTypefacePure = "#fffffff0";
-export const IClinicLightColorOnBrandTypefaceSmooth = "#ffffffe3";
-export const IClinicLightColorOnBrandTypefaceMeld = "#ffffff54";
-export const IClinicLightColorOnBrandTypefaceFeedbackAlert = "#fee1e1";
-export const IClinicLightColorOnBrandTypefaceFeedbackWarning = "#fff3cc";
-export const IClinicLightColorOnBrandTypefaceFeedbackSuccess = "#e6fdd6";
-export const IClinicLightColorOnBrandTypefaceFeedbackInfo = "#e6f0fe";
-export const IClinicLightColorOnBrandTypefaceOnInteractiveAccent = "#052443";
-export const IClinicLightColorOnBrandTypefaceOnInteractiveSubtle = "#052443";
-export const IClinicLightColorOnBrandTypefaceOnInteractiveAlertAccent = "#600110";
-export const IClinicLightColorOnBrandTypefaceOnInteractiveAlertSubtle = "#600110";
-export const IClinicLightColorOnBrandTypefaceOnInteractiveDisabled = "#ffffff8f";
-export const IClinicLightColorOnBrandSurfaceNeutralDefault = "#ffffff0f";
-export const IClinicLightColorOnBrandSurfaceNeutralHovered = "#0000000a";
-export const IClinicLightColorOnBrandSurfaceNeutralPressed = "#00000014";
-export const IClinicLightColorOnBrandSurfaceNeutralDisabled = "#ffffff33";
-export const IClinicLightColorOnBrandSurfaceSelectedDefault = "#d3e8fd";
-export const IClinicLightColorOnBrandSurfaceSelectedHovered = "#a4cff9";
-export const IClinicLightColorOnBrandSurfaceSelectedPressed = "#88c0f7";
-export const IClinicLightColorOnBrandSurfaceFeedbackAlertAccent = "#f9a5a4";
-export const IClinicLightColorOnBrandSurfaceFeedbackAlertSubtle = "#fee1e1";
-export const IClinicLightColorOnBrandSurfaceFeedbackWarningAccent = "#fecf4d";
-export const IClinicLightColorOnBrandSurfaceFeedbackWarningSubtle = "#fff3cc";
-export const IClinicLightColorOnBrandSurfaceFeedbackSuccessAccent = "#6cca58";
-export const IClinicLightColorOnBrandSurfaceFeedbackSuccessSubtle = "#e6fdd6";
-export const IClinicLightColorOnBrandSurfaceFeedbackInfoAccent = "#88c0f7";
-export const IClinicLightColorOnBrandSurfaceFeedbackInfoSubtle = "#d3e8fd";
-export const IClinicLightColorOnBrandIconDefault = "#ffffffe3";
-export const IClinicLightColorOnBrandIconHovered = "#ffffff9e";
-export const IClinicLightColorOnBrandIconPressed = "#ffffff8f";
-export const IClinicLightColorOnBrandIconSelected = "#d3e8fd";
-export const IClinicLightColorOnBrandIconDisabled = "#ffffff33";
-export const IClinicLightColorOnBrandIconFeedbackAlert = "#f9a5a4";
-export const IClinicLightColorOnBrandIconFeedbackWarning = "#fecf4d";
-export const IClinicLightColorOnBrandIconFeedbackSuccess = "#6cca58";
-export const IClinicLightColorOnBrandIconFeedbackInfo = "#88c0f7";
-export const IClinicLightColorOnBrandBorderDefault = "#ffffff9e";
-export const IClinicLightColorOnBrandBorderSubtle = "#ffffff33";
-export const IClinicLightColorOnBrandBorderActive = "#d3e8fd";
-export const IClinicLightColorOnBrandBorderDisabled = "#ffffff33";
-export const IClinicLightColorOnBrandBorderFeedbackAlert = "#f9a5a4";
-export const IClinicLightColorOnBrandBorderFeedbackWarning = "#fecf4d";
-export const IClinicLightColorOnBrandBorderFeedbackSuccess = "#6cca58";
-export const IClinicLightColorOnBrandBorderFeedbackInfo = "#88c0f7";
-export const IClinicLightColorOnBrandBackground01 = "#0063d7";
-export const IClinicLightColorOnBrandBackground02 = "#004bad";
-export const IClinicLightColorOnBrandBackground03 = "#003270";
-export const IClinicLightColorOnBrandLinkDefault = "#d3e8fd";
-export const IClinicLightColorOnBrandLinkVisited = "#d8ccf0";
-export const IClinicLightColorOnBrandFocusDefault = "#d3e8fd";
-export const IClinicLightColorOnBrandFocusInset = "#0000000a";
-export const IClinicLightColorOnBrandHighlightDefault = "#cbbce8";
-export const IClinicLightColorOnBrandOthersBackdrop = "#00000038";
-export const IClinicLightColorOnBrandOthersDivider = "#ffffff9e";
-export const IClinicLightShadowLevel1 = "0px 1px 2px 0px #e6f0fe, 0px 5px 4px -4px #e6f0fe";
-export const IClinicLightShadowLevel2 = "0px 2px 2px 0px #e6f0fe, 0px 0px 2px 0px #e6f0fe";
-export const IClinicLightShadowLevel3 = "0px 12px 12px -8px #e6f0fe, 0px 0px 4px 0px #e6f0fe";
-export const IClinicLightShadowLevel4 = "0px 32px 40px -16px #e6f0fe, 0px 2px 6px 0px #e6f0fe";
-export const IClinicLightShadowLevel5 = "0px 24px 48px -12px #e6f0fe, 0px 48px 64px -24px #e6f0fe";
-export const IClinicLightShadowLevel6 = "0px 24px 48px -8px #e6f0fe, 0px 48px 64px -24px #e6f0fe";
+export default token = {
+  "iClinic-light": {
+    "color": {
+      "branding": {
+        "10": "#041a2f",
+        "20": "#052443",
+        "30": "#003270",
+        "40": "#004bad",
+        "50": "#0063d7",
+        "60": "#228bf0",
+        "70": "#53a5f3",
+        "80": "#70b4f5",
+        "90": "#88c0f7",
+        "100": "#a4cff9",
+        "110": "#d3e8fd",
+        "120": "#e6f0fe",
+        "130": "#f5f9ff"
+      },
+      "interactive": {
+        "accent": {
+          "default": "#0063d7",
+          "hovered": "#004bad",
+          "pressed": "#003270"
+        },
+        "subtle": {
+          "default": "#e6f0fe",
+          "hovered": "#d3e8fd",
+          "pressed": "#a4cff9"
+        },
+        "disable": "#00000017",
+        "alert": {
+          "accent": {
+            "default": "#c92224",
+            "hovered": "#b20c10",
+            "pressed": "#941415"
+          },
+          "subtle": {
+            "default": "#ffeceb",
+            "hovered": "#fee1e1",
+            "pressed": "#fccbca"
+          }
+        }
+      },
+      "typeface": {
+        "strong": "#000000de",
+        "pure": "#000000c9",
+        "smooth": "#00000094",
+        "meld": "#00000038",
+        "feedback": {
+          "alert": "#c92224",
+          "warning": "#cc7700",
+          "success": "#128120",
+          "info": "#0063d7"
+        },
+        "onInteractive": {
+          "accent": "#e6f0fe",
+          "subtle": "#052443",
+          "alert": {
+            "accent": "#ffeceb",
+            "subtle": "#600110"
+          },
+          "disabled": "#00000038"
+        }
+      },
+      "surface": {
+        "neutral": {
+          "default": "#ffffff0f",
+          "hovered": "#0000000a",
+          "pressed": "#00000014",
+          "disabled": "#00000014"
+        },
+        "selected": {
+          "default": "#d3e8fd",
+          "hovered": "#a4cff9",
+          "pressed": "#88c0f7"
+        },
+        "feedback": {
+          "alert": {
+            "accent": "#e03233",
+            "subtle": "#ffeceb"
+          },
+          "warning": {
+            "accent": "#cc7700",
+            "subtle": "#fff3cc"
+          },
+          "success": {
+            "accent": "#149817",
+            "subtle": "#e6fdd6"
+          },
+          "info": {
+            "accent": "#0063d7",
+            "subtle": "#d3e8fd"
+          }
+        }
+      },
+      "icon": {
+        "default": "#00000094",
+        "hovered": "#000000ab",
+        "pressed": "#000000c9",
+        "activated": "#0063d7",
+        "disabled": "#00000038",
+        "feedback": {
+          "alert": "#c92224",
+          "warning": "#cc7700",
+          "success": "#128120",
+          "info": "#004bad"
+        },
+        "onInteractive": {
+          "accent": "#e6f0fe",
+          "subtle": "#052443",
+          "alert": {
+            "accent": "#ffeceb",
+            "subtle": "#600110"
+          }
+        }
+      },
+      "border": {
+        "accent": "#00000038",
+        "subtle": "#0000001f",
+        "activated": "#0063d7",
+        "disabled": "#0000000a",
+        "feedback": {
+          "alert": "#941415",
+          "warning": "#cc7700",
+          "success": "#128120",
+          "info": "#0063d7"
+        }
+      },
+      "background": {
+        "01": "#fff",
+        "02": "#fafafa",
+        "03": "#f5f9ff"
+      },
+      "link": {
+        "default": "#0063d7",
+        "visited": "#7553b6"
+      },
+      "focus": {
+        "default": "#0063d7",
+        "inset": "#fffffff0"
+      },
+      "highlight": {
+        "default": "#8467c0"
+      },
+      "others": {
+        "backdrop": "#000000ab",
+        "divider": "#00000017",
+        "skeleton": "#00000017"
+      },
+      "inverse": {
+        "interactive": {
+          "accent": {
+            "default": "#e6f0fe",
+            "hovered": "#d3e8fd",
+            "pressed": "#a4cff9"
+          },
+          "subtle": {
+            "default": "#0063d7",
+            "hovered": "#004bad",
+            "pressed": "#003270"
+          },
+          "disable": "#ffffff21",
+          "alert": {
+            "accent": {
+              "default": "#ffeceb",
+              "hovered": "#fee1e1",
+              "pressed": "#fccbca"
+            },
+            "subtle": {
+              "default": "#e03233",
+              "hoverd": "#c92224",
+              "pressed": "#b20c10"
+            }
+          }
+        },
+        "typeface": {
+          "strong": "#fffffff0",
+          "pure": "#ffffffe3",
+          "smooth": "#ffffff9e",
+          "meld": "#ffffff54",
+          "feedback": {
+            "alert": "#f9a5a4",
+            "warning": "#fecf4d",
+            "success": "#6cca58",
+            "info": "#228bf0"
+          },
+          "onInteractive": {
+            "accent": "#052443",
+            "subtle": "#e6f0fe",
+            "alert": {
+              "accent": "#600110",
+              "subtle": "#ffeceb"
+            },
+            "disabled": "#ffffff33"
+          }
+        },
+        "surface": {
+          "neutral": {
+            "default": "#ffffff0f",
+            "hovered": "#ffffff1c",
+            "pressed": "#ffffff14",
+            "disabled": "#ffffff1c"
+          },
+          "selected": {
+            "defautl": "#d3e8fd",
+            "hovered": "#a4cff9",
+            "pressed": "#88c0f7"
+          },
+          "feedback": {
+            "alert": {
+              "accent": "#ffeceb",
+              "subtle": "#e03233"
+            },
+            "warning": {
+              "accent": "#fff3cc",
+              "subtle": "#f59f00"
+            },
+            "success": {
+              "accent": "#e6fdd6",
+              "subtle": "#1bb237"
+            },
+            "info": {
+              "accent": "#d3e8fd",
+              "subtle": "#0063d7"
+            }
+          }
+        },
+        "icon": {
+          "default": "#ffffffc9",
+          "hovered": "#ffffff9e",
+          "pressed": "#ffffff8f",
+          "activated": "#0063d7",
+          "disabled": "#ffffff33",
+          "feedback": {
+            "alert": "#fccbca",
+            "warning": "#fecf4d",
+            "success": "#88db6b",
+            "info": "#a4cff9"
+          },
+          "onInteractive": {
+            "accent": "#e6f0fe",
+            "subtle": "#052443",
+            "alert": {
+              "accent": "#600110",
+              "subtle": "#ffeceb"
+            }
+          }
+        },
+        "border": {
+          "accent": "#ffffff8f",
+          "subtle": "#ffffff54",
+          "activated": "#70b4f5",
+          "disable": "#ffffff21",
+          "feedback": {
+            "alert": "#f9a5a4",
+            "warning": "#ffc107",
+            "success": "#88db6b",
+            "info": "#70b4f5"
+          }
+        },
+        "background": {
+          "01": "#141414",
+          "02": "#212121",
+          "03": "#262626"
+        },
+        "link": {
+          "default": "#53a5f3",
+          "visited": "#beace1"
+        },
+        "focus": {
+          "default": "#0063d7",
+          "inset": "#0000000a"
+        },
+        "highlight": {
+          "default": "#beace1"
+        },
+        "others": {
+          "backdrop": "#000000ab",
+          "divider": "#ffffff0f",
+          "skeleton": "#ffffff0f"
+        }
+      },
+      "onBrand": {
+        "interactive": {
+          "accent": {
+            "default": "#e6f0fe",
+            "hovered": "#d3e8fd",
+            "pressed": "#a4cff9"
+          },
+          "subtle": {
+            "default": "#a4cff9",
+            "hovered": "#88c0f7",
+            "pressed": "#70b4f5"
+          },
+          "disable": "#ffffff54",
+          "alert": {
+            "accent": {
+              "default": "#ffeceb",
+              "hovered": "#fccbca",
+              "pressed": "#f9a5a4"
+            },
+            "subtle": {
+              "default": "#fccbca",
+              "hovered": "#f9a5a4",
+              "pressed": "#fc6061"
+            }
+          }
+        },
+        "typeface": {
+          "strong": "#fffffff7",
+          "pure": "#fffffff0",
+          "smooth": "#ffffffe3",
+          "meld": "#ffffff54",
+          "feedback": {
+            "alert": "#fee1e1",
+            "warning": "#fff3cc",
+            "success": "#e6fdd6",
+            "info": "#e6f0fe"
+          },
+          "onInteractive": {
+            "accent": "#052443",
+            "subtle": "#052443",
+            "alert": {
+              "accent": "#600110",
+              "subtle": "#600110"
+            },
+            "disabled": "#ffffff8f"
+          }
+        },
+        "surface": {
+          "neutral": {
+            "default": "#ffffff0f",
+            "hovered": "#0000000a",
+            "pressed": "#00000014",
+            "disabled": "#ffffff33"
+          },
+          "selected": {
+            "default": "#d3e8fd",
+            "hovered": "#a4cff9",
+            "pressed": "#88c0f7"
+          },
+          "feedback": {
+            "alert": {
+              "accent": "#f9a5a4",
+              "subtle": "#fee1e1"
+            },
+            "warning": {
+              "accent": "#fecf4d",
+              "subtle": "#fff3cc"
+            },
+            "success": {
+              "accent": "#6cca58",
+              "subtle": "#e6fdd6"
+            },
+            "info": {
+              "accent": "#88c0f7",
+              "subtle": "#d3e8fd"
+            }
+          }
+        },
+        "icon": {
+          "default": "#ffffffe3",
+          "hovered": "#ffffff9e",
+          "pressed": "#ffffff8f",
+          "activated": "#d3e8fd",
+          "disabled": "#ffffff33",
+          "feedback": {
+            "alert": "#f9a5a4",
+            "warning": "#fecf4d",
+            "success": "#6cca58",
+            "info": "#88c0f7"
+          },
+          "onInteractive": {
+            "accent": "#052443",
+            "subtle": "#052443",
+            "alert": {
+              "accent": "#600110",
+              "subtle": "#600110"
+            }
+          }
+        },
+        "border": {
+          "accent": "#ffffff9e",
+          "subtle": "#ffffff54",
+          "activated": "#d3e8fd",
+          "disabled": "#ffffff33",
+          "feedback": {
+            "alert": "#f9a5a4",
+            "warning": "#fecf4d",
+            "success": "#6cca58",
+            "info": "#88c0f7"
+          }
+        },
+        "background": {
+          "01": "#0063d7",
+          "02": "#004bad",
+          "03": "#003270"
+        },
+        "link": {
+          "default": "#d3e8fd",
+          "visited": "#d8ccf0"
+        },
+        "focus": {
+          "default": "#d3e8fd",
+          "inset": "#0000000a"
+        },
+        "others": {
+          "backdrop": "#000000ab",
+          "divider": "#ffffff9e",
+          "skeleton": "#ffffff9e"
+        },
+        "highlight": {
+          "default": "#cbbce8"
+        }
+      }
+    },
+    "shadow": {
+      "level": {
+        "1": "0px 1px 2px 0px #e6f0fe, 0px 5px 4px -4px #e6f0fe",
+        "2": "0px 2px 2px 0px #e6f0fe, 0px 0px 2px 0px #e6f0fe",
+        "3": "0px 12px 12px -8px #e6f0fe, 0px 0px 4px 0px #e6f0fe",
+        "4": "0px 32px 40px -16px #e6f0fe, 0px 2px 6px 0px #e6f0fe",
+        "5": "0px 24px 48px -12px #e6f0fe, 0px 48px 64px -24px #e6f0fe",
+        "6": "0px 24px 48px -8px #e6f0fe, 0px 48px 64px -24px #e6f0fe"
+      }
+    }
+  }
+};

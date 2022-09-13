@@ -77,6 +77,31 @@ StyleDictionary.registerTransformGroup({
   ],
 });
 
+const extractValue = (tokenObject, parentObject = {}, parentProp = '') => {
+  for (let prop in tokenObject) {
+    if (typeof tokenObject[prop] === 'object') {
+      extractValue(tokenObject[prop], tokenObject, prop);
+    } else if (prop === 'value') {
+      parentObject[parentProp] = tokenObject[prop];
+    }
+  }
+};
+
+StyleDictionary.registerFormat({
+  name: 'customJsObject',
+  formatter: function ({ dictionary, file }) {
+    const { tokens } = dictionary;
+    const formattedTokens = { ...tokens };
+    extractValue(formattedTokens);
+
+    return `export default ${file.name || 'token'} = ${JSON.stringify(
+      formattedTokens,
+      null,
+      2,
+    )};`;
+  },
+});
+
 // APPLY THE CONFIGURATION
 // IMPORTANT: the registration of custom transforms
 // needs to be done _before_ applying the configuration

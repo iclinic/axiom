@@ -1,58 +1,72 @@
 const jsFiles = [
   {
-    "destination": `border.js`,
-    "format": "javascript/es6",
-    "filter": "isBorder"
-  }, {
-    "destination": `spacing.js`,
-    "format": "javascript/es6",
-    "filter": {
-      "attributes": {
-        "category": "spacing"
-      }
-    }
-  }, {
-    "destination": `line.js`,
-    "format": "javascript/es6",
-    "filter": {
-      "attributes": {
-        "category": "line"
-      }
-    }
-  }, {
-    "destination": `font.js`,
-    "format": "javascript/es6",
-    "filter": {
-      "attributes": {
-        "category": "font"
-      }
-    }
-  }, {
-    "destination": `color.js`,
-    "format": "javascript/es6",
-    "filter": {
-      "attributes": {
-        "category": "color"
-      }
-    }
-  }, {
-    "destination": `shadow.js`,
-    "format": "javascript/es6",
-    "filter": {
-      "attributes": {
-        "category": "shadow"
-      }
+    destination: "border.js",
+    format: "customJsObject",
+    filter: "isBorder",
+  },
+  {
+    destination: "spacing.js",
+    format: "customJsObject",
+    filter: {
+      attributes: {
+        category: "spacing",
+      },
     },
-
-  },{
-    "destination": "iClinic/iClinic-light.js",
-    "format": "javascript/es6",
-    "filter": {
-      "attributes": {
-        "category": "iClinic-light"
-      }
-    }
-  }
-]
+  },
+  {
+    destination: "line.js",
+    format: "customJsObject",
+    filter: {
+      attributes: {
+        category: "line",
+      },
+    },
+  },
+  {
+    destination: "font.js",
+    format: "customJsObject",
+    filter: {
+      attributes: {
+        category: "font",
+      },
+    },
+  },
+  {
+    destination: "color.js",
+    format: "customJsObject",
+    filter: {
+      attributes: {
+        category: "color",
+      },
+    },
+  },
+  {
+    destination: "shadow.js",
+    format: "customJsObject",
+    filter: {
+      attributes: {
+        category: "shadow",
+      },
+    },
+  },
+  {
+    destination: "opacity.js",
+    format: "customJsObject",
+    filter: {
+      attributes: {
+        category: "opacity",
+      },
+    },
+  },
+  {
+    destination: "iClinic/iClinic-light.js",
+    format: "customJsObject",
+    filter: {
+      attributes: {
+        category: "iClinic-light",
+      },
+    },
+  },
+];
 
 module.exports = jsFiles;

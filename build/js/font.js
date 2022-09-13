@@ -1,25 +1,36 @@
-/**
- * Do not edit directly
- * Generated on Sat, 20 Aug 2022 01:37:31 GMT
- */
-
-export const FontWeightRegular = "Regular";
-export const FontWeightMedium = "Medium";
-export const FontWeightBold = "Bold";
-export const FontSizeBase = "1rem";
-export const FontSizeXxxs = "0.75rem";
-export const FontSizeXxs = "0.875rem";
-export const FontSizeXs = "1rem";
-export const FontSizeSm = "1.125rem";
-export const FontSizeMd = "1.5rem";
-export const FontSizeLg = "1.75rem";
-export const FontSizeXl = "2.25rem";
-export const FontSizeXxl = "2.5rem";
-export const FontFamilyBase = "Roboto";
-export const FontLetterSpacingSmall = "1%";
-export const FontLetterSpacingMedium = "4%";
-export const FontCaseSentence = "sentence";
-export const FontCaseUppercase = "uppercase";
-export const FontDecorationNone = "none";
-export const FontDecorationUnderline = "underline";
-export const FontDecorationLineThrough = "line-through";
+export default token = {
+  "font": {
+    "weight": {
+      "regular": "Regular",
+      "medium": "Medium",
+      "bold": "Bold"
+    },
+    "size": {
+      "base": "1rem",
+      "xxxs": "0.75rem",
+      "xxs": "0.875rem",
+      "xs": "1rem",
+      "sm": "1.125rem",
+      "md": "1.5rem",
+      "lg": "1.75rem",
+      "xl": "2.25rem",
+      "xxl": "2.5rem"
+    },
+    "family": {
+      "base": "Roboto"
+    },
+    "letterSpacing": {
+      "small": "1%",
+      "medium": "4%"
+    },
+    "case": {
+      "sentence": "sentence",
+      "uppercase": "uppercase"
+    },
+    "decoration": {
+      "none": "none",
+      "underline": "underline",
+      "lineThrough": "line-through"
+    }
+  }
+};
