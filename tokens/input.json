@@ -1115,7 +1115,7 @@
         "interactive": {
           "accent": {
             "default": {
-              "value": "{iClinic-light.color.branding.50}",
+              "value": "{iClinic-light.color.branding.70}",
               "type": "color"
             },
             "hovered": {
