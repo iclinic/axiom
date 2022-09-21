@@ -2,7 +2,11 @@ const jsFiles = [
   {
     destination: "border.js",
     format: "customJsObject",
-    filter: "isBorder",
+    filter: {
+      attributes: {
+        category: "border",
+      },
+    },
   },
   {
     destination: "spacing.js",
@@ -63,7 +67,7 @@ const jsFiles = [
     format: "customJsObject",
     filter: {
       attributes: {
-        category: "iClinic-light",
+        category: "iclinicLight",
       },
     },
   },

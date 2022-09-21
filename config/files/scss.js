@@ -1,8 +1,12 @@
-const cssFiles = [
+const scssFiles = [
   {
     destination: "_border.scss",
     format: "scss/variables",
-    filter: "isBorder",
+    filter: {
+      attributes: {
+        category: "border",
+      },
+    },
   },
   {
     destination: "_spacing.scss",
@@ -63,10 +67,10 @@ const cssFiles = [
     format: "scss/variables",
     filter: {
       attributes: {
-        category: "iClinic-light",
+        category: "iclinicLight",
       },
     },
   },
 ];
 
-module.exports = cssFiles;
+module.exports = scssFiles;
