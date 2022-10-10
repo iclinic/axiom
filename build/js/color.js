@@ -1,115 +1,150 @@
-/**
- * Do not edit directly
- * Generated on Sat, 20 Aug 2022 01:37:31 GMT
- */
-
-export const ColorPureWhite = "#ffffff";
-export const ColorPureBlack = "#000000";
-export const ColorGray10 = "#141414";
-export const ColorGray20 = "#303030";
-export const ColorGray30 = "#494849";
-export const ColorGray40 = "#605f5f";
-export const ColorGray50 = "#747473";
-export const ColorGray60 = "#898888";
-export const ColorGray70 = "#9c9b9b";
-export const ColorGray80 = "#aeaead";
-export const ColorGray90 = "#c1c0c0";
-export const ColorGray100 = "#d3d2d2";
-export const ColorGray110 = "#e4e3e3";
-export const ColorGray120 = "#f5f5f5";
-export const ColorAlfaWhite10 = "#ffffff";
-export const ColorAlfaWhite20 = "#ffffff";
-export const ColorAlfaWhite30 = "#ffffff";
-export const ColorAlfaWhite40 = "#ffffff";
-export const ColorAlfaWhite50 = "#ffffff";
-export const ColorAlfaWhite60 = "#ffffff";
-export const ColorAlfaWhite70 = "#ffffff";
-export const ColorAlfaWhite80 = "#ffffff";
-export const ColorAlfaWhite90 = "#ffffff";
-export const ColorAlfaWhite100 = "#ffffff";
-export const ColorAlfaWhite110 = "#ffffff";
-export const ColorAlfaWhite120 = "#ffffff";
-export const ColorAlfaBlack10 = "#000000";
-export const ColorAlfaBlack20 = "#000000";
-export const ColorAlfaBlack30 = "#000000";
-export const ColorAlfaBlack40 = "#000000";
-export const ColorAlfaBlack50 = "#000000";
-export const ColorAlfaBlack60 = "#000000";
-export const ColorAlfaBlack70 = "#000000";
-export const ColorAlfaBlack80 = "#000000";
-export const ColorAlfaBlack90 = "#000000";
-export const ColorAlfaBlack100 = "#000000";
-export const ColorAlfaBlack110 = "#000000";
-export const ColorAlfaBlack120 = "#000000";
-export const ColorGreen10 = "#09200b";
-export const ColorGreen20 = "#033303";
-export const ColorGreen30 = "#074708";
-export const ColorGreen40 = "#0a590d";
-export const ColorGreen50 = "#0b6d15";
-export const ColorGreen60 = "#128120";
-export const ColorGreen70 = "#149817";
-export const ColorGreen80 = "#1bb237";
-export const ColorGreen90 = "#6cca58";
-export const ColorGreen100 = "#88db6b";
-export const ColorGreen110 = "#bbe7ab";
-export const ColorGreen120 = "#e6fdd6";
-export const ColorYellow10 = "#4a2e0d";
-export const ColorYellow20 = "#674114";
-export const ColorYellow30 = "#855014";
-export const ColorYellow40 = "#a26115";
-export const ColorYellow50 = "#cc7700";
-export const ColorYellow60 = "#eb8900";
-export const ColorYellow70 = "#f59f00";
-export const ColorYellow80 = "#fdb202";
-export const ColorYellow90 = "#ffc107";
-export const ColorYellow100 = "#fecf4d";
-export const ColorYellow110 = "#fedf81";
-export const ColorYellow120 = "#fff3cc";
-export const ColorRed10 = "#380109";
-export const ColorRed20 = "#600110";
-export const ColorRed30 = "#770315";
-export const ColorRed40 = "#941415";
-export const ColorRed50 = "#b20c10";
-export const ColorRed60 = "#c92224";
-export const ColorRed70 = "#e03233";
-export const ColorRed80 = "#fc6061";
-export const ColorRed90 = "#f9a5a4";
-export const ColorRed100 = "#fccbca";
-export const ColorRed110 = "#fee1e1";
-export const ColorRed120 = "#ffeceb";
-export const ColorBlue10 = "#041a2f";
-export const ColorBlue20 = "#052443";
-export const ColorBlue30 = "#003270";
-export const ColorBlue40 = "#004bad";
-export const ColorBlue50 = "#0063d7";
-export const ColorBlue60 = "#228bf0";
-export const ColorBlue70 = "#53a5f3";
-export const ColorBlue80 = "#70b4f5";
-export const ColorBlue90 = "#88c0f7";
-export const ColorBlue100 = "#a4cff9";
-export const ColorBlue110 = "#d3e8fd";
-export const ColorBlue120 = "#e6f0fe";
-export const ColorPurple10 = "#571ea3";
-export const ColorPurple20 = "#663dac";
-export const ColorPurple30 = "#7553b6";
-export const ColorPurple40 = "#8467c0";
-export const ColorPurple50 = "#937ac8";
-export const ColorPurple60 = "#a18bd1";
-export const ColorPurple70 = "#af9cda";
-export const ColorPurple80 = "#beace1";
-export const ColorPurple90 = "#cbbce8";
-export const ColorPurple100 = "#d8ccf0";
-export const ColorPurple110 = "#e5dbf7";
-export const ColorPurple120 = "#f3eaff";
-export const ColorCyan10 = "#0a008f";
-export const ColorCyan20 = "#003098";
-export const ColorCyan30 = "#004aa6";
-export const ColorCyan40 = "#0060b3";
-export const ColorCyan50 = "#0075bf";
-export const ColorCyan60 = "#0088cb";
-export const ColorCyan70 = "#009bd6";
-export const ColorCyan80 = "#00ade0";
-export const ColorCyan90 = "#00bfe8";
-export const ColorCyan100 = "#09d0f0";
-export const ColorCyan110 = "#19e0f8";
-export const ColorCyan120 = "#29f1ff";
+export const color = {
+  "pure": {
+    "white": "#ffffff",
+    "black": "#000000"
+  },
+  "alfaBlack": {
+    "10": "#000000",
+    "20": "#000000",
+    "30": "#000000",
+    "40": "#000000",
+    "50": "#000000",
+    "60": "#000000",
+    "70": "#000000",
+    "80": "#000000",
+    "90": "#000000",
+    "100": "#000000",
+    "110": "#000000",
+    "120": "#000000",
+    "130": "#000000",
+    "140": "#000000",
+    "150": "#000000",
+    "160": "#000000"
+  },
+  "gray": {
+    "10": "#1f1f1f",
+    "20": "#292929",
+    "30": "#363636",
+    "40": "#424242",
+    "50": "#4d4d4d",
+    "60": "#595959",
+    "70": "#666666",
+    "80": "#737373",
+    "90": "#828282",
+    "100": "#919191",
+    "110": "#a1a1a1",
+    "120": "#b0b0b0",
+    "130": "#c4c4c4",
+    "140": "#d4d4d4",
+    "150": "#e6e6e6",
+    "160": "#f7f7f7"
+  },
+  "red": {
+    "10": "#470101",
+    "20": "#5c0000",
+    "30": "#730202",
+    "40": "#890101",
+    "50": "#a00303",
+    "60": "#b80000",
+    "70": "#cf0303",
+    "80": "#e02424",
+    "90": "#f63737",
+    "100": "#fd5d5d",
+    "110": "#fa7b7b",
+    "120": "#fe9494",
+    "130": "#fdafaf",
+    "140": "#fac7c7",
+    "150": "#ffe0e0",
+    "160": "#fef6f6"
+  },
+  "green": {
+    "10": "#09250b",
+    "20": "#083108",
+    "30": "#024003",
+    "40": "#044d06",
+    "50": "#0b5b0c",
+    "60": "#076908",
+    "70": "#0c790e",
+    "80": "#0e8610",
+    "90": "#379539",
+    "100": "#56a457",
+    "110": "#68b169",
+    "120": "#88bf89",
+    "130": "#a1cea1",
+    "140": "#bcdcbc",
+    "150": "#daecda",
+    "160": "#f2f8f2"
+  },
+  "yellow": {
+    "10": "#331b00",
+    "20": "#422300",
+    "30": "#522c00",
+    "40": "#663600",
+    "50": "#754106",
+    "60": "#8a4900",
+    "70": "#9e5400",
+    "80": "#b25c00",
+    "90": "#c76a00",
+    "100": "#db7900",
+    "110": "#eb8d00",
+    "120": "#f59f00",
+    "130": "#ffb82e",
+    "140": "#ffcd6b",
+    "150": "#ffe3ad",
+    "160": "#fff5e0"
+  },
+  "blue": {
+    "10": "#001f3d",
+    "20": "#002a52",
+    "30": "#07356e",
+    "40": "#003e8a",
+    "50": "#024aa2",
+    "60": "#0857b4",
+    "70": "#0b63cb",
+    "80": "#046eec",
+    "90": "#0a7bff",
+    "100": "#3894ff",
+    "110": "#57a4ff",
+    "120": "#75b5ff",
+    "130": "#99c8ff",
+    "140": "#b8d9ff",
+    "150": "#d6e9ff",
+    "160": "#f0f7ff"
+  },
+  "purple": {
+    "10": "#2a104c",
+    "20": "#371367",
+    "30": "#471688",
+    "40": "#551e9f",
+    "50": "#641ec2",
+    "60": "#732dd2",
+    "70": "#8141d8",
+    "80": "#8f51e1",
+    "90": "#9d68e3",
+    "100": "#ab7ce9",
+    "110": "#b88ff0",
+    "120": "#c4a3f0",
+    "130": "#d2b8f4",
+    "140": "#e0ccfa",
+    "150": "#eee2fd",
+    "160": "#f9f5fe"
+  },
+  "alfaWhite": {
+    "10": "#ffffff",
+    "20": "#ffffff",
+    "30": "#ffffff",
+    "40": "#ffffff",
+    "50": "#ffffff",
+    "60": "#ffffff",
+    "70": "#ffffff",
+    "80": "#ffffff",
+    "90": "#ffffff",
+    "100": "#ffffff",
+    "110": "#ffffff",
+    "120": "#ffffff",
+    "130": "#ffffff",
+    "140": "#ffffff",
+    "150": "#ffffff",
+    "160": "#ffffff"
+  }
+};

@@ -1,15 +1,15 @@
-const StyleDictionary = require('style-dictionary').extend('config/index.js');
-const Color = require('tinycolor2');
+const StyleDictionary = require("style-dictionary").extend("config/index.js");
+const Color = require("tinycolor2");
 
-console.log('Build started...');
-console.log('\n==============================================');
+console.log("Build started...");
+console.log("\n==============================================");
 
 // REGISTER THE CUSTOM FILTERS
 
 StyleDictionary.registerFilter({
-  name: 'isBorder',
+  name: "isBorder",
   matcher: function (token) {
-    return ['borderRadius', 'borderWidth'].includes(token.attributes.category);
+    return ["borderRadius", "borderWidth"].includes(token.attributes.category);
   },
 });
 
@@ -23,10 +23,10 @@ const hexToRgba = (hexColor) => {
 };
 
 StyleDictionary.registerTransform({
-  name: 'shadow/css',
-  type: 'value',
+  name: "shadow/css",
+  type: "value",
   matcher: function (token) {
-    return token.type === 'boxShadow';
+    return token.type === "boxShadow";
   },
   transformer: (token) => {
     const shadows = Object.values(token.value);
@@ -34,47 +34,80 @@ StyleDictionary.registerTransform({
       (shadow) =>
         `${shadow.x}px ${shadow.y}px ${shadow.blur}px ${
           shadow.spread
-        }px ${hexToRgba(shadow.color)}`,
+        }px ${hexToRgba(shadow.color)}`
     );
-    return result.join(', ');
+    return result.join(", ");
   },
 });
 
 StyleDictionary.registerTransformGroup({
-  name: 'tokens-scss',
+  name: "tokens-scss",
   transforms: [
-    'attribute/cti',
-    'name/cti/kebab',
-    'time/seconds',
-    'content/icon',
-    'size/rem',
-    'color/css',
-    'shadow/css',
+    "attribute/cti",
+    "name/cti/kebab",
+    "time/seconds",
+    "content/icon",
+    "size/rem",
+    "color/css",
+    "shadow/css",
   ],
 });
 
 StyleDictionary.registerTransformGroup({
-  name: 'tokens-js',
+  name: "tokens-js",
   transforms: [
-    'attribute/cti',
-    'name/cti/pascal',
-    'size/rem',
-    'color/hex',
-    'shadow/css',
+    "attribute/cti",
+    "name/cti/pascal",
+    "size/rem",
+    "color/hex",
+    "shadow/css",
   ],
 });
 
 StyleDictionary.registerTransformGroup({
-  name: 'tokens-css',
+  name: "tokens-css",
   transforms: [
-    'attribute/cti',
-    'name/cti/kebab',
-    'time/seconds',
-    'content/icon',
-    'size/rem',
-    'color/css',
-    'shadow/css',
+    "attribute/cti",
+    "name/cti/kebab",
+    "time/seconds",
+    "content/icon",
+    "size/rem",
+    "color/css",
+    "shadow/css",
   ],
+});
+
+const extractValue = (tokenObject, parentObject = {}, parentProp = "") => {
+  for (let prop in tokenObject) {
+    if (typeof tokenObject[prop] === "object") {
+      extractValue(tokenObject[prop], tokenObject, prop);
+    } else if (prop === "value") {
+      parentObject[parentProp] = tokenObject[prop];
+    }
+  }
+};
+
+StyleDictionary.registerFormat({
+  name: "customJsObject",
+  formatter: function ({ dictionary, file }) {
+    const { tokens } = dictionary;
+    const formattedTokens = { ...tokens };
+    const tokensToExport = Object.keys(formattedTokens);
+    result = "";
+
+    tokensToExport.forEach((token) => {
+      extractValue(formattedTokens[token]);
+      result += `export const ${token} = ${JSON.stringify(
+        formattedTokens[token],
+        null,
+        2
+      )};\n`;
+    });
+
+    extractValue(formattedTokens);
+
+    return result;
+  },
 });
 
 // APPLY THE CONFIGURATION
@@ -86,5 +119,5 @@ StyleDictionary.registerTransformGroup({
 // FINALLY, BUILD ALL THE PLATFORMS
 StyleDictionary.buildAllPlatforms();
 
-console.log('\n==============================================');
-console.log('\nBuild completed!');
+console.log("\n==============================================");
+console.log("\nBuild completed!");

@@ -1,24 +1,21 @@
-/**
- * Do not edit directly
- * Generated on Sat, 20 Aug 2022 01:37:31 GMT
- */
-
-export const Spacing2 = "0.5rem";
-export const Spacing3 = "0.75rem";
-export const Spacing5 = "1.25rem";
-export const Spacing6 = "1.5rem";
-export const Spacing8 = "2rem";
-export const Spacing10 = "2.5rem";
-export const Spacing12 = "3rem";
-export const Spacing14 = "3.5rem";
-export const Spacing16 = "4rem";
-export const Spacing18 = "4.5rem";
-export const Spacing20 = "5rem";
-export const Spacing24 = "6rem";
-export const Spacing32 = "8rem";
-export const Spacing36 = "9rem";
-export const Spacing40 = "10rem";
-export const Spacing56 = "14rem";
-export const Spacing64 = "16rem";
-export const Spacing80 = "20rem";
-export const SpacingBase = "0.25rem";
+export const spacing = {
+  "2": "0.5rem",
+  "3": "0.75rem",
+  "5": "1.25rem",
+  "6": "1.5rem",
+  "8": "2rem",
+  "10": "2.5rem",
+  "12": "3rem",
+  "14": "3.5rem",
+  "16": "4rem",
+  "18": "4.5rem",
+  "20": "5rem",
+  "24": "6rem",
+  "32": "8rem",
+  "36": "9rem",
+  "40": "10rem",
+  "56": "14rem",
+  "64": "16rem",
+  "80": "20rem",
+  "base": "0.25rem"
+};
