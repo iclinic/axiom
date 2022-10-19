@@ -52,3 +52,100 @@ As configurações de plataformas e arquivos que devem ser gerados estão na pas
 ### Referências
 - [Automatizando o handoff de Design Tokens](https://dsvault.io/automatizando-handoff-design-tokens/#nao-sofra)
 - [Repositório do Style Dictionary](https://github.com/amzn/style-dictionary)
+
+
+### Global Tokens
+
+`@axiom/tokens/global` 
+
+Armazena valores absolutos de propriedades css como cores, espaçamento, opacidade, sombras, bordas, fontes e tipografia. Exemplo:
+
+```ts
+// Axiom Global Tokens Example
+
+// Color
+color.grey.50: '#4D4D4D'
+color.alphaPurple.160: '#8140D80F'
+
+
+// Spacing
+spacing.2: '8px'
+spacing.8: '32px'
+
+
+// Opacity
+opacity.level.1: '0.04'
+opacity.level.10: '0.96'
+
+
+// Shadow
+shadow.level.2:
+  'box-shadow: 0px 2px 2px 0px hsla(0, 0%, 0%, 0.08);
+   box-shadow: 0px 0px 2px 0px hsla(0, 0%, 0%, 0.04);'
+
+shadow.level.6: 
+  'box-shadow: 0px 24px 48px -8px hsla(0, 0%, 0%, 0.09);
+   box-shadow: 0px 48px 64px -24px hsla(0, 0%, 0%, 0.09);'
+
+
+// Border
+border.radius.none: '0px'
+border.radius.sm: '1px'
+
+border.width.none: '0px'
+border.width.sm: '4px'
+
+
+// Font
+font.family.base: 'Roboto'
+
+font.size.base: '1rem'
+font.size.xxl: '2.5rem'
+
+font.weight.regular: 'Regular'
+font.weight.medium: 'Medium'
+font.weight.bold: 'Bold';
+
+font.letterSpacing.small: '1%'
+font.letterSpacing.medium: '4%'
+
+font.case.sentence: 'sentence'
+font.case.uppercase: 'uppercase'
+
+font.decoration.none: 'none'
+font.decoration.underline: 'underline'
+font.decoration.linThrough: 'line-through'
+
+font.line.height.xxs: '100%' // currently exporting global.line.height instead of global.font.lineHeight
+font.line.height.sm: '128%'
+
+
+// ⚠️ Typography ( wip )
+```
+
+
+### Brand tokens
+
+`@axiom/tokens/[brand-name]`
+
+**Brand Tokens** armazenam valores de propriedades css para cores (`color`) e sombras(`shadow`).
+Os valores armazenados nete tipo de token sempre faz referência a um **Token Global** e também podem ser chamados como "alias tokens" ou tokens de decisão.
+
+Exemplo:
+```ts
+// Usando tokens de marca
+import { color } from '@axiom/tokens/iclinic'
+color.brand.primary.80 = '#046EEC'
+color.surface.feedback.success.accent = '#379539'
+
+// Usando variação "dark" da marca
+import { color } from '@axiom/tokens/iclinic-dark'
+color.brand.primary.80 = '#046EEC'
+color.surface.feedback.success.accent = '#DAECDA'
+```
+
+>Exemplo de possíveis variações:
+> - `@axiom/tokens/`**`cliquefarma`**
+> - `@axiom/tokens/`**`shosp`**
+> - `@axiom/tokens/`**`pebmed`**
+
