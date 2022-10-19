@@ -62,6 +62,15 @@ Armazena valores absolutos de propriedades css como cores, espaçamento, opacida
 
 ```ts
 // Axiom Global Tokens Example
+import {
+  color,
+  spacing,
+  opacity,
+  shadow,
+  border,
+  font,
+} from '@axiom/tokens/global'
+
 
 // Color
 color.grey.50: '#4D4D4D'
