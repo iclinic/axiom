@@ -113,7 +113,7 @@ font.size.xxl: '2.5rem'
 
 font.weight.regular: 'Regular'
 font.weight.medium: 'Medium'
-font.weight.bold: 'Bold';
+font.weight.bold: 'Bold'
 
 font.letterSpacing.small: '1%'
 font.letterSpacing.medium: '4%'
