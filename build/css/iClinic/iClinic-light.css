@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 21 Sep 2022 20:44:26 GMT
+ * Generated on Tue, 25 Oct 2022 12:59:33 GMT
  */
 
 :root {
@@ -26,7 +26,7 @@
   --iclinic-light-color-interactive-subtle-default: #d6e9ff;
   --iclinic-light-color-interactive-subtle-hovered: #b8d9ff;
   --iclinic-light-color-interactive-subtle-pressed: #99c8ff;
-  --iclinic-light-color-interactive-disable: #0000001a;
+  --iclinic-light-color-interactive-disabled: #0000001a;
   --iclinic-light-color-interactive-alert-accent-default: #cf0303;
   --iclinic-light-color-interactive-alert-accent-hovered: #b80000;
   --iclinic-light-color-interactive-alert-accent-pressed: #a00303;
@@ -89,9 +89,9 @@
   --iclinic-light-color-link-visited: #641ec2;
   --iclinic-light-color-focus-default: #0b63cb;
   --iclinic-light-color-focus-inset: #ffffffd6;
-  --iclinic-light-color-highlight-default: #551e9f;
+  --iclinic-light-color-highlight-purple-40: #551e9f;
   --iclinic-light-color-others-backdrop: #0000006e;
-  --iclinic-light-color-others-divider: #0000001a;
+  --iclinic-light-color-others-divider: #0000000a;
   --iclinic-light-color-others-skeleton: #0000001a;
   --iclinic-light-color-inverse-interactive-accent-default: #f0f7ff;
   --iclinic-light-color-inverse-interactive-accent-hovered: #d6e9ff;
@@ -99,7 +99,7 @@
   --iclinic-light-color-inverse-interactive-subtle-default: #99c8ff;
   --iclinic-light-color-inverse-interactive-subtle-hovered: #75b5ff;
   --iclinic-light-color-inverse-interactive-subtle-pressed: #57a4ff;
-  --iclinic-light-color-inverse-interactive-disable: #ffffff5c;
+  --iclinic-light-color-inverse-interactive-disabled: #ffffff5c;
   --iclinic-light-color-inverse-interactive-alert-accent-default: #ffe0e0;
   --iclinic-light-color-inverse-interactive-alert-accent-hovered: #fac7c7;
   --iclinic-light-color-inverse-interactive-alert-accent-pressed: #fdafaf;
@@ -172,7 +172,7 @@
   --iclinic-light-color-brand-interactive-subtle-default: #b8d9ff;
   --iclinic-light-color-brand-interactive-subtle-hovered: #99c8ff;
   --iclinic-light-color-brand-interactive-subtle-pressed: #75b5ff;
-  --iclinic-light-color-brand-interactive-disable: #ffffff5c;
+  --iclinic-light-color-brand-interactive-disabled: #ffffff5c;
   --iclinic-light-color-brand-interactive-alert-accent-default: #ffe0e0;
   --iclinic-light-color-brand-interactive-alert-accent-hovered: #fac7c7;
   --iclinic-light-color-brand-interactive-alert-accent-pressed: #fdafaf;
@@ -239,10 +239,10 @@
   --iclinic-light-color-brand-others-divider: #ffffffa3;
   --iclinic-light-color-brand-others-skeleton: #ffffffa3;
   --iclinic-light-color-brand-highlight-default: #9d68e3;
-  --iclinic-light-shadow-level-1: 0px 1px 2px 0px #d6e9ff, 0px 5px 4px -4px #d6e9ff;
-  --iclinic-light-shadow-level-2: 0px 2px 2px 0px #d6e9ff, 0px 0px 2px 0px #d6e9ff;
-  --iclinic-light-shadow-level-3: 0px 12px 12px -8px #d6e9ff, 0px 0px 4px 0px #d6e9ff;
-  --iclinic-light-shadow-level-4: 0px 32px 40px -16px #d6e9ff, 0px 2px 6px 0px #d6e9ff;
-  --iclinic-light-shadow-level-5: 0px 24px 48px -12px #d6e9ff, 0px 48px 64px -24px #d6e9ff;
-  --iclinic-light-shadow-level-6: 0px 24px 48px -8px #d6e9ff, 0px 48px 64px -24px #d6e9ff;
+  --iclinic-light-shadow-core-1: 0px 1px 2px 0px #d6e9ff, 0px 5px 4px -4px #d6e9ff;
+  --iclinic-light-shadow-core-2: 0px 2px 2px 0px #d6e9ff, 0px 0px 2px 0px #d6e9ff;
+  --iclinic-light-shadow-core-3: 0px 12px 12px -8px #d6e9ff, 0px 0px 4px 0px #d6e9ff;
+  --iclinic-light-shadow-core-4: 0px 32px 40px -16px #d6e9ff, 0px 2px 6px 0px #d6e9ff;
+  --iclinic-light-shadow-core-5: 0px 24px 48px -12px #d6e9ff, 0px 48px 64px -24px #d6e9ff;
+  --iclinic-light-shadow-core-6: 0px 24px 48px -8px #d6e9ff, 0px 48px 64px -24px #d6e9ff;
 }

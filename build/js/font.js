@@ -1,4 +1,17 @@
+/**
+ * Do not edit directly
+ * Generated on Tue, 25 Oct 2022 12:59:33 GMT
+ */
+
 export const font = {
+  "lineHeight": {
+    "xxs": "100%",
+    "xs": "116%",
+    "sm": "128%",
+    "md": "132%",
+    "lg": "142%",
+    "xl": "150%"
+  },
   "weight": {
     "regular": "Regular",
     "medium": "Medium",

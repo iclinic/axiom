@@ -1,3 +1,8 @@
+/**
+ * Do not edit directly
+ * Generated on Tue, 25 Oct 2022 12:59:33 GMT
+ */
+
 export const border = {
   "radius": {
     "none": 0,

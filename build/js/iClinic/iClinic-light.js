@@ -1,3 +1,8 @@
+/**
+ * Do not edit directly
+ * Generated on Tue, 25 Oct 2022 12:59:33 GMT
+ */
+
 export const iclinicLight = {
   "color": {
     "branding": {
@@ -29,7 +34,7 @@ export const iclinicLight = {
         "hovered": "#b8d9ff",
         "pressed": "#99c8ff"
       },
-      "disable": "#0000001a",
+      "disabled": "#0000001a",
       "alert": {
         "accent": {
           "default": "#cf0303",
@@ -142,11 +147,13 @@ export const iclinicLight = {
       "inset": "#ffffffd6"
     },
     "highlight": {
-      "default": "#551e9f"
+      "purple": {
+        "40": "#551e9f"
+      }
     },
     "others": {
       "backdrop": "#0000006e",
-      "divider": "#0000001a",
+      "divider": "#0000000a",
       "skeleton": "#0000001a"
     },
     "inverse": {
@@ -161,7 +168,7 @@ export const iclinicLight = {
           "hovered": "#75b5ff",
           "pressed": "#57a4ff"
         },
-        "disable": "#ffffff5c",
+        "disabled": "#ffffff5c",
         "alert": {
           "accent": {
             "default": "#ffe0e0",
@@ -294,7 +301,7 @@ export const iclinicLight = {
           "hovered": "#99c8ff",
           "pressed": "#75b5ff"
         },
-        "disable": "#ffffff5c",
+        "disabled": "#ffffff5c",
         "alert": {
           "accent": {
             "default": "#ffe0e0",
@@ -417,7 +424,7 @@ export const iclinicLight = {
     }
   },
   "shadow": {
-    "level": {
+    "core": {
       "1": "0px 1px 2px 0px #d6e9ff, 0px 5px 4px -4px #d6e9ff",
       "2": "0px 2px 2px 0px #d6e9ff, 0px 0px 2px 0px #d6e9ff",
       "3": "0px 12px 12px -8px #d6e9ff, 0px 0px 4px 0px #d6e9ff",

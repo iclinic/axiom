@@ -18,15 +18,6 @@ const cssFiles = [
     },
   },
   {
-    destination: "line.css",
-    format: "css/variables",
-    filter: {
-      attributes: {
-        category: "line",
-      },
-    },
-  },
-  {
     destination: "font.css",
     format: "css/variables",
     filter: {
