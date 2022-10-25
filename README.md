@@ -1,10 +1,26 @@
 
 ![image](https://user-images.githubusercontent.com/9949206/180495595-4c9d4b6a-642d-459f-9361-fd0f4d200658.png)
+<!-- TODO: add npm package version badge -->
 
-# **Axiom Design Tokens**
+# **Axiom Design System Tokens**
+
+Repositório destinado a gestão dos tokens de design do Design System Axiom.
+
+## Instalação
+
+```bash
+npm install @axiom/tokens
+# ou
+yarn add @axiom/tokens
+```
+
+### Desing Token
+
 Um *token de design* é uma **decsão de design codificado e armazenado em variáveis promovendo a padronização de vários elementos de estilo** como: tipografia, cores, regras de espaçamento, elevação e relacionados. São os alicerces para um Design System e promovem unidade entre os diferentes produtos de nosso Pilar, sendo compartilhados entre designers e pessoas desenvolvedoras.
 
-### Axiom Base Tokens: `@axiom/tokens/base` 
+Os tokens estão sendo disponibilizados em 2 cateorias: tokens "base" e tokens de "tema" como descrito abaixo.
+
+### **Axiom Base Tokens: `@axiom/tokens/base`**
 
 Um **Axiom Base Token** é a menor decisão de design codificada e compartilhada entre designers de produto e pessoas desenvolvedoras. Estes tokens são utilizados como base para quaisquer tema e podem ser consumidas na construção de nossas interfaces.
 Base Tokens armazenam valores absolutos de propriedades css como cores, espaçamento, opacidade, sombras, bordas, fontes e tipografia. 
@@ -12,14 +28,7 @@ Base Tokens armazenam valores absolutos de propriedades css como cores, espaçam
 Exemplo:
 ```ts
 // Axiom Base Tokens Example
-import {
-  color,
-  spacing,
-  opacity,
-  shadow,
-  border,
-  font,
-} from '@axiom/tokens/global'
+import { color } from '@axiom/tokens/global'
 
 
 // Color
@@ -70,7 +79,7 @@ font.lineHeight.sm // '128%'
 ```
 
 
-### Theme tokens: `@axiom/tokens/[name]`
+### **Theme tokens: `@axiom/tokens/[name]`**
 
 **Theme Tokens** são especializados em adicionar características específicas de marca e/ou tema ao Design System. Eles armazenam valores de propriedades css para cores (`color`) e sombras (`shadow`).
 
