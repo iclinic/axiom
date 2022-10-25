@@ -57,8 +57,9 @@ As configurações de plataformas e arquivos que devem ser gerados estão na pas
 ### Axiom Base Tokens: `@axiom/tokens/base` 
 
 Um **Axiom Base Token** é a menor decisão de design codificada e compartilhada entre designers de produto e pessoas desenvolvedoras. Estes tokens são utilizados como base para quaisquer tema e podem ser consumidas na construção de nossas interfaces.
-Base Tokens armazenam valores absolutos de propriedades css como cores, espaçamento, opacidade, sombras, bordas, fontes e tipografia. Exemplo:
+Base Tokens armazenam valores absolutos de propriedades css como cores, espaçamento, opacidade, sombras, bordas, fontes e tipografia. 
 
+Exemplo:
 ```ts
 // Axiom Base Tokens Example
 import {
@@ -119,28 +120,24 @@ font.lineHeight.sm // '128%'
 ```
 
 
-### Brand tokens
+### Theme tokens: `@axiom/tokens/[name]`
 
-`@axiom/tokens/[brand-name]`
-
-**Brand Tokens** armazenam valores de propriedades css para cores (`color`) e sombras(`shadow`).
-Os valores armazenados nete tipo de token sempre faz referência a um **Token Global** e também podem ser chamados como "alias tokens" ou tokens de decisão.
+**Theme Tokens** são especializados em adicionar características específicas de marca e/ou tema ao Design System. Eles armazenam valores de propriedades css para cores (`color`) e sombras (`shadow`).
 
 Exemplo:
 ```ts
-// Usando tokens de marca
+// Usando tokens do tema iclinic
 import { color } from '@axiom/tokens/iclinic'
 color.brand.primary.80 = '#046EEC'
 color.surface.feedback.success.accent = '#379539'
 
-// Usando variação "dark" da marca
-import { color } from '@axiom/tokens/iclinic-dark'
+// Usando variação "inverse" do tema iclinc
+import { color } from '@axiom/tokens/iclinic-inverse'
 color.brand.primary.80 = '#046EEC'
 color.surface.feedback.success.accent = '#DAECDA'
 ```
 
->Exemplo de possíveis variações:
-> - `@axiom/tokens/`**`cliquefarma`**
-> - `@axiom/tokens/`**`shosp`**
-> - `@axiom/tokens/`**`pebmed`**
-
+> Exemplo de outras possíveis variações de tema:
+> - `@axiom/tokens/sazonal`
+> - `@axiom/tokens/shosp`
+> - `@axiom/tokens/pebmed`
