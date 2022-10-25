@@ -1,7 +1,7 @@
 {
-  "name": "@iclinic/axiom",
-  "version": "1.0.2",
-  "description": "Axiom design tokens",
+  "name": "@axiom/token",
+  "version": "1.0.3-beta",
+  "description": "Axiom Design System Tokens",
   "main": "src/index.js",
   "scripts": {
     "test": "npm test",
