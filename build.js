@@ -117,7 +117,6 @@ StyleDictionary.registerFormat({
     result = fileHeader(file);
 
     allTokens.forEach(({ value, name, attributes: { type } }) => {
-      console.log(type)
       const regex = new RegExp(`${type}.*$`, "g");
       const nameWithoutBrand = name.match(regex)[0];
       result += `$${nameWithoutBrand} : ${value};\n`;
