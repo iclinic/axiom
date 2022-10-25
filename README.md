@@ -54,14 +54,13 @@ As configurações de plataformas e arquivos que devem ser gerados estão na pas
 - [Repositório do Style Dictionary](https://github.com/amzn/style-dictionary)
 
 
-### Global Tokens
+### Axiom Base Tokens: `@axiom/tokens/base` 
 
-`@axiom/tokens/global` 
-
-Armazena valores absolutos de propriedades css como cores, espaçamento, opacidade, sombras, bordas, fontes e tipografia. Exemplo:
+Um **Axiom Base Token** é a menor decisão de design codificada e compartilhada entre designers de produto e pessoas desenvolvedoras. Estes tokens são utilizados como base para quaisquer tema e podem ser consumidas na construção de nossas interfaces.
+Base Tokens armazenam valores absolutos de propriedades css como cores, espaçamento, opacidade, sombras, bordas, fontes e tipografia. Exemplo:
 
 ```ts
-// Axiom Global Tokens Example
+// Axiom Base Tokens Example
 import {
   color,
   spacing,
@@ -73,63 +72,50 @@ import {
 
 
 // Color
-color.grey.50: '#4D4D4D'
-color.alphaPurple.160: '#8140D80F'
-
+color.grey.50 // '#4D4D4D'
+color.alphaPurple.160 // '#8140D80F'
 
 // Spacing
-spacing.2: '8px'
-spacing.8: '32px'
-
+spacing.2 // '8px'
+spacing.8 // '32px'
 
 // Opacity
-opacity.level.1: '0.04'
-opacity.level.10: '0.96'
-
+opacity.level.1 // '0.04'
+opacity.level.10 // '0.96'
 
 // Shadow
-shadow.level.2:
-  'box-shadow: 0px 2px 2px 0px hsla(0, 0%, 0%, 0.08);
-   box-shadow: 0px 0px 2px 0px hsla(0, 0%, 0%, 0.04);'
-
-shadow.level.6: 
-  'box-shadow: 0px 24px 48px -8px hsla(0, 0%, 0%, 0.09);
-   box-shadow: 0px 48px 64px -24px hsla(0, 0%, 0%, 0.09);'
-
+shadow.level.2 // 'box-shadow: 0px 2px 2px 0px hsla(0, 0%, 0%, 0.08); box-shadow: 0px 0px 2px 0px hsla(0, 0%, 0%, 0.04);'
+shadow.level.6 // 'box-shadow: 0px 24px 48px -8px hsla(0, 0%, 0%, 0.09); box-shadow: 0px 48px 64px -24px hsla(0, 0%, 0%, 0.09);'
 
 // Border
-border.radius.none: '0px'
-border.radius.sm: '1px'
-
-border.width.none: '0px'
-border.width.sm: '4px'
+border.radius.none // '0px'
+border.radius.sm // '1px'
+border.width.none // '0px'
+border.width.sm // '4px'
 
 
 // Font
-font.family.base: 'Roboto'
+font.family.base // 'Roboto'
 
-font.size.base: '1rem'
-font.size.xxl: '2.5rem'
+font.size.base // '1rem'
+font.size.xxl // '2.5rem'
 
-font.weight.regular: 'Regular'
-font.weight.medium: 'Medium'
-font.weight.bold: 'Bold'
+font.weight.regular // 'Regular'
+font.weight.medium // 'Medium'
+font.weight.bold // 'Bold'
 
-font.letterSpacing.small: '1%'
-font.letterSpacing.medium: '4%'
+font.letterSpacing.small // '1%'
+font.letterSpacing.medium // '4%'
 
-font.case.sentence: 'sentence'
-font.case.uppercase: 'uppercase'
+font.case.sentence // 'sentence'
+font.case.uppercase // 'uppercase'
 
-font.decoration.none: 'none'
-font.decoration.underline: 'underline'
-font.decoration.linThrough: 'line-through'
+font.decoration.none // 'none'
+font.decoration.underline // 'underline'
+font.decoration.linThrough // 'line-through'
 
-font.line.height.xxs: '100%' // currently exporting global.line.height instead of global.font.lineHeight
-font.line.height.sm: '128%'
-
-
-// ⚠️ Typography ( wip )
+font.lineHeight.xxs // '100%'
+font.lineHeight.sm // '128%'
 ```
 
 
