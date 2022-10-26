@@ -7,7 +7,7 @@
     "test": "npm test",
     "build": "node ./build.js",
     "token-transformer": "token-transformer tokens/input.json tokens/output.json --expandShadow=false",
-    "clean": "rm -rf build"
+    "clean": "rm -rf dist"
   },
   "repository": {
     "type": "git",
