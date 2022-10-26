@@ -2,7 +2,14 @@
   "name": "@axiom/token",
   "version": "1.0.3-beta",
   "description": "Axiom Design System Tokens",
-  "main": "src/index.js",
+  "main": "index.js",
+  "files": ["index.js", "dist"],
+  "keywords": [
+    "axiom",
+    "desing token",
+    "iclinic",
+    "afya digital health"
+  ],
   "scripts": {
     "test": "npm test",
     "build": "node ./build.js",
