@@ -1,6 +1,7 @@
 const StyleDictionary = require("style-dictionary").extend("config/index.js");
 const { fileHeader } = StyleDictionary.formatHelpers;
 const Color = require("tinycolor2");
+const { formatTokens } = require("./config/utils");
 
 console.log("Build started...");
 console.log("\n==============================================");
@@ -112,16 +113,12 @@ StyleDictionary.registerFormat({
 });
 
 StyleDictionary.registerFormat({
-  name: "customScss",
-  formatter: ({ file, dictionary: { allTokens } }) => {
-    result = fileHeader(file);
+  name: "customCoreTokens",
+  formatter: ({ file, options, dictionary }) => {
+    const { allTokens } = dictionary;
+    const { format } = options;
 
-    allTokens.forEach(({ value, name, attributes: { type } }) => {
-      const regex = new RegExp(`${type}.*$`, "g");
-      const nameWithoutBrand = name.match(regex)[0];
-      result += `$${nameWithoutBrand} : ${value};\n`;
-    });
-    return result;
+    return formatTokens(file, allTokens, format);
   },
 });
 
