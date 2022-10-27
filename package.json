@@ -2,8 +2,8 @@
   "name": "@axiom/token",
   "version": "1.0.3-beta",
   "description": "Axiom Design System Tokens",
-  "main": "index.js",
-  "files": ["index.js", "dist"],
+  "main": "./dist/index.js",
+  "files": ["dist/**"],
   "keywords": [
     "axiom",
     "desing token",
