@@ -37,11 +37,12 @@ As configurações de plataformas e arquivos que devem ser gerados estão na pas
 
 ### Testando a lib localmente
 
-Para testar a lib localmente, podemos utilizar a feature "link" do gestor de pacote npm, presente no [yarn](https://classic.yarnpkg.com/en/docs/cli/link) e [npm](https://docs.npmjs.com/cli/v8/commands/npm-link).
+Para testar a lib localmente, podemos utilizar a feature "link" do gestor de pacote node, presente no [yarn](https://classic.yarnpkg.com/en/docs/cli/link) e [npm](https://docs.npmjs.com/cli/v8/commands/npm-link).
 
 Exemplo:
 1. Navegue até a raiz do projeto `@axiom/token` e rode o comando `yarn link` para registrar o pacote localmente.
 2. Então, basta utilizar o comando `yarn link "@axiom/token"` para consumir a versão local registrada.
 
+Uma vez que a depenência estiver linkada em um projeto local, a mesma ficará disponível no diretório `node_modules` deste projeto. Alterações serão refletidas imediatamente, não fazendo necessário novo `link` do pacote. <br>
 Para remover a dependência, basta executar os passos acima utilizando o comando `unlink`.
 
