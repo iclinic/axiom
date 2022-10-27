@@ -1,4 +1,4 @@
-export const font = {
+exports.font = {
   "weight": {
     "regular": "Regular",
     "medium": "Medium",

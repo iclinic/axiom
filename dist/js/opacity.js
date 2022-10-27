@@ -1,4 +1,4 @@
-export const opacity = {
+exports.opacity = {
   "level": {
     "1": 0.04,
     "2": 0.08,

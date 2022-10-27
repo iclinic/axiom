@@ -1,4 +1,4 @@
-export const border = {
+exports.border = {
   "radius": {
     "none": 0,
     "sm": 4,

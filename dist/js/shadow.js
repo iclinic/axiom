@@ -1,4 +1,4 @@
-export const shadow = {
+exports.shadow = {
   "level": {
     "1": "0px 1px 2px 0px rgba(0, 0, 0, 0.04), 0px 5px 4px -4px rgba(0, 0, 0, 0.04)",
     "2": "0px 2px 2px 0px rgba(0, 0, 0, 0.1), 0px 0px 2px 0px rgba(0, 0, 0, 0.04)",

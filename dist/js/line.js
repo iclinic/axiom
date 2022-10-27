@@ -1,4 +1,4 @@
-export const line = {
+exports.line = {
   "height": {
     "xxs": "100%",
     "xs": "116%",

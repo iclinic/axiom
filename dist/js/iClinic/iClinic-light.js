@@ -1,4 +1,4 @@
-export const iclinicLight = {
+exports.iclinicLight = {
   "color": {
     "branding": {
       "10": "#001f3d",
