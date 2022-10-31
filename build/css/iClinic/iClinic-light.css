@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 26 Oct 2022 11:38:54 GMT
+ * Generated on Mon, 31 Oct 2022 20:55:31 GMT
  */
 
 :root {
@@ -239,10 +239,10 @@
 --color-brand-others-divider : #ffffffa3;
 --color-brand-others-skeleton : #ffffffa3;
 --color-brand-highlight-default : #9d68e3;
---shadow-core-1 : 0px 1px 2px 0px #d6e9ff, 0px 5px 4px -4px #d6e9ff;
---shadow-core-2 : 0px 2px 2px 0px #d6e9ff, 0px 0px 2px 0px #d6e9ff;
---shadow-core-3 : 0px 12px 12px -8px #d6e9ff, 0px 0px 4px 0px #d6e9ff;
---shadow-core-4 : 0px 32px 40px -16px #d6e9ff, 0px 2px 6px 0px #d6e9ff;
---shadow-core-5 : 0px 24px 48px -12px #d6e9ff, 0px 48px 64px -24px #d6e9ff;
---shadow-core-6 : 0px 24px 48px -8px #d6e9ff, 0px 48px 64px -24px #d6e9ff;
+--shadow-brand-level-1 : 0px 1px 2px 0px #d6e9ff, 0px 5px 4px -4px #d6e9ff;
+--shadow-brand-level-2 : 0px 2px 2px 0px #d6e9ff, 0px 0px 2px 0px #d6e9ff;
+--shadow-brand-level-3 : 0px 12px 12px -8px #d6e9ff, 0px 0px 4px 0px #d6e9ff;
+--shadow-brand-level-4 : 0px 32px 40px -16px #d6e9ff, 0px 2px 6px 0px #d6e9ff;
+--shadow-brand-level-5 : 0px 24px 48px -12px #d6e9ff, 0px 48px 64px -24px #d6e9ff;
+--shadow-brand-level-6 : 0px 24px 48px -8px #d6e9ff, 0px 48px 64px -24px #d6e9ff;
 }

@@ -1,10 +1,10 @@
 /**
  * Do not edit directly
- * Generated on Tue, 25 Oct 2022 12:59:33 GMT
+ * Generated on Mon, 31 Oct 2022 20:55:31 GMT
  */
 
 export const shadow = {
-  "base": {
+  "level": {
     "1": "0px 1px 2px 0px rgba(0, 0, 0, 0.04), 0px 5px 4px -4px rgba(0, 0, 0, 0.04)",
     "2": "0px 2px 2px 0px rgba(0, 0, 0, 0.1), 0px 0px 2px 0px rgba(0, 0, 0, 0.04)",
     "3": "0px 12px 12px -8px rgba(0, 0, 0, 0.17), 0px 0px 4px 0px rgba(0, 0, 0, 0.04)",

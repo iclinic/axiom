@@ -1134,8 +1134,8 @@
         }
       }
     },
-    "shadow": {
-      "core": {
+    "shadowBrand": {
+      "level": {
         "1": {
           "value": [
             {
@@ -2220,7 +2220,7 @@
     }
   },
   "shadow": {
-    "base": {
+    "level": {
       "1": {
         "value": [
           {

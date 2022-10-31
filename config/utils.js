@@ -2,7 +2,8 @@ const StyleDictionary = require("style-dictionary").extend("config/index.js");
 const { fileHeader } = StyleDictionary.formatHelpers;
 
 const getNameFromType = (originalName, type) => {
-  const regex = new RegExp(`${type}.*$`, "g");
+  typeInKebabCase = type.replace(/[A-Z]/g, letter => `-${letter.toLowerCase()}`);
+  const regex = new RegExp(`${typeInKebabCase}.*$`, "g");
   return originalName.match(regex)[0];
 };
 
