@@ -226,7 +226,7 @@
       },
       "case": {
         "sentence": {
-          "value": "sentence",
+          "value": "capitalize",
           "type": "textCase"
         },
         "uppercase": {
