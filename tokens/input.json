@@ -33,15 +33,15 @@
       },
       "width": {
         "none": {
-          "value": "0",
+          "value": "0px",
           "type": "borderWidth"
         },
         "xs": {
-          "value": "1",
+          "value": "1px",
           "type": "borderWidth"
         },
         "sm": {
-          "value": "2",
+          "value": "2px",
           "type": "borderWidth"
         }
       }
