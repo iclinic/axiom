@@ -18,15 +18,6 @@ const cssFiles = [
     },
   },
   {
-    destination: "line.css",
-    format: "css/variables",
-    filter: {
-      attributes: {
-        category: "line",
-      },
-    },
-  },
-  {
     destination: "font.css",
     format: "css/variables",
     filter: {
@@ -64,11 +55,14 @@ const cssFiles = [
   },
   {
     destination: "iClinic/iClinic-light.css",
-    format: "css/variables",
+    format: "customCoreTokens",
     filter: {
       attributes: {
         category: "iclinicLight",
       },
+    },
+    options: {
+      format: 'css',
     },
   },
 ];

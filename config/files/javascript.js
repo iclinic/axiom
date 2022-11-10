@@ -18,15 +18,6 @@ const jsFiles = [
     },
   },
   {
-    destination: "line.js",
-    format: "customJsObject",
-    filter: {
-      attributes: {
-        category: "line",
-      },
-    },
-  },
-  {
     destination: "font.js",
     format: "customJsObject",
     filter: {
