@@ -1,6 +1,6 @@
 {
-  "name": "@axiom-ui/token",
-  "version": "1.0.3-beta",
+  "name": "@iclinic/axiom",
+  "version": "1.0.2",
   "description": "Axiom Design System Tokens",
   "main": "index.js",
   "files": [
