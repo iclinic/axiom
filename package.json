@@ -4,7 +4,9 @@
   "description": "Axiom Design System Tokens",
   "main": "index.js",
   "files": [
-    "dist/**"
+    "dist/**",
+    "base/**",
+    "iclinic/**"
   ],
   "keywords": [
     "axiom",
