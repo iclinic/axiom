@@ -1,5 +1,5 @@
 {
-  "name": "@axiom/token",
+  "name": "@axiom-ui/token",
   "version": "1.0.3-beta",
   "description": "Axiom Design System Tokens",
   "main": "index.js",
