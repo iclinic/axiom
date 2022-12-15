@@ -1,5 +1,7 @@
 const StyleDictionary = require("style-dictionary").extend("config/index.js");
+const { fileHeader } = StyleDictionary.formatHelpers;
 const Color = require("tinycolor2");
+const { formatTokens } = require("./config/utils");
 
 console.log("Build started...");
 console.log("\n==============================================");
@@ -93,7 +95,7 @@ StyleDictionary.registerFormat({
     const { tokens } = dictionary;
     const formattedTokens = { ...tokens };
     const tokensToExport = Object.keys(formattedTokens);
-    result = "";
+    result = fileHeader(file);
 
     tokensToExport.forEach((token) => {
       extractValue(formattedTokens[token]);
@@ -107,6 +109,16 @@ StyleDictionary.registerFormat({
     extractValue(formattedTokens);
 
     return result;
+  },
+});
+
+StyleDictionary.registerFormat({
+  name: "customCoreTokens",
+  formatter: ({ file, options, dictionary }) => {
+    const { allTokens } = dictionary;
+    const { format } = options;
+
+    return formatTokens(file, allTokens, format);
   },
 });
 
