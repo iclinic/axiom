@@ -7,17 +7,17 @@ const config = {
   platforms: {
     scss: {
       transformGroup: 'tokens-scss',
-      buildPath: 'build/scss/',
+      buildPath: 'dist/scss/',
       files: scssFiles,
     },
     css: {
       transformGroup: 'tokens-css',
-      buildPath: 'build/css/',
+      buildPath: 'dist/css/',
       files: cssFiles,
     },
     js: {
       transformGroup: 'tokens-js',
-      buildPath: 'build/js/',
+      buildPath: 'dist/js/',
       files: jsFiles,
     },
   },

@@ -1,13 +1,24 @@
 {
-  "name": "@axiom/token",
-  "version": "1.0.3-beta",
+  "name": "@iclinic/axiom",
+  "version": "1.0.3",
   "description": "Axiom Design System Tokens",
-  "main": "src/index.js",
+  "main": "index.js",
+  "files": [
+    "dist/**",
+    "base/**",
+    "iclinic/**"
+  ],
+  "keywords": [
+    "axiom",
+    "desing token",
+    "iclinic",
+    "afya digital health"
+  ],
   "scripts": {
     "test": "npm test",
     "build": "node ./build.js",
     "token-transformer": "token-transformer tokens/input.json tokens/output.json --expandShadow=false",
-    "clean": "rm -rf build"
+    "clean": "rm -rf dist"
   },
   "repository": {
     "type": "git",
