@@ -16,9 +16,12 @@
   ],
   "scripts": {
     "test": "npm test",
-    "build": "node ./build.js",
+    "build": "npm run clean && node ./build.js && npm run transpile",
     "token-transformer": "token-transformer tokens/input.json tokens/output.json --expandShadow=false",
-    "clean": "rm -rf dist"
+    "clean": "rimraf ./src/build/ ./build ./base ./iclinic",
+    "transpile": "npm run ts && npm run copy-files",
+    "ts": "npx tsc",
+    "copy-files": "copyfiles -u 2 src/build/**/*.scss src/build/**/*.css ./build && copyfiles -u 2 src/base/*.css src/base/*.scss ./base && copyfiles -u 2 src/iclinic/*.css src/iclinic/*.scss ./iclinic"
   },
   "repository": {
     "type": "git",
@@ -31,9 +34,13 @@
   },
   "homepage": "https://github.com/iclinic/axiom#readme",
   "devDependencies": {
-    "style-dictionary": "^3.7.1"
+    "copyfiles": "^2.4.1",
+    "rimraf": "^3.0.2",
+    "style-dictionary": "^3.7.1",
+    "typescript": "^4.9.4"
   },
   "dependencies": {
-    "token-transformer": "^0.0.24"
+    "token-transformer": "^0.0.24",
+    "webpack": "^5.75.0"
   }
 }

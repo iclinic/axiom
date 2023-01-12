@@ -1,0 +1,12 @@
+{
+  "include": ["src", "config"],
+  "exclude": ["node_modules/**/*", "config/**/*"],
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowJs": true,
+    "outDir": ".",
+    "declaration": true,
+    "declarationMap": true
+  }
+}

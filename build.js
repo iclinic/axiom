@@ -1,4 +1,4 @@
-const StyleDictionary = require("style-dictionary").extend("config/index.js");
+const StyleDictionary = require("style-dictionary").extend("./config/index.js");
 const { fileHeader } = StyleDictionary.formatHelpers;
 const Color = require("tinycolor2");
 const { formatTokens } = require("./config/utils");
