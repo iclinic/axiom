@@ -99,7 +99,7 @@ StyleDictionary.registerFormat({
 
     tokensToExport.forEach((token) => {
       extractValue(formattedTokens[token]);
-      result += `exports.${token} = ${JSON.stringify(
+      result += `export const ${token} = ${JSON.stringify(
         formattedTokens[token],
         null,
         2

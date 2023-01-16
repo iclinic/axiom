@@ -1,6 +1,6 @@
 const jsFiles = [
   {
-    destination: "border.js",
+    destination: "border.ts",
     format: "customJsObject",
     filter: {
       attributes: {
@@ -9,7 +9,7 @@ const jsFiles = [
     },
   },
   {
-    destination: "spacing.js",
+    destination: "spacing.ts",
     format: "customJsObject",
     filter: {
       attributes: {
@@ -18,7 +18,7 @@ const jsFiles = [
     },
   },
   {
-    destination: "font.js",
+    destination: "font.ts",
     format: "customJsObject",
     filter: {
       attributes: {
@@ -27,7 +27,7 @@ const jsFiles = [
     },
   },
   {
-    destination: "color.js",
+    destination: "color.ts",
     format: "customJsObject",
     filter: {
       attributes: {
@@ -36,7 +36,7 @@ const jsFiles = [
     },
   },
   {
-    destination: "shadow.js",
+    destination: "shadow.ts",
     format: "customJsObject",
     filter: {
       attributes: {
@@ -45,7 +45,7 @@ const jsFiles = [
     },
   },
   {
-    destination: "opacity.js",
+    destination: "opacity.ts",
     format: "customJsObject",
     filter: {
       attributes: {
@@ -54,7 +54,7 @@ const jsFiles = [
     },
   },
   {
-    destination: "iClinic/iClinic-light.js",
+    destination: "iClinic/iClinic-light.ts",
     format: "customJsObject",
     filter: {
       attributes: {

@@ -1,0 +1,11 @@
+{
+  "include": ["./base", "./iclinic"],
+  "exclude": ["node_modules/**/*", "./dist"],
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowJs": true,
+    "outDir": ".",
+    "declaration": true,
+  }
+}
