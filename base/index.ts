@@ -1,17 +1,6 @@
-import { border } from "../dist/ts/border";
-import { color } from "../dist/ts/color";
-import { font } from "../dist/ts/font";
-import { opacity } from "../dist/ts/opacity";
-import { shadow } from "../dist/ts/shadow";
-import { spacing } from "../dist/ts/spacing";
-
-const base = {
-  border,
-  color,
-  font,
-  opacity,
-  shadow,
-  spacing,
-};
-
-export default base;
+export { border } from "../dist/ts/border";
+export { color } from "../dist/ts/color";
+export { font } from "../dist/ts/font";
+export { opacity } from "../dist/ts/opacity";
+export { shadow } from "../dist/ts/shadow";
+export { spacing } from "../dist/ts/spacing";

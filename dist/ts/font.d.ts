@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 16 Jan 2023 01:14:59 GMT
+ * Generated on Wed, 18 Jan 2023 13:46:19 GMT
  */
 export declare const font: {
     lineHeight: {
