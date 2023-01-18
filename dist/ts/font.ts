@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 18 Jan 2023 13:46:19 GMT
+ * Generated on Wed, 18 Jan 2023 16:24:58 GMT
  */
 
 export const font = {
@@ -13,9 +13,9 @@ export const font = {
     "xl": "150%"
   },
   "weight": {
-    "regular": "Regular",
-    "medium": "Medium",
-    "bold": "Bold"
+    "regular": 400,
+    "medium": 500,
+    "bold": 700
   },
   "size": {
     "base": "1rem",
@@ -36,7 +36,7 @@ export const font = {
     "medium": "4%"
   },
   "case": {
-    "sentence": "sentence",
+    "sentence": "capitalize",
     "uppercase": "uppercase"
   },
   "decoration": {

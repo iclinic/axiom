@@ -1,17 +1,17 @@
 /**
  * Do not edit directly
- * Generated on Wed, 18 Jan 2023 13:46:19 GMT
+ * Generated on Wed, 18 Jan 2023 16:24:58 GMT
  */
 
 :root {
-  --border-radius-none: 0;
-  --border-radius-sm: 4;
-  --border-radius-md: 8;
-  --border-radius-lg: 16;
-  --border-radius-xl: 24;
-  --border-radius-xxl: 32;
+  --border-radius-none: 0px;
+  --border-radius-sm: 4px;
+  --border-radius-md: 8px;
+  --border-radius-lg: 16px;
+  --border-radius-xl: 24px;
+  --border-radius-xxl: 32px;
   --border-radius-circular: 100%;
-  --border-width-none: 0;
-  --border-width-xs: 1;
-  --border-width-sm: 2;
+  --border-width-none: 0px;
+  --border-width-xs: 1px;
+  --border-width-sm: 2px;
 }

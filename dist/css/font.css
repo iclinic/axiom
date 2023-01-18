@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 18 Jan 2023 13:46:19 GMT
+ * Generated on Wed, 18 Jan 2023 16:24:58 GMT
  */
 
 :root {
@@ -10,9 +10,9 @@
   --font-line-height-md: 132%;
   --font-line-height-lg: 142%;
   --font-line-height-xl: 150%;
-  --font-weight-regular: Regular;
-  --font-weight-medium: Medium;
-  --font-weight-bold: Bold;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
   --font-size-base: 1rem;
   --font-size-xxxs: 0.75rem;
   --font-size-xxs: 0.875rem;
@@ -25,7 +25,7 @@
   --font-family-base: Roboto;
   --font-letter-spacing-small: 1%;
   --font-letter-spacing-medium: 4%;
-  --font-case-sentence: sentence;
+  --font-case-sentence: capitalize;
   --font-case-uppercase: uppercase;
   --font-decoration-none: none;
   --font-decoration-underline: underline;

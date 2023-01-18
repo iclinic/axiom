@@ -1,7 +1,7 @@
 "use strict";
 /**
  * Do not edit directly
- * Generated on Wed, 18 Jan 2023 13:46:19 GMT
+ * Generated on Wed, 18 Jan 2023 16:24:58 GMT
  */
 exports.__esModule = true;
 exports.font = void 0;
@@ -15,9 +15,9 @@ exports.font = {
         "xl": "150%"
     },
     "weight": {
-        "regular": "Regular",
-        "medium": "Medium",
-        "bold": "Bold"
+        "regular": 400,
+        "medium": 500,
+        "bold": 700
     },
     "size": {
         "base": "1rem",
@@ -38,7 +38,7 @@ exports.font = {
         "medium": "4%"
     },
     "case": {
-        "sentence": "sentence",
+        "sentence": "capitalize",
         "uppercase": "uppercase"
     },
     "decoration": {

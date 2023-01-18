@@ -1,11 +1,13 @@
 /**
  * Do not edit directly
- * Generated on Wed, 18 Jan 2023 13:46:19 GMT
+ * Generated on Wed, 18 Jan 2023 16:24:58 GMT
  */
 
 export const spacing = {
+  "1": "0.25rem",
   "2": "0.5rem",
   "3": "0.75rem",
+  "4": "1rem",
   "5": "1.25rem",
   "6": "1.5rem",
   "8": "2rem",
@@ -21,6 +23,5 @@ export const spacing = {
   "40": "10rem",
   "56": "14rem",
   "64": "16rem",
-  "80": "20rem",
-  "base": "0.25rem"
+  "80": "20rem"
 };

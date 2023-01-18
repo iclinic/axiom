@@ -1,7 +1,7 @@
 "use strict";
 /**
  * Do not edit directly
- * Generated on Wed, 18 Jan 2023 13:46:19 GMT
+ * Generated on Wed, 18 Jan 2023 16:24:58 GMT
  */
 exports.__esModule = true;
 exports.iclinicLight = void 0;
@@ -207,7 +207,7 @@ exports.iclinicLight = {
             },
             "surface": {
                 "neutral": {
-                    "default": "#ffffff0d",
+                    "default": "#0000000a",
                     "hovered": "#ffffff1c",
                     "pressed": "#ffffff2b",
                     "disabled": "#ffffff2b"
@@ -249,7 +249,7 @@ exports.iclinicLight = {
                     "info": "#b8d9ff"
                 },
                 "onInteractive": {
-                    "accent": "#d6e9ff",
+                    "accent": "#002a52",
                     "subtle": "#002a52",
                     "alert": {
                         "accent": "#5c0000",

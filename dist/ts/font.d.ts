@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 18 Jan 2023 13:46:19 GMT
+ * Generated on Wed, 18 Jan 2023 16:24:58 GMT
  */
 export declare const font: {
     lineHeight: {
@@ -12,9 +12,9 @@ export declare const font: {
         xl: string;
     };
     weight: {
-        regular: string;
-        medium: string;
-        bold: string;
+        regular: number;
+        medium: number;
+        bold: number;
     };
     size: {
         base: string;
