@@ -58,7 +58,7 @@ const jsFiles = [
     format: "customJsObject",
     filter: {
       attributes: {
-        category: "iclinicLight",
+        category: "iclinic",
       },
     },
   },

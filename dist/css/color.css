@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 18 Jan 2023 16:24:58 GMT
+ * Generated on Mon, 23 Jan 2023 20:36:43 GMT
  */
 
 :root {
@@ -174,4 +174,52 @@
   --color-alfa-purple-140: rgba(129, 64, 216, 0.26);
   --color-alfa-purple-150: rgba(129, 64, 216, 0.15);
   --color-alfa-purple-160: rgba(129, 64, 216, 0.06);
+  --color-orange-10: #321701;
+  --color-orange-20: #462101;
+  --color-orange-30: #552802;
+  --color-orange-40: #693102;
+  --color-orange-50: #7d3b03;
+  --color-orange-60: #914503;
+  --color-orange-70: #a04c03;
+  --color-orange-80: #b95804;
+  --color-orange-90: #d26404;
+  --color-orange-100: #eb7005;
+  --color-orange-110: #fa8219;
+  --color-orange-120: #fb9b46;
+  --color-orange-130: #fcb06e;
+  --color-orange-140: #fdc99b;
+  --color-orange-150: #fee1c8;
+  --color-orange-160: #fef1e6;
+  --color-teal-10: #04251e;
+  --color-teal-20: #052e26;
+  --color-teal-30: #073c31;
+  --color-teal-40: #08493c;
+  --color-teal-50: #0a5748;
+  --color-teal-60: #0b6553;
+  --color-teal-70: #0d735e;
+  --color-teal-80: #0f856d;
+  --color-teal-90: #109379;
+  --color-teal-100: #12a588;
+  --color-teal-110: #14b897;
+  --color-teal-120: #31c4a6;
+  --color-teal-130: #68d4bf;
+  --color-teal-140: #8de2d1;
+  --color-teal-150: #bcf0e6;
+  --color-teal-160: #dffbf6;
+  --color-ruby-10: #3c0b21;
+  --color-ruby-20: #520f2d;
+  --color-ruby-30: #671339;
+  --color-ruby-40: #7d1745;
+  --color-ruby-50: #931b51;
+  --color-ruby-60: #a81f5d;
+  --color-ruby-70: #be2368;
+  --color-ruby-80: #d82777;
+  --color-ruby-90: #de4a8d;
+  --color-ruby-100: #e368a0;
+  --color-ruby-110: #e882b0;
+  --color-ruby-120: #ec98be;
+  --color-ruby-130: #f1b1ce;
+  --color-ruby-140: #f5c7dc;
+  --color-ruby-150: #f9dde9;
+  --color-ruby-160: #fdf2f7;
 }

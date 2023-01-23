@@ -58,7 +58,7 @@ const cssFiles = [
     format: "customCoreTokens",
     filter: {
       attributes: {
-        category: "iclinicLight",
+        category: "iclinic",
       },
     },
     options: {

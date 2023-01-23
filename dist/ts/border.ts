@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 18 Jan 2023 16:24:58 GMT
+ * Generated on Mon, 23 Jan 2023 20:36:43 GMT
  */
 
 export const border = {

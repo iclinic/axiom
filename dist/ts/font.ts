@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 18 Jan 2023 16:24:58 GMT
+ * Generated on Mon, 23 Jan 2023 20:36:43 GMT
  */
 
 export const font = {
@@ -18,7 +18,6 @@ export const font = {
     "bold": 700
   },
   "size": {
-    "base": "1rem",
     "xxxs": "0.75rem",
     "xxs": "0.875rem",
     "xs": "1rem",
@@ -34,14 +33,5 @@ export const font = {
   "letterSpacing": {
     "small": "1%",
     "medium": "4%"
-  },
-  "case": {
-    "sentence": "capitalize",
-    "uppercase": "uppercase"
-  },
-  "decoration": {
-    "none": "none",
-    "underline": "underline",
-    "lineThrough": "line-through"
   }
 };
