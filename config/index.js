@@ -17,7 +17,7 @@ const config = {
     },
     js: {
       transformGroup: 'tokens-js',
-      buildPath: 'dist/js/',
+      buildPath: 'dist/ts/',
       files: jsFiles,
     },
   },

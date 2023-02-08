@@ -1,9 +1,9 @@
 /**
  * Do not edit directly
- * Generated on Thu, 15 Dec 2022 14:22:13 GMT
+ * Generated on Mon, 23 Jan 2023 20:36:43 GMT
  */
 
-exports.font = {
+export const font = {
   "lineHeight": {
     "xxs": "100%",
     "xs": "116%",
@@ -13,12 +13,11 @@ exports.font = {
     "xl": "150%"
   },
   "weight": {
-    "regular": "Regular",
-    "medium": "Medium",
-    "bold": "Bold"
+    "regular": 400,
+    "medium": 500,
+    "bold": 700
   },
   "size": {
-    "base": "1rem",
     "xxxs": "0.75rem",
     "xxs": "0.875rem",
     "xs": "1rem",
@@ -34,14 +33,5 @@ exports.font = {
   "letterSpacing": {
     "small": "1%",
     "medium": "4%"
-  },
-  "case": {
-    "sentence": "sentence",
-    "uppercase": "uppercase"
-  },
-  "decoration": {
-    "none": "none",
-    "underline": "underline",
-    "lineThrough": "line-through"
   }
 };

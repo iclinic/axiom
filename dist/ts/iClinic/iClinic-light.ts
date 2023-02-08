@@ -1,9 +1,9 @@
 /**
  * Do not edit directly
- * Generated on Thu, 15 Dec 2022 14:22:13 GMT
+ * Generated on Mon, 23 Jan 2023 20:36:43 GMT
  */
 
-exports.iclinicLight = {
+export const iclinic = {
   "color": {
     "branding": {
       "10": "#001f3d",
@@ -21,7 +21,17 @@ exports.iclinicLight = {
       "130": "#99c8ff",
       "140": "#b8d9ff",
       "150": "#d6e9ff",
-      "160": "#f0f7ff"
+      "160": "#f0f7ff",
+      "alfa": {
+        "90": "#046eeccf",
+        "100": "#046eecba",
+        "110": "#046eec9e",
+        "120": "#046eec82",
+        "130": "#046eec61",
+        "140": "#046eec45",
+        "150": "#046eec26",
+        "160": "#046eec0f"
+      }
     },
     "interactive": {
       "accent": {
@@ -30,9 +40,9 @@ exports.iclinicLight = {
         "pressed": "#024aa2"
       },
       "subtle": {
-        "default": "#d6e9ff",
-        "hovered": "#b8d9ff",
-        "pressed": "#99c8ff"
+        "default": "#f0f7ff",
+        "hovered": "#d6e9ff",
+        "pressed": "#b8d9ff"
       },
       "disabled": "#0000001a",
       "alert": {
@@ -42,44 +52,49 @@ exports.iclinicLight = {
           "pressed": "#a00303"
         },
         "subtle": {
-          "default": "#ffe0e0",
-          "hovered": "#fac7c7",
-          "pressed": "#fdafaf"
+          "default": "#fef6f6",
+          "hovered": "#ffe0e0",
+          "pressed": "#fac7c7"
         }
       }
     },
     "typeface": {
       "strong": "#000000d6",
-      "pure": "#000000c9",
+      "pure": "#000000bd",
       "smooth": "#0000008c",
       "meld": "#0000003b",
       "feedback": {
-        "alert": "#cf0303",
-        "warning": "#9e5400",
-        "success": "#0c790e",
-        "info": "#0b63cb"
+        "alert": "#b80000",
+        "warning": "#8a4900",
+        "success": "#076908",
+        "info": "#0857b4"
       },
       "onInteractive": {
         "accent": "#f0f7ff",
-        "subtle": "#002a52",
+        "subtle": "#003e8a",
         "alert": {
           "accent": "#fef6f6",
-          "subtle": "#5c0000"
+          "subtle": "#890101"
         },
-        "disabled": "#0000005e"
+        "disabled": "#0000004d"
       }
     },
     "surface": {
-      "neutral": {
-        "default": "#ffffff5c",
-        "hovered": "#0000000a",
-        "pressed": "#0000001a",
-        "disabled": "#0000001a"
+      "accent": {
+        "default": "#0000000a",
+        "hovered": "#0000001a",
+        "pressed": "#0000002b"
       },
+      "subtle": {
+        "default": "#ffffffe3",
+        "hovered": "#0000000a",
+        "pressed": "#0000001a"
+      },
+      "disabled": "#0000001a",
       "selected": {
-        "default": "#f0f7ff",
-        "hovered": "#d6e9ff",
-        "pressed": "#b8d9ff"
+        "default": "#046eec0f",
+        "hovered": "#046eec26",
+        "pressed": "#046eec45"
       },
       "feedback": {
         "alert": {
@@ -105,19 +120,19 @@ exports.iclinicLight = {
       "hovered": "#0000008c",
       "pressed": "#00000099",
       "activated": "#0b63cb",
-      "disabled": "#0000002b",
+      "disabled": "#0000003b",
       "feedback": {
-        "alert": "#cf0303",
-        "warning": "#b25c00",
-        "success": "#0c790e",
-        "info": "#0b63cb"
+        "alert": "#f63737",
+        "warning": "#c76a00",
+        "success": "#379539",
+        "info": "#0a7bff"
       },
       "onInteractive": {
         "accent": "#f0f7ff",
-        "subtle": "#002a52",
+        "subtle": "#003e8a",
         "alert": {
           "accent": "#fef6f6",
-          "subtle": "#5c0000"
+          "subtle": "#890101"
         }
       }
     },
@@ -136,7 +151,7 @@ exports.iclinicLight = {
     "background": {
       "01": "#fff",
       "02": "#f7f7f7",
-      "03": "#f0f7ff"
+      "03": "#e6e6e6"
     },
     "link": {
       "default": "#0b63cb",
@@ -147,13 +162,40 @@ exports.iclinicLight = {
       "inset": "#ffffffd6"
     },
     "highlight": {
+      "red": {
+        "1": "#fd5d5d",
+        "2": "#e02424",
+        "3": "#b80000"
+      },
+      "blue": {
+        "1": "#3894ff",
+        "2": "#046eec",
+        "3": "#0857b4"
+      },
+      "teal": {
+        "1": "#12a588",
+        "2": "#0f856d",
+        "3": "#0b6553"
+      },
+      "orange": {
+        "1": "#eb7005",
+        "2": "#b95804",
+        "3": "#914503"
+      },
+      "ruby": {
+        "1": "#e368a0",
+        "2": "#d82777",
+        "3": "#a81f5d"
+      },
       "purple": {
-        "40": "#551e9f"
+        "1": "#ab7ce9",
+        "2": "#8f51e1",
+        "3": "#732dd2"
       }
     },
     "others": {
       "backdrop": "#0000006e",
-      "divider": "#0000000a",
+      "divider": "#0000001a",
       "skeleton": "#0000001a"
     },
     "inverse": {
@@ -164,9 +206,9 @@ exports.iclinicLight = {
           "pressed": "#b8d9ff"
         },
         "subtle": {
-          "default": "#99c8ff",
-          "hovered": "#75b5ff",
-          "pressed": "#57a4ff"
+          "default": "#0b63cb",
+          "hovered": "#0857b4",
+          "pressed": "#024aa2"
         },
         "disabled": "#ffffff5c",
         "alert": {
@@ -176,9 +218,9 @@ exports.iclinicLight = {
             "pressed": "#fdafaf"
           },
           "subtle": {
-            "default": "#fe9494",
-            "hoverd": "#fa7b7b",
-            "pressed": "#fd5d5d"
+            "default": "#cf0303",
+            "hoverd": "#b80000",
+            "pressed": "#a00303"
           }
         }
       },
@@ -194,77 +236,82 @@ exports.iclinicLight = {
           "info": "#75b5ff"
         },
         "onInteractive": {
-          "accent": "#002a52",
-          "subtle": "#002a52",
+          "accent": "#003e8a",
+          "subtle": "#f0f7ff",
           "alert": {
-            "accent": "#5c0000",
-            "subtle": "#5c0000"
+            "accent": "#890101",
+            "subtle": "#fef6f6"
           },
           "disabled": "#ffffff78"
         }
       },
       "surface": {
-        "neutral": {
-          "default": "#ffffff0d",
+        "subtle": {
+          "default": "#0000000a",
           "hovered": "#ffffff1c",
-          "pressed": "#ffffff2b",
-          "disabled": "#ffffff2b"
+          "pressed": "#ffffff2b"
         },
+        "disabled": "#ffffff2b",
         "selected": {
-          "defautl": "#d6e9ff",
-          "hovered": "#b8d9ff",
-          "pressed": "#99c8ff"
+          "default": "#046eec82",
+          "hovered": "#046eec9e",
+          "pressed": "#046eecba"
         },
         "feedback": {
           "alert": {
-            "accent": "#ffe0e0",
-            "subtle": "#f63737"
+            "accent": "#f63737",
+            "subtle": "#fd5d5d0f"
           },
           "warning": {
-            "accent": "#ffe3ad",
-            "subtle": "#ffb82e"
+            "accent": "#c76a00",
+            "subtle": "#db790014"
           },
           "success": {
-            "accent": "#daecda",
-            "subtle": "#379539"
+            "accent": "#379539",
+            "subtle": "#37953912"
           },
           "info": {
-            "accent": "#d6e9ff",
-            "subtle": "#0a7bff"
+            "accent": "#0a7bff",
+            "subtle": "#046eec0f"
           }
+        },
+        "accent": {
+          "default": "#ffffff1c",
+          "hovered": "#ffffff2b",
+          "pressed": "#ffffff36"
         }
       },
       "icon": {
-        "default": "#ffffffb5",
-        "hovered": "#ffffffa3",
-        "pressed": "#ffffff94",
-        "activated": "#d6e9ff",
-        "disabled": "#ffffff45",
+        "default": "#ffffffd6",
+        "hovered": "#ffffffc4",
+        "pressed": "#ffffffb5",
+        "activated": "#99c8ff",
+        "disabled": "#ffffff78",
         "feedback": {
-          "alert": "#fac7c7",
-          "warning": "#ffcd6b",
-          "success": "#bcdcbc",
-          "info": "#b8d9ff"
+          "alert": "#fd5d5d",
+          "warning": "#db7900",
+          "success": "#56a457",
+          "info": "#3894ff"
         },
         "onInteractive": {
-          "accent": "#d6e9ff",
-          "subtle": "#002a52",
+          "accent": "#003e8a",
+          "subtle": "#f0f7ff",
           "alert": {
-            "accent": "#5c0000",
+            "accent": "#890101",
             "subtle": "#fef6f6"
           }
         }
       },
       "border": {
         "accent": "#ffffff94",
-        "subtle": "#ffffff85",
+        "subtle": "#ffffff45",
         "activated": "#75b5ff",
         "disable": "#ffffff2b",
         "feedback": {
           "alert": "#f63737",
-          "warning": "#ffcd6b",
-          "success": "#56a457",
-          "info": "#57a4ff"
+          "warning": "#c76a00",
+          "success": "#379539",
+          "info": "#0a7bff"
         }
       },
       "background": {
@@ -273,15 +320,44 @@ exports.iclinicLight = {
         "03": "#363636"
       },
       "link": {
-        "default": "#75b5ff",
+        "default": "#d6e9ff",
         "visited": "#8f51e1"
       },
       "focus": {
         "default": "#75b5ff",
-        "inset": "#0000004d"
+        "inset": "#0000000a"
       },
       "highlight": {
-        "default": "#8f51e1"
+        "red": {
+          "1": "#e02424",
+          "2": "#fd5d5d",
+          "3": "#fe9494"
+        },
+        "blue": {
+          "1": "#046eec",
+          "2": "#3894ff",
+          "3": "#75b5ff"
+        },
+        "teal": {
+          "1": "#0f856d",
+          "2": "#12a588",
+          "3": "#31c4a6"
+        },
+        "orange": {
+          "1": "#b95804",
+          "2": "#eb7005",
+          "3": "#fb9b46"
+        },
+        "ruby": {
+          "1": "#d82777",
+          "2": "#e368a0",
+          "3": "#ec98be"
+        },
+        "purple": {
+          "1": "#8f51e1",
+          "2": "#ab7ce9",
+          "3": "#c4a3f0"
+        }
       },
       "others": {
         "backdrop": "#000000b3",
@@ -289,7 +365,7 @@ exports.iclinicLight = {
         "skeleton": "#ffffff45"
       }
     },
-    "Brand": {
+    "brand": {
       "interactive": {
         "accent": {
           "default": "#f0f7ff",
@@ -297,21 +373,21 @@ exports.iclinicLight = {
           "pressed": "#b8d9ff"
         },
         "subtle": {
-          "default": "#b8d9ff",
-          "hovered": "#99c8ff",
-          "pressed": "#75b5ff"
+          "default": "#0000003b",
+          "hovered": "#0000004d",
+          "pressed": "#0000005e"
         },
         "disabled": "#ffffff5c",
         "alert": {
           "accent": {
             "default": "#ffe0e0",
             "hovered": "#fac7c7",
-            "pressed": "#fdafaf"
+            "pressed": "#fe9494"
           },
           "subtle": {
-            "default": "#fdafaf",
-            "hovered": "#fe9494",
-            "pressed": "#fa7b7b"
+            "default": "#cf0303",
+            "hovered": "#b80000",
+            "pressed": "#a00303"
           }
         }
       },
@@ -327,44 +403,49 @@ exports.iclinicLight = {
           "info": "#d6e9ff"
         },
         "onInteractive": {
-          "accent": "#001f3d",
-          "subtle": "#001f3d",
+          "accent": "#003e8a",
+          "subtle": "#f0f7ff",
           "alert": {
-            "subtle": "#5c0000",
-            "accent": "#5c0000"
+            "subtle": "#fef6f6",
+            "accent": "#890101"
           },
           "disabled": "#ffffff94"
         }
       },
       "surface": {
-        "neutral": {
+        "subtle": {
           "default": "#0000000a",
           "hovered": "#0000001a",
-          "pressed": "#0000002b",
-          "disabled": "#0000002b"
+          "pressed": "#0000002b"
         },
+        "disabled": "#0000002b",
         "selected": {
-          "default": "#f0f7ff",
-          "hovered": "#d6e9ff",
-          "pressed": "#b8d9ff"
+          "default": "#0000003b",
+          "hovered": "#0000004d",
+          "pressed": "#0000004d"
         },
         "feedback": {
           "alert": {
-            "accent": "#ffe0e0",
-            "subtle": "#fac7c7"
+            "accent": "#fdafaf",
+            "subtle": "#fd5d5d0f"
           },
           "warning": {
-            "accent": "#db7900",
-            "subtle": "#f59f00"
+            "accent": "#ffb82e",
+            "subtle": "#db790014"
           },
           "success": {
-            "accent": "#379539",
-            "subtle": "#88bf89"
+            "accent": "#a1cea1",
+            "subtle": "#37953912"
           },
           "info": {
-            "accent": "#d6e9ff",
-            "subtle": "#b8d9ff"
+            "accent": "#99c8ff",
+            "subtle": "#046eec0f"
           }
+        },
+        "accent": {
+          "default": "#0000001a",
+          "hovered": "#0000002b",
+          "pressed": "#0000003b"
         }
       },
       "icon": {
@@ -372,19 +453,19 @@ exports.iclinicLight = {
         "hovered": "#ffffffc4",
         "pressed": "#ffffffb5",
         "activated": "#d6e9ff",
-        "disabled": "#ffffff69",
+        "disabled": "#ffffff94",
         "feedback": {
           "alert": "#fac7c7",
-          "warning": "#db7900",
-          "success": "#379539",
-          "info": "#d6e9ff"
+          "warning": "#ffcd6b",
+          "success": "#bcdcbc",
+          "info": "#b8d9ff"
         },
         "onInteractive": {
-          "accent": "#001f3d",
-          "subtle": "#001f3d",
+          "accent": "#003e8a",
+          "subtle": "#f0f7ff",
           "alert": {
-            "accent": "#5c0000",
-            "subtle": "#5c0000"
+            "accent": "#890101",
+            "subtle": "#fef6f6"
           }
         }
       },
@@ -395,8 +476,8 @@ exports.iclinicLight = {
         "disabled": "#ffffff78",
         "feedback": {
           "alert": "#fac7c7",
-          "warning": "#db7900",
-          "success": "#379539",
+          "warning": "#ffcd6b",
+          "success": "#bcdcbc",
           "info": "#b8d9ff"
         }
       },
@@ -411,15 +492,44 @@ exports.iclinicLight = {
       },
       "focus": {
         "default": "#d6e9ff",
-        "inset": "#0000004d"
+        "inset": "#046eec0f"
       },
       "others": {
         "backdrop": "#0000006e",
-        "divider": "#ffffffa3",
+        "divider": "#ffffff5c",
         "skeleton": "#ffffffa3"
       },
       "highlight": {
-        "default": "#9d68e3"
+        "red": {
+          "1": "#fdafaf",
+          "2": "#fac7c7",
+          "3": "#ffe0e0"
+        },
+        "blue": {
+          "1": "#99c8ff",
+          "2": "#b8d9ff",
+          "3": "#d6e9ff"
+        },
+        "teal": {
+          "1": "#68d4bf",
+          "2": "#8de2d1",
+          "3": "#bcf0e6"
+        },
+        "orange": {
+          "1": "#fcb06e",
+          "2": "#fdc99b",
+          "3": "#fee1c8"
+        },
+        "ruby": {
+          "1": "#f1b1ce",
+          "2": "#f5c7dc",
+          "3": "#f9dde9"
+        },
+        "purple": {
+          "1": "#d2b8f4",
+          "2": "#e0ccfa",
+          "3": "#eee2fd"
+        }
       }
     }
   },

@@ -1,5 +1,5 @@
-const { iclinicLight } = require("../dist/js/iClinic/iClinic-light");
-
-const iclinic = { ...iclinicLight };
-
-module.exports = iclinic;
+"use strict";
+exports.__esModule = true;
+exports.shadowBrand = exports.color = void 0;
+var iClinic_light_1 = require("../dist/ts/iClinic/iClinic-light");
+exports.color = iClinic_light_1.iclinicLight.color, exports.shadowBrand = iClinic_light_1.iclinicLight.shadowBrand;
