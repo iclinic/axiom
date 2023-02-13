@@ -16,6 +16,16 @@ export declare const color: {
         "140": string;
         "150": string;
         "160": string;
+        alfa: {
+            "90": string;
+            "100": string;
+            "110": string;
+            "120": string;
+            "130": string;
+            "140": string;
+            "150": string;
+            "160": string;
+        };
     };
     interactive: {
         accent: {
@@ -64,12 +74,17 @@ export declare const color: {
         };
     };
     surface: {
-        neutral: {
+        accent: {
             default: string;
             hovered: string;
             pressed: string;
-            disabled: string;
         };
+        subtle: {
+            default: string;
+            hovered: string;
+            pressed: string;
+        };
+        disabled: string;
         selected: {
             default: string;
             hovered: string;
@@ -141,8 +156,35 @@ export declare const color: {
         inset: string;
     };
     highlight: {
+        red: {
+            "1": string;
+            "2": string;
+            "3": string;
+        };
+        blue: {
+            "1": string;
+            "2": string;
+            "3": string;
+        };
+        teal: {
+            "1": string;
+            "2": string;
+            "3": string;
+        };
+        orange: {
+            "1": string;
+            "2": string;
+            "3": string;
+        };
+        ruby: {
+            "1": string;
+            "2": string;
+            "3": string;
+        };
         purple: {
-            "40": string;
+            "1": string;
+            "2": string;
+            "3": string;
         };
     };
     others: {
@@ -198,14 +240,19 @@ export declare const color: {
             };
         };
         surface: {
-            neutral: {
+            accent: {
                 default: string;
                 hovered: string;
                 pressed: string;
-                disabled: string;
             };
+            subtle: {
+                default: string;
+                hovered: string;
+                pressed: string;
+            };
+            disabled: string;
             selected: {
-                defautl: string;
+                default: string;
                 hovered: string;
                 pressed: string;
             };
@@ -275,7 +322,36 @@ export declare const color: {
             inset: string;
         };
         highlight: {
-            default: string;
+            red: {
+                "1": string;
+                "2": string;
+                "3": string;
+            };
+            blue: {
+                "1": string;
+                "2": string;
+                "3": string;
+            };
+            teal: {
+                "1": string;
+                "2": string;
+                "3": string;
+            };
+            orange: {
+                "1": string;
+                "2": string;
+                "3": string;
+            };
+            ruby: {
+                "1": string;
+                "2": string;
+                "3": string;
+            };
+            purple: {
+                "1": string;
+                "2": string;
+                "3": string;
+            };
         };
         others: {
             backdrop: string;
@@ -283,7 +359,7 @@ export declare const color: {
             skeleton: string;
         };
     };
-    Brand: {
+    brand: {
         interactive: {
             accent: {
                 default: string;
@@ -331,12 +407,17 @@ export declare const color: {
             };
         };
         surface: {
-            neutral: {
+            accent: {
                 default: string;
                 hovered: string;
                 pressed: string;
-                disabled: string;
             };
+            subtle: {
+                default: string;
+                hovered: string;
+                pressed: string;
+            };
+            disabled: string;
             selected: {
                 default: string;
                 hovered: string;
@@ -413,7 +494,36 @@ export declare const color: {
             skeleton: string;
         };
         highlight: {
-            default: string;
+            red: {
+                "1": string;
+                "2": string;
+                "3": string;
+            };
+            blue: {
+                "1": string;
+                "2": string;
+                "3": string;
+            };
+            teal: {
+                "1": string;
+                "2": string;
+                "3": string;
+            };
+            orange: {
+                "1": string;
+                "2": string;
+                "3": string;
+            };
+            ruby: {
+                "1": string;
+                "2": string;
+                "3": string;
+            };
+            purple: {
+                "1": string;
+                "2": string;
+                "3": string;
+            };
         };
     };
 }, shadowBrand: {

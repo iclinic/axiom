@@ -1,3 +1,3 @@
-import { iclinicLight } from "../dist/ts/iClinic/iClinic-light";
+import { iclinic } from "../dist/ts/iClinic/iClinic-light";
 
-export const { color, shadowBrand } = iclinicLight;
+export const { color, shadowBrand } = iclinic;
