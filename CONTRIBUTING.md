@@ -3,14 +3,6 @@
 nvm use
 npm install
 ```
-Para instalar o pacote privado, é necessário colocar no contexto do bash a variável **NPM_TOKEN**. Solicite-a com algum desenvolvedor responsável.
-
-### Como publicar uma nova versão no NPM
-1. Atualize o package.json com a nova tag na propriedade "version".
-2. Faça o merge na master e crie uma nova tag semântica com o mesmo valor informado na chave "version" do package.json. 
-
->Após criar a tag, o fluxo no github actions irá fazer a publicação automaticamente.
-
 
 ### Sobre esse projeto
 Esse repositório disponibiliza os tokens de design do Axiom.
@@ -40,8 +32,8 @@ As configurações de plataformas e arquivos que devem ser gerados estão na pas
 Para testar a lib localmente, podemos utilizar a feature "link" do gestor de pacote node, presente no [yarn](https://classic.yarnpkg.com/en/docs/cli/link) e [npm](https://docs.npmjs.com/cli/v8/commands/npm-link).
 
 Exemplo:
-1. Navegue até a raiz do projeto `@axiom/token` e rode o comando `yarn link` para registrar o pacote localmente.
-2. Então, basta utilizar o comando `yarn link "@axiom/token"` para consumir a versão local registrada.
+1. Navegue até a raiz do projeto `@axiom-ui/tokens` e rode o comando `yarn link` para registrar o pacote localmente.
+2. Então, basta utilizar o comando `yarn link "@axiom-ui/tokens"` para consumir a versão local registrada.
 
-Uma vez que a depenência estiver linkada em um projeto local, a mesma ficará disponível no diretório `node_modules` deste projeto. Alterações serão refletidas imediatamente, não fazendo necessário novo `link` do pacote. <br>
+Uma vez que a dependência estiver linkada em um projeto local, a mesma ficará disponível no diretório `node_modules` deste projeto. Alterações serão refletidas imediatamente, não fazendo necessário novo `link` do pacote. <br>
 Para remover a dependência, basta executar os passos acima utilizando o comando `unlink`.
