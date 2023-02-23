@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 13 Feb 2023 14:54:00 GMT
+ * Generated on Thu, 23 Feb 2023 16:48:17 GMT
  */
 export declare const border: {
     radius: {

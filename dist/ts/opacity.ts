@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 23 Jan 2023 20:36:43 GMT
+ * Generated on Thu, 23 Feb 2023 16:48:17 GMT
  */
 
 export const opacity = {

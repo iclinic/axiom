@@ -1,7 +1,7 @@
 "use strict";
 /**
  * Do not edit directly
- * Generated on Mon, 13 Feb 2023 14:54:00 GMT
+ * Generated on Thu, 23 Feb 2023 16:48:17 GMT
  */
 exports.__esModule = true;
 exports.iclinic = void 0;
@@ -151,9 +151,9 @@ exports.iclinic = {
             }
         },
         "background": {
-            "01": "#fff",
-            "02": "#f7f7f7",
-            "03": "#e6e6e6"
+            "1": "#fff",
+            "2": "#f7f7f7",
+            "3": "#e6e6e6"
         },
         "link": {
             "default": "#0b63cb",
@@ -317,9 +317,9 @@ exports.iclinic = {
                 }
             },
             "background": {
-                "01": "#1f1f1f",
-                "02": "#292929",
-                "03": "#363636"
+                "1": "#1f1f1f",
+                "2": "#292929",
+                "3": "#363636"
             },
             "link": {
                 "default": "#d6e9ff",
@@ -484,9 +484,9 @@ exports.iclinic = {
                 }
             },
             "background": {
-                "01": "#0b63cb",
-                "02": "#0857b4",
-                "03": "#024aa2"
+                "1": "#0b63cb",
+                "2": "#0857b4",
+                "3": "#024aa2"
             },
             "link": {
                 "default": "#d6e9ff",
