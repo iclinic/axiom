@@ -1780,11 +1780,11 @@
     },
     "letterSpacing": {
       "sm": {
-        "value": "1%",
+        "value": "0.01em",
         "type": "letterSpacing"
       },
       "md": {
-        "value": "4%",
+        "value": "0.04em",
         "type": "letterSpacing"
       }
     }
