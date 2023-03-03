@@ -193,20 +193,22 @@
           "type": "fontSizes"
         }
       },
+      "letterSpacing": {
+        "sm": {
+          "value": "0.01em",
+          "type": "letterSpacing",
+          "description": "No Fgima esse valor correponde a 1%"
+        },
+        "md": {
+          "value": "0.04em",
+          "type": "letterSpacing",
+          "description": "No Fgima esse valor correponde a 4%"
+        }
+      },
       "family": {
         "base": {
           "value": "Roboto",
           "type": "fontFamilies"
-        }
-      },
-      "letterSpacing": {
-        "sm": {
-          "value": "0.01em",
-          "type": "letterSpacing"
-        },
-        "md": {
-          "value": "0.04em",
-          "type": "letterSpacing"
         }
       }
     },
