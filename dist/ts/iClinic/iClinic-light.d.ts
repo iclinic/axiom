@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 13 Feb 2023 14:54:00 GMT
+ * Generated on Fri, 03 Mar 2023 19:26:51 GMT
  */
 export declare const iclinic: {
     color: {
@@ -148,9 +148,9 @@ export declare const iclinic: {
             };
         };
         background: {
-            "01": string;
-            "02": string;
-            "03": string;
+            "1": string;
+            "2": string;
+            "3": string;
         };
         link: {
             default: string;
@@ -314,9 +314,9 @@ export declare const iclinic: {
                 };
             };
             background: {
-                "01": string;
-                "02": string;
-                "03": string;
+                "1": string;
+                "2": string;
+                "3": string;
             };
             link: {
                 default: string;
@@ -481,9 +481,9 @@ export declare const iclinic: {
                 };
             };
             background: {
-                "01": string;
-                "02": string;
-                "03": string;
+                "1": string;
+                "2": string;
+                "3": string;
             };
             link: {
                 default: string;

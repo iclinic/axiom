@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 23 Jan 2023 20:36:43 GMT
+ * Generated on Fri, 03 Mar 2023 19:26:51 GMT
  */
 
 export const iclinic = {
@@ -149,9 +149,9 @@ export const iclinic = {
       }
     },
     "background": {
-      "01": "#fff",
-      "02": "#f7f7f7",
-      "03": "#e6e6e6"
+      "1": "#fff",
+      "2": "#f7f7f7",
+      "3": "#e6e6e6"
     },
     "link": {
       "default": "#0b63cb",
@@ -246,6 +246,11 @@ export const iclinic = {
         }
       },
       "surface": {
+        "accent": {
+          "default": "#ffffff1c",
+          "hovered": "#ffffff2b",
+          "pressed": "#ffffff36"
+        },
         "subtle": {
           "default": "#0000000a",
           "hovered": "#ffffff1c",
@@ -274,11 +279,6 @@ export const iclinic = {
             "accent": "#0a7bff",
             "subtle": "#046eec0f"
           }
-        },
-        "accent": {
-          "default": "#ffffff1c",
-          "hovered": "#ffffff2b",
-          "pressed": "#ffffff36"
         }
       },
       "icon": {
@@ -315,9 +315,9 @@ export const iclinic = {
         }
       },
       "background": {
-        "01": "#1f1f1f",
-        "02": "#292929",
-        "03": "#363636"
+        "1": "#1f1f1f",
+        "2": "#292929",
+        "3": "#363636"
       },
       "link": {
         "default": "#d6e9ff",
@@ -413,6 +413,11 @@ export const iclinic = {
         }
       },
       "surface": {
+        "accent": {
+          "default": "#0000001a",
+          "hovered": "#0000002b",
+          "pressed": "#0000003b"
+        },
         "subtle": {
           "default": "#0000000a",
           "hovered": "#0000001a",
@@ -441,11 +446,6 @@ export const iclinic = {
             "accent": "#99c8ff",
             "subtle": "#046eec0f"
           }
-        },
-        "accent": {
-          "default": "#0000001a",
-          "hovered": "#0000002b",
-          "pressed": "#0000003b"
         }
       },
       "icon": {
@@ -482,9 +482,9 @@ export const iclinic = {
         }
       },
       "background": {
-        "01": "#0b63cb",
-        "02": "#0857b4",
-        "03": "#024aa2"
+        "1": "#0b63cb",
+        "2": "#0857b4",
+        "3": "#024aa2"
       },
       "link": {
         "default": "#d6e9ff",

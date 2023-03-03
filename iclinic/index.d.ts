@@ -143,9 +143,9 @@ export declare const color: {
         };
     };
     background: {
-        "01": string;
-        "02": string;
-        "03": string;
+        "1": string;
+        "2": string;
+        "3": string;
     };
     link: {
         default: string;
@@ -309,9 +309,9 @@ export declare const color: {
             };
         };
         background: {
-            "01": string;
-            "02": string;
-            "03": string;
+            "1": string;
+            "2": string;
+            "3": string;
         };
         link: {
             default: string;
@@ -476,9 +476,9 @@ export declare const color: {
             };
         };
         background: {
-            "01": string;
-            "02": string;
-            "03": string;
+            "1": string;
+            "2": string;
+            "3": string;
         };
         link: {
             default: string;

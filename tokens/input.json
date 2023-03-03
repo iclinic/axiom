@@ -92,10 +92,6 @@
         "value": "{spacing.1} * 16",
         "type": "spacing"
       },
-      "18": {
-        "value": "{spacing.1} * 18",
-        "type": "spacing"
-      },
       "20": {
         "value": "{spacing.1} * 20",
         "type": "spacing"
@@ -108,10 +104,6 @@
         "value": "{spacing.1} * 32",
         "type": "spacing"
       },
-      "36": {
-        "value": "{spacing.1} * 36",
-        "type": "spacing"
-      },
       "40": {
         "value": "{spacing.1} * 40",
         "type": "spacing"
@@ -120,12 +112,8 @@
         "value": "{spacing.1} * 56",
         "type": "spacing"
       },
-      "64": {
-        "value": "{spacing.1} * 64",
-        "type": "spacing"
-      },
-      "80": {
-        "value": "{spacing.1} * 80",
+      "72": {
+        "value": "{spacing.1} * 72",
         "type": "spacing"
       }
     },
@@ -205,20 +193,22 @@
           "type": "fontSizes"
         }
       },
+      "letterSpacing": {
+        "sm": {
+          "value": "0.01em",
+          "type": "letterSpacing",
+          "description": "No Fgima esse valor correponde a 1%"
+        },
+        "md": {
+          "value": "0.04em",
+          "type": "letterSpacing",
+          "description": "No Fgima esse valor correponde a 4%"
+        }
+      },
       "family": {
         "base": {
           "value": "Roboto",
           "type": "fontFamilies"
-        }
-      },
-      "letterSpacing": {
-        "small": {
-          "value": "1%",
-          "type": "letterSpacing"
-        },
-        "medium": {
-          "value": "4%",
-          "type": "letterSpacing"
         }
       }
     },
@@ -1719,15 +1709,15 @@
           }
         },
         "background": {
-          "01": {
+          "1": {
             "value": "{color.pure.white}",
             "type": "color"
           },
-          "02": {
+          "2": {
             "value": "{color.gray.160}",
             "type": "color"
           },
-          "03": {
+          "3": {
             "value": "{color.gray.150}",
             "type": "color"
           }
@@ -2164,15 +2154,15 @@
             }
           },
           "background": {
-            "01": {
+            "1": {
               "value": "{color.gray.10}",
               "type": "color"
             },
-            "02": {
+            "2": {
               "value": "{color.gray.20}",
               "type": "color"
             },
-            "03": {
+            "3": {
               "value": "{color.gray.30}",
               "type": "color"
             }
@@ -2610,15 +2600,15 @@
             }
           },
           "background": {
-            "01": {
+            "1": {
               "value": "{iclinic.color.branding.70}",
               "type": "color"
             },
-            "02": {
+            "2": {
               "value": "{iclinic.color.branding.60}",
               "type": "color"
             },
-            "03": {
+            "3": {
               "value": "{iclinic.color.branding.50}",
               "type": "color"
             }
@@ -2879,6 +2869,9 @@
   },
   "$themes": [],
   "$metadata": {
-    "tokenSetOrder": ["global", "iclinic"]
+    "tokenSetOrder": [
+      "global",
+      "iclinic"
+    ]
   }
 }

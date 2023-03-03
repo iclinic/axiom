@@ -1,7 +1,7 @@
 "use strict";
 /**
  * Do not edit directly
- * Generated on Mon, 13 Feb 2023 14:54:00 GMT
+ * Generated on Fri, 03 Mar 2023 19:26:51 GMT
  */
 exports.__esModule = true;
 exports.font = void 0;
@@ -33,7 +33,7 @@ exports.font = {
         "base": "Roboto"
     },
     "letterSpacing": {
-        "small": "1%",
-        "medium": "4%"
+        "sm": "0.01em",
+        "md": "0.04em"
     }
 };

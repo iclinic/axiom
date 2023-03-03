@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 23 Jan 2023 20:36:43 GMT
+ * Generated on Fri, 03 Mar 2023 19:26:51 GMT
  */
 
 :root {
@@ -93,9 +93,9 @@
 --color-border-feedback-warning : #c76a00;
 --color-border-feedback-success : #0e8610;
 --color-border-feedback-info : #046eec;
---color-background-01 : #fff;
---color-background-02 : #f7f7f7;
---color-background-03 : #e6e6e6;
+--color-background-1 : #fff;
+--color-background-2 : #f7f7f7;
+--color-background-3 : #e6e6e6;
 --color-link-default : #0b63cb;
 --color-link-visited : #641ec2;
 --color-focus-default : #0b63cb;
@@ -147,6 +147,9 @@
 --color-inverse-typeface-on-interactive-alert-accent : #890101;
 --color-inverse-typeface-on-interactive-alert-subtle : #fef6f6;
 --color-inverse-typeface-on-interactive-disabled : #ffffff78;
+--color-inverse-surface-accent-default : #ffffff1c;
+--color-inverse-surface-accent-hovered : #ffffff2b;
+--color-inverse-surface-accent-pressed : #ffffff36;
 --color-inverse-surface-subtle-default : #0000000a;
 --color-inverse-surface-subtle-hovered : #ffffff1c;
 --color-inverse-surface-subtle-pressed : #ffffff2b;
@@ -162,9 +165,6 @@
 --color-inverse-surface-feedback-success-subtle : #37953912;
 --color-inverse-surface-feedback-info-accent : #0a7bff;
 --color-inverse-surface-feedback-info-subtle : #046eec0f;
---color-inverse-surface-accent-default : #ffffff1c;
---color-inverse-surface-accent-hovered : #ffffff2b;
---color-inverse-surface-accent-pressed : #ffffff36;
 --color-inverse-icon-default : #ffffffd6;
 --color-inverse-icon-hovered : #ffffffc4;
 --color-inverse-icon-pressed : #ffffffb5;
@@ -186,9 +186,9 @@
 --color-inverse-border-feedback-warning : #c76a00;
 --color-inverse-border-feedback-success : #379539;
 --color-inverse-border-feedback-info : #0a7bff;
---color-inverse-background-01 : #1f1f1f;
---color-inverse-background-02 : #292929;
---color-inverse-background-03 : #363636;
+--color-inverse-background-1 : #1f1f1f;
+--color-inverse-background-2 : #292929;
+--color-inverse-background-3 : #363636;
 --color-inverse-link-default : #d6e9ff;
 --color-inverse-link-visited : #8f51e1;
 --color-inverse-focus-default : #75b5ff;
@@ -240,6 +240,9 @@
 --color-brand-typeface-on-interactive-alert-subtle : #fef6f6;
 --color-brand-typeface-on-interactive-alert-accent : #890101;
 --color-brand-typeface-on-interactive-disabled : #ffffff94;
+--color-brand-surface-accent-default : #0000001a;
+--color-brand-surface-accent-hovered : #0000002b;
+--color-brand-surface-accent-pressed : #0000003b;
 --color-brand-surface-subtle-default : #0000000a;
 --color-brand-surface-subtle-hovered : #0000001a;
 --color-brand-surface-subtle-pressed : #0000002b;
@@ -255,9 +258,6 @@
 --color-brand-surface-feedback-success-subtle : #37953912;
 --color-brand-surface-feedback-info-accent : #99c8ff;
 --color-brand-surface-feedback-info-subtle : #046eec0f;
---color-brand-surface-accent-default : #0000001a;
---color-brand-surface-accent-hovered : #0000002b;
---color-brand-surface-accent-pressed : #0000003b;
 --color-brand-icon-default : #ffffffd6;
 --color-brand-icon-hovered : #ffffffc4;
 --color-brand-icon-pressed : #ffffffb5;
@@ -279,9 +279,9 @@
 --color-brand-border-feedback-warning : #ffcd6b;
 --color-brand-border-feedback-success : #bcdcbc;
 --color-brand-border-feedback-info : #b8d9ff;
---color-brand-background-01 : #0b63cb;
---color-brand-background-02 : #0857b4;
---color-brand-background-03 : #024aa2;
+--color-brand-background-1 : #0b63cb;
+--color-brand-background-2 : #0857b4;
+--color-brand-background-3 : #024aa2;
 --color-brand-link-default : #d6e9ff;
 --color-brand-link-visited : #ab7ce9;
 --color-brand-focus-default : #d6e9ff;

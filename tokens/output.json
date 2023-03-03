@@ -422,15 +422,15 @@
         }
       },
       "background": {
-        "01": {
+        "1": {
           "value": "#fff",
           "type": "color"
         },
-        "02": {
+        "2": {
           "value": "#f7f7f7",
           "type": "color"
         },
-        "03": {
+        "3": {
           "value": "#e6e6e6",
           "type": "color"
         }
@@ -681,6 +681,20 @@
           }
         },
         "surface": {
+          "accent": {
+            "default": {
+              "value": "#ffffff1c",
+              "type": "color"
+            },
+            "hovered": {
+              "value": "#ffffff2b",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "#ffffff36",
+              "type": "color"
+            }
+          },
           "subtle": {
             "default": {
               "type": "color",
@@ -753,20 +767,6 @@
                 "value": "#046eec0f",
                 "type": "color"
               }
-            }
-          },
-          "accent": {
-            "default": {
-              "value": "#ffffff1c",
-              "type": "color"
-            },
-            "hovered": {
-              "value": "#ffffff2b",
-              "type": "color"
-            },
-            "pressed": {
-              "value": "#ffffff36",
-              "type": "color"
             }
           }
         },
@@ -867,15 +867,15 @@
           }
         },
         "background": {
-          "01": {
+          "1": {
             "value": "#1f1f1f",
             "type": "color"
           },
-          "02": {
+          "2": {
             "value": "#292929",
             "type": "color"
           },
-          "03": {
+          "3": {
             "value": "#363636",
             "type": "color"
           }
@@ -1127,6 +1127,20 @@
           }
         },
         "surface": {
+          "accent": {
+            "default": {
+              "value": "#0000001a",
+              "type": "color"
+            },
+            "hovered": {
+              "value": "#0000002b",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "#0000003b",
+              "type": "color"
+            }
+          },
           "subtle": {
             "default": {
               "value": "#0000000a",
@@ -1199,20 +1213,6 @@
                 "value": "#046eec0f",
                 "type": "color"
               }
-            }
-          },
-          "accent": {
-            "default": {
-              "value": "#0000001a",
-              "type": "color"
-            },
-            "hovered": {
-              "value": "#0000002b",
-              "type": "color"
-            },
-            "pressed": {
-              "value": "#0000003b",
-              "type": "color"
             }
           }
         },
@@ -1313,15 +1313,15 @@
           }
         },
         "background": {
-          "01": {
+          "1": {
             "value": "#0b63cb",
             "type": "color"
           },
-          "02": {
+          "2": {
             "value": "#0857b4",
             "type": "color"
           },
-          "03": {
+          "3": {
             "value": "#024aa2",
             "type": "color"
           }
@@ -1671,10 +1671,6 @@
       "value": "4rem",
       "type": "spacing"
     },
-    "18": {
-      "value": "4.5rem",
-      "type": "spacing"
-    },
     "20": {
       "value": "5rem",
       "type": "spacing"
@@ -1687,10 +1683,6 @@
       "value": "8rem",
       "type": "spacing"
     },
-    "36": {
-      "value": "9rem",
-      "type": "spacing"
-    },
     "40": {
       "value": "10rem",
       "type": "spacing"
@@ -1699,12 +1691,8 @@
       "value": "14rem",
       "type": "spacing"
     },
-    "64": {
-      "value": "16rem",
-      "type": "spacing"
-    },
-    "80": {
-      "value": "20rem",
+    "72": {
+      "value": "18rem",
       "type": "spacing"
     }
   },
@@ -1791,12 +1779,12 @@
       }
     },
     "letterSpacing": {
-      "small": {
-        "value": "1%",
+      "sm": {
+        "value": "0.01em",
         "type": "letterSpacing"
       },
-      "medium": {
-        "value": "4%",
+      "md": {
+        "value": "0.04em",
         "type": "letterSpacing"
       }
     }
