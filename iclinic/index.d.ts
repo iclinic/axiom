@@ -1,3 +1,4 @@
+export { border, font, opacity, shadow, spacing } from "../base";
 export declare const color: {
     branding: {
         "10": string;
