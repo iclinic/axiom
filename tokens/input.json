@@ -2339,15 +2339,15 @@
               },
               "subtle": {
                 "default": {
-                  "value": "{color.red.70}",
+                  "value": "{color.alfaRed.100}",
                   "type": "color"
                 },
                 "hovered": {
-                  "value": "{color.red.60}",
+                  "value": "{color.red.70}",
                   "type": "color"
                 },
                 "pressed": {
-                  "value": "{color.red.50}",
+                  "value": "{color.red.60}",
                   "type": "color"
                 }
               }
