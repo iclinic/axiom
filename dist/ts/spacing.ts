@@ -1,9 +1,9 @@
 /**
  * Do not edit directly
- * Generated on Fri, 03 Mar 2023 19:26:51 GMT
+ * Generated on Thu, 04 May 2023 18:51:02 GMT
  */
 
-export const spacing = {
+export const spacing = <const>{
   "1": "0.25rem",
   "2": "0.5rem",
   "3": "0.75rem",

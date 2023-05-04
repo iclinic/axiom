@@ -1,9 +1,9 @@
 /**
  * Do not edit directly
- * Generated on Fri, 03 Mar 2023 19:26:51 GMT
+ * Generated on Thu, 04 May 2023 18:51:02 GMT
  */
 
-export const iclinic = {
+export const iclinic = <const>{
   "color": {
     "branding": {
       "10": "#001f3d",

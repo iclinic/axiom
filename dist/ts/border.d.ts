@@ -1,20 +1,20 @@
 /**
  * Do not edit directly
- * Generated on Fri, 03 Mar 2023 19:26:51 GMT
+ * Generated on Thu, 04 May 2023 18:51:02 GMT
  */
 export declare const border: {
-    radius: {
-        none: string;
-        sm: string;
-        md: string;
-        lg: string;
-        xl: string;
-        xxl: string;
-        circular: string;
+    readonly radius: {
+        readonly none: "0px";
+        readonly sm: "4px";
+        readonly md: "8px";
+        readonly lg: "16px";
+        readonly xl: "24px";
+        readonly xxl: "32px";
+        readonly circular: "100%";
     };
-    width: {
-        none: string;
-        xs: string;
-        sm: string;
+    readonly width: {
+        readonly none: "0px";
+        readonly xs: "1px";
+        readonly sm: "2px";
     };
 };

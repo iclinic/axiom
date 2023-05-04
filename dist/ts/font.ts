@@ -1,9 +1,9 @@
 /**
  * Do not edit directly
- * Generated on Fri, 03 Mar 2023 19:26:51 GMT
+ * Generated on Thu, 04 May 2023 18:51:02 GMT
  */
 
-export const font = {
+export const font = <const>{
   "lineHeight": {
     "xxs": "100%",
     "xs": "116%",

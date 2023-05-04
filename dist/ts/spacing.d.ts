@@ -1,23 +1,23 @@
 /**
  * Do not edit directly
- * Generated on Fri, 03 Mar 2023 19:26:51 GMT
+ * Generated on Thu, 04 May 2023 18:51:02 GMT
  */
 export declare const spacing: {
-    "1": string;
-    "2": string;
-    "3": string;
-    "4": string;
-    "5": string;
-    "6": string;
-    "8": string;
-    "10": string;
-    "12": string;
-    "14": string;
-    "16": string;
-    "20": string;
-    "24": string;
-    "32": string;
-    "40": string;
-    "56": string;
-    "72": string;
+    readonly "1": "0.25rem";
+    readonly "2": "0.5rem";
+    readonly "3": "0.75rem";
+    readonly "4": "1rem";
+    readonly "5": "1.25rem";
+    readonly "6": "1.5rem";
+    readonly "8": "2rem";
+    readonly "10": "2.5rem";
+    readonly "12": "3rem";
+    readonly "14": "3.5rem";
+    readonly "16": "4rem";
+    readonly "20": "5rem";
+    readonly "24": "6rem";
+    readonly "32": "8rem";
+    readonly "40": "10rem";
+    readonly "56": "14rem";
+    readonly "72": "18rem";
 };
