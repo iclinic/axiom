@@ -104,7 +104,7 @@ StyleDictionary.registerFormat({
         null,
         2
       )
-      result += `export const ${token} = <const>${obj};`;
+      result += `export const ${token} = <const>${obj};\n`;
     });
 
     extractValue(formattedTokens);
