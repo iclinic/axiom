@@ -1,7 +1,7 @@
 "use strict";
 /**
  * Do not edit directly
- * Generated on Thu, 04 May 2023 18:51:02 GMT
+ * Generated on Mon, 08 May 2023 19:51:33 GMT
  */
 exports.__esModule = true;
 exports.iclinic = void 0;

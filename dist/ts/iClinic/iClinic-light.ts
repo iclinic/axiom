@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 05 May 2023 21:09:00 GMT
+ * Generated on Mon, 08 May 2023 19:51:33 GMT
  */
 
 export const iclinic = <const>{
