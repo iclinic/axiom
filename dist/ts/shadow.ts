@@ -1,9 +1,9 @@
 /**
  * Do not edit directly
- * Generated on Fri, 03 Mar 2023 19:26:51 GMT
+ * Generated on Mon, 08 May 2023 19:51:33 GMT
  */
 
-export const shadow = {
+export const shadow = <const>{
   "level": {
     "1": "0px 1px 2px 0px rgba(0, 0, 0, 0.04), 0px 5px 4px -4px rgba(0, 0, 0, 0.04)",
     "2": "0px 2px 2px 0px rgba(0, 0, 0, 0.1), 0px 0px 2px 0px rgba(0, 0, 0, 0.04)",

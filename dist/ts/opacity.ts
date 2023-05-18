@@ -1,9 +1,9 @@
 /**
  * Do not edit directly
- * Generated on Fri, 03 Mar 2023 19:26:51 GMT
+ * Generated on Mon, 08 May 2023 19:51:33 GMT
  */
 
-export const opacity = {
+export const opacity = <const>{
   "level": {
     "1": 0.04,
     "2": 0.08,

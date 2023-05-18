@@ -23,7 +23,7 @@ Os tokens estão sendo disponibilizados em 2 cateorias: tokens "base" e tokens d
 ### **Axiom Base Tokens: `@axiom-ui/tokens/base`**
 
 Um **Axiom Base Token** é a menor decisão de design codificada e compartilhada entre designers de produto e pessoas desenvolvedoras. Estes tokens são utilizados como base para quaisquer tema e podem ser consumidas na construção de nossas interfaces.
-Base Tokens armazenam valores absolutos de propriedades css como cores, espaçamento, opacidade, sombras, bordas, fontes e tipografia. 
+Base Tokens armazenam valores absolutos de propriedades css como cores, espaçamento, opacidade, sombras, bordas, fontes e tipografia.
 
 Exemplo:
 ```ts
@@ -100,3 +100,97 @@ color.surface.feedback.success.accent = '#DAECDA'
 > - `@axiom-ui/tokens/sazonal`
 > - `@axiom-ui/tokens/shosp`
 > - `@axiom-ui/tokens/pebmed`
+
+## Integração theme tokens
+
+### MUI v5
+
+Para uma integração fluida e simples com React e MUI, é possível criar um subtheme dentro do theme do MUI apenas criando uma nova propriedade.
+
+- Importe os tokens e exporte um novo objeto que será usado como `theme` junto com seu `type`:
+
+```ts
+// axiomTheme.ts
+import {
+  border,
+  font,
+  opacity,
+  shadow,
+  spacing,
+  color,
+  shadowBrand,
+} from "@axiom-ui/tokens/iclinic";
+
+export const axiomTheme = {
+  border,
+  font,
+  opacity,
+  shadow,
+  spacing,
+  color,
+  shadowBrand,
+};
+
+export type AxiomTheme = typeof axiomTheme;
+```
+
+- Em um arquivo de `typings` global, extenda a interface `Theme` do MUI e adicione uma nova propriedade que será o tema do Axiom:
+
+```ts
+// types.d.ts
+
+import type { AxiomTheme } from "styles/axiomTheme.ts";
+
+declare module "@mui/material/styles" {
+  interface Theme {
+    axiom: AxiomTheme;
+  }
+
+  interface ThemeOptions {
+    axiom?: AxiomTheme;
+  }
+}
+```
+
+- Depois é só importar o objeto `theme` e passar no provider do MUI:
+
+```ts
+// Theme.tsx
+import { CssBaseline } from "@mui/material";
+import { createTheme } from "@mui/material";
+import { ThemeProvider as MUIThemeProvider } from "@mui/material/styles";
+
+import { axiomTheme } from "styles/axiomTheme";
+
+export const muiTheme = createTheme({});
+
+export function ThemeProvider({ children }: { children: React.ReactNode }) {
+  return (
+    <MUIThemeProvider
+      theme={{
+        ...muiTheme,
+        axiom: axiomTheme,
+      }}
+    >
+      <CssBaseline />
+      {children}
+    </MUIThemeProvider>
+  );
+}
+```
+
+- Acessando o tema nos componentes:
+
+```ts
+// Card.tsx
+
+import { Box, styled } from "@mui/material";
+
+export const Card = styled(Box)(({ theme }) => ({
+  boxShadow: theme.axiom.shadow.level[4],
+  backgroundColor: theme.axiom.color.background[1],
+  padding: theme.axiom.spacing[10],
+  borderRadius: theme.axiom.border.radius.md,
+  display: "flex",
+}));
+```

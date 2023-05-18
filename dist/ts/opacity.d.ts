@@ -1,18 +1,18 @@
 /**
  * Do not edit directly
- * Generated on Fri, 03 Mar 2023 19:26:51 GMT
+ * Generated on Mon, 08 May 2023 19:51:33 GMT
  */
 export declare const opacity: {
-    level: {
-        "1": number;
-        "2": number;
-        "3": number;
-        "4": number;
-        "5": number;
-        "6": number;
-        "7": number;
-        "8": number;
-        "9": number;
-        "10": number;
+    readonly level: {
+        readonly "1": 0.04;
+        readonly "2": 0.08;
+        readonly "3": 0.12;
+        readonly "4": 0.16;
+        readonly "5": 0.24;
+        readonly "6": 0.32;
+        readonly "7": 0.48;
+        readonly "8": 0.64;
+        readonly "9": 0.8;
+        readonly "10": 0.96;
     };
 };
