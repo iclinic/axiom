@@ -1141,7 +1141,7 @@
           "type": "color"
         },
         "60": {
-          "value": "#B80053",
+          "value": "#B20047",
           "type": "color"
         },
         "70": {
@@ -1747,7 +1747,7 @@
               "type": "color"
             },
             "info": {
-              "value": "{iclinic.color.branding.90}",
+              "value": "{color.blue.90}",
               "type": "color"
             }
           },

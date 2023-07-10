@@ -1,7 +1,7 @@
 "use strict";
 /**
  * Do not edit directly
- * Generated on Mon, 08 May 2023 19:51:33 GMT
+ * Generated on Mon, 10 Jul 2023 14:24:49 GMT
  */
 exports.__esModule = true;
 exports.iclinic = void 0;
@@ -100,19 +100,19 @@ exports.iclinic = {
             },
             "feedback": {
                 "alert": {
-                    "accent": "#f63737",
+                    "accent": "#cf0303",
                     "subtle": "#fef6f6"
                 },
                 "warning": {
-                    "accent": "#c76a00",
+                    "accent": "#9e5400",
                     "subtle": "#fff5e0"
                 },
                 "success": {
-                    "accent": "#379539",
+                    "accent": "#0c790e",
                     "subtle": "#f2f8f2"
                 },
                 "info": {
-                    "accent": "#0a7bff",
+                    "accent": "#0b63cb",
                     "subtle": "#f0f7ff"
                 }
             }
@@ -266,19 +266,19 @@ exports.iclinic = {
                 },
                 "feedback": {
                     "alert": {
-                        "accent": "#f63737",
+                        "accent": "#cf0303",
                         "subtle": "#fd5d5d0f"
                     },
                     "warning": {
-                        "accent": "#c76a00",
+                        "accent": "#9e5400",
                         "subtle": "#db790014"
                     },
                     "success": {
-                        "accent": "#379539",
+                        "accent": "#0c790e",
                         "subtle": "#37953912"
                     },
                     "info": {
-                        "accent": "#0a7bff",
+                        "accent": "#0b63cb",
                         "subtle": "#046eec0f"
                     }
                 }
@@ -287,7 +287,7 @@ exports.iclinic = {
                 "default": "#ffffffd6",
                 "hovered": "#ffffffc4",
                 "pressed": "#ffffffb5",
-                "activated": "#99c8ff",
+                "activated": "#f0f7ff",
                 "disabled": "#ffffff78",
                 "feedback": {
                     "alert": "#fd5d5d",
@@ -322,7 +322,7 @@ exports.iclinic = {
                 "3": "#363636"
             },
             "link": {
-                "default": "#d6e9ff",
+                "default": "#f0f7ff",
                 "visited": "#8f51e1"
             },
             "focus": {
@@ -387,9 +387,9 @@ exports.iclinic = {
                         "pressed": "#fe9494"
                     },
                     "subtle": {
-                        "default": "#cf0303",
-                        "hovered": "#b80000",
-                        "pressed": "#a00303"
+                        "default": "#f63737c9",
+                        "hovered": "#cf0303",
+                        "pressed": "#b80000"
                     }
                 }
             },
@@ -433,19 +433,19 @@ exports.iclinic = {
                 },
                 "feedback": {
                     "alert": {
-                        "accent": "#fdafaf",
+                        "accent": "#cf0303",
                         "subtle": "#fd5d5d0f"
                     },
                     "warning": {
-                        "accent": "#ffb82e",
+                        "accent": "#9e5400",
                         "subtle": "#db790014"
                     },
                     "success": {
-                        "accent": "#a1cea1",
+                        "accent": "#0c790e",
                         "subtle": "#37953912"
                     },
                     "info": {
-                        "accent": "#99c8ff",
+                        "accent": "#0000003b",
                         "subtle": "#046eec0f"
                     }
                 }
@@ -454,7 +454,7 @@ exports.iclinic = {
                 "default": "#ffffffd6",
                 "hovered": "#ffffffc4",
                 "pressed": "#ffffffb5",
-                "activated": "#d6e9ff",
+                "activated": "#f0f7ff",
                 "disabled": "#ffffff94",
                 "feedback": {
                     "alert": "#fac7c7",
@@ -489,8 +489,8 @@ exports.iclinic = {
                 "3": "#024aa2"
             },
             "link": {
-                "default": "#d6e9ff",
-                "visited": "#ab7ce9"
+                "default": "#f0f7ff",
+                "visited": "#e0ccfa"
             },
             "focus": {
                 "default": "#d6e9ff",

@@ -93,19 +93,19 @@ export declare const color: {
         };
         readonly feedback: {
             readonly alert: {
-                readonly accent: "#f63737";
+                readonly accent: "#cf0303";
                 readonly subtle: "#fef6f6";
             };
             readonly warning: {
-                readonly accent: "#c76a00";
+                readonly accent: "#9e5400";
                 readonly subtle: "#fff5e0";
             };
             readonly success: {
-                readonly accent: "#379539";
+                readonly accent: "#0c790e";
                 readonly subtle: "#f2f8f2";
             };
             readonly info: {
-                readonly accent: "#0a7bff";
+                readonly accent: "#0b63cb";
                 readonly subtle: "#f0f7ff";
             };
         };
@@ -259,19 +259,19 @@ export declare const color: {
             };
             readonly feedback: {
                 readonly alert: {
-                    readonly accent: "#f63737";
+                    readonly accent: "#cf0303";
                     readonly subtle: "#fd5d5d0f";
                 };
                 readonly warning: {
-                    readonly accent: "#c76a00";
+                    readonly accent: "#9e5400";
                     readonly subtle: "#db790014";
                 };
                 readonly success: {
-                    readonly accent: "#379539";
+                    readonly accent: "#0c790e";
                     readonly subtle: "#37953912";
                 };
                 readonly info: {
-                    readonly accent: "#0a7bff";
+                    readonly accent: "#0b63cb";
                     readonly subtle: "#046eec0f";
                 };
             };
@@ -280,7 +280,7 @@ export declare const color: {
             readonly default: "#ffffffd6";
             readonly hovered: "#ffffffc4";
             readonly pressed: "#ffffffb5";
-            readonly activated: "#99c8ff";
+            readonly activated: "#f0f7ff";
             readonly disabled: "#ffffff78";
             readonly feedback: {
                 readonly alert: "#fd5d5d";
@@ -315,7 +315,7 @@ export declare const color: {
             readonly "3": "#363636";
         };
         readonly link: {
-            readonly default: "#d6e9ff";
+            readonly default: "#f0f7ff";
             readonly visited: "#8f51e1";
         };
         readonly focus: {
@@ -380,9 +380,9 @@ export declare const color: {
                     readonly pressed: "#fe9494";
                 };
                 readonly subtle: {
-                    readonly default: "#cf0303";
-                    readonly hovered: "#b80000";
-                    readonly pressed: "#a00303";
+                    readonly default: "#f63737c9";
+                    readonly hovered: "#cf0303";
+                    readonly pressed: "#b80000";
                 };
             };
         };
@@ -426,19 +426,19 @@ export declare const color: {
             };
             readonly feedback: {
                 readonly alert: {
-                    readonly accent: "#fdafaf";
+                    readonly accent: "#cf0303";
                     readonly subtle: "#fd5d5d0f";
                 };
                 readonly warning: {
-                    readonly accent: "#ffb82e";
+                    readonly accent: "#9e5400";
                     readonly subtle: "#db790014";
                 };
                 readonly success: {
-                    readonly accent: "#a1cea1";
+                    readonly accent: "#0c790e";
                     readonly subtle: "#37953912";
                 };
                 readonly info: {
-                    readonly accent: "#99c8ff";
+                    readonly accent: "#0000003b";
                     readonly subtle: "#046eec0f";
                 };
             };
@@ -447,7 +447,7 @@ export declare const color: {
             readonly default: "#ffffffd6";
             readonly hovered: "#ffffffc4";
             readonly pressed: "#ffffffb5";
-            readonly activated: "#d6e9ff";
+            readonly activated: "#f0f7ff";
             readonly disabled: "#ffffff94";
             readonly feedback: {
                 readonly alert: "#fac7c7";
@@ -482,8 +482,8 @@ export declare const color: {
             readonly "3": "#024aa2";
         };
         readonly link: {
-            readonly default: "#d6e9ff";
-            readonly visited: "#ab7ce9";
+            readonly default: "#f0f7ff";
+            readonly visited: "#e0ccfa";
         };
         readonly focus: {
             readonly default: "#d6e9ff";
