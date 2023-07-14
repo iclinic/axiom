@@ -1776,12 +1776,12 @@
       "sm": {
         "value": "0.01em",
         "type": "letterSpacing",
-        "description": "No Fgima esse valor correponde a 1%"
+        "description": "No Figma esse valor correponde a 1%"
       },
       "md": {
         "value": "0.04em",
         "type": "letterSpacing",
-        "description": "No Fgima esse valor correponde a 4%"
+        "description": "No Figma esse valor correponde a 4%"
       }
     },
     "family": {
