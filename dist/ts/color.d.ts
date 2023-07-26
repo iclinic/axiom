@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 08 May 2023 19:51:33 GMT
+ * Generated on Mon, 10 Jul 2023 14:24:49 GMT
  */
 export declare const color: {
     readonly pure: {
@@ -254,5 +254,33 @@ export declare const color: {
         readonly "140": "#f5c7dc";
         readonly "150": "#f9dde9";
         readonly "160": "#fdf2f7";
+    };
+    readonly magenta: {
+        readonly "10": "#430423";
+        readonly "20": "#570527";
+        readonly "30": "#70002f";
+        readonly "40": "#850035";
+        readonly "50": "#9e0037";
+        readonly "60": "#b20047";
+        readonly "70": "#c70055";
+        readonly "80": "#e00060";
+        readonly "90": "#f52e72";
+        readonly "100": "#ff5286";
+        readonly "110": "#ff759f";
+        readonly "120": "#ff8fba";
+        readonly "130": "#ffadcd";
+        readonly "140": "#ffc7dc";
+        readonly "150": "#ffe0ec";
+        readonly "160": "#fff5f9";
+    };
+    readonly alfaMagenta: {
+        readonly "90": "#f52e72";
+        readonly "100": "#f52e72";
+        readonly "110": "#f52e72";
+        readonly "120": "#f52e72";
+        readonly "130": "#f52e72";
+        readonly "140": "#f52e72";
+        readonly "150": "#f52e72";
+        readonly "160": "#f52e72";
     };
 };

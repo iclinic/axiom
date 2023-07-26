@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 08 May 2023 19:51:33 GMT
+ * Generated on Mon, 10 Jul 2023 14:24:49 GMT
  */
 
 :root {
@@ -222,4 +222,28 @@
   --color-ruby-140: #f5c7dc;
   --color-ruby-150: #f9dde9;
   --color-ruby-160: #fdf2f7;
+  --color-magenta-10: #430423;
+  --color-magenta-20: #570527;
+  --color-magenta-30: #70002f;
+  --color-magenta-40: #850035;
+  --color-magenta-50: #9e0037;
+  --color-magenta-60: #b20047;
+  --color-magenta-70: #c70055;
+  --color-magenta-80: #e00060;
+  --color-magenta-90: #f52e72;
+  --color-magenta-100: #ff5286;
+  --color-magenta-110: #ff759f;
+  --color-magenta-120: #ff8fba;
+  --color-magenta-130: #ffadcd;
+  --color-magenta-140: #ffc7dc;
+  --color-magenta-150: #ffe0ec;
+  --color-magenta-160: #fff5f9;
+  --color-alfa-magenta-90: rgba(245, 46, 114, 0.9);
+  --color-alfa-magenta-100: rgba(245, 46, 114, 0.79);
+  --color-alfa-magenta-110: rgba(245, 46, 114, 0.64);
+  --color-alfa-magenta-120: rgba(245, 46, 114, 0.55);
+  --color-alfa-magenta-130: rgba(245, 46, 114, 0.39);
+  --color-alfa-magenta-140: rgba(245, 46, 114, 0.27);
+  --color-alfa-magenta-150: rgba(245, 46, 114, 0.16);
+  --color-alfa-magenta-160: rgba(245, 46, 114, 0.06);
 }

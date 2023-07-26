@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 08 May 2023 19:51:33 GMT
+ * Generated on Mon, 10 Jul 2023 14:24:49 GMT
  */
 export declare const font: {
     readonly lineHeight: {
@@ -26,11 +26,11 @@ export declare const font: {
         readonly xl: "2.25rem";
         readonly xxl: "2.5rem";
     };
-    readonly family: {
-        readonly base: "Roboto";
-    };
     readonly letterSpacing: {
         readonly sm: "0.01em";
         readonly md: "0.04em";
+    };
+    readonly family: {
+        readonly base: "Roboto";
     };
 };

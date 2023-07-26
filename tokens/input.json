@@ -197,12 +197,12 @@
         "sm": {
           "value": "0.01em",
           "type": "letterSpacing",
-          "description": "No Fgima esse valor correponde a 1%"
+          "description": "No Figma esse valor correponde a 1%"
         },
         "md": {
           "value": "0.04em",
           "type": "letterSpacing",
-          "description": "No Fgima esse valor correponde a 4%"
+          "description": "No Figma esse valor correponde a 4%"
         }
       },
       "family": {
@@ -1055,7 +1055,7 @@
       },
       "ruby": {
         "10": {
-          "value": "#3c0b21",
+          "value": "#3C0B21",
           "type": "color"
         },
         "20": {
@@ -1116,6 +1116,106 @@
         },
         "160": {
           "value": "#fdf2f7",
+          "type": "color"
+        }
+      },
+      "magenta": {
+        "10": {
+          "value": "#430423",
+          "type": "color"
+        },
+        "20": {
+          "value": "#570527",
+          "type": "color"
+        },
+        "30": {
+          "value": "#70002F",
+          "type": "color"
+        },
+        "40": {
+          "value": "#850035",
+          "type": "color"
+        },
+        "50": {
+          "value": "#9E0037",
+          "type": "color"
+        },
+        "60": {
+          "value": "#B20047",
+          "type": "color"
+        },
+        "70": {
+          "value": "#C70055",
+          "type": "color"
+        },
+        "80": {
+          "value": "#E00060",
+          "type": "color"
+        },
+        "90": {
+          "value": "#F52E72",
+          "type": "color"
+        },
+        "100": {
+          "value": "#FF5286",
+          "type": "color"
+        },
+        "110": {
+          "value": "#FF759F",
+          "type": "color"
+        },
+        "120": {
+          "value": "#FF8FBA",
+          "type": "color"
+        },
+        "130": {
+          "value": "#FFADCD",
+          "type": "color"
+        },
+        "140": {
+          "value": "#FFC7DC",
+          "type": "color"
+        },
+        "150": {
+          "value": "#FFE0EC",
+          "type": "color"
+        },
+        "160": {
+          "value": "#FFF5F9",
+          "type": "color"
+        }
+      },
+      "alfaMagenta": {
+        "90": {
+          "value": "rgba(245,46,114,0.9)",
+          "type": "color"
+        },
+        "100": {
+          "value": "rgba(245,46,114,0.79)",
+          "type": "color"
+        },
+        "110": {
+          "value": "rgba(245,46,114,0.64)",
+          "type": "color"
+        },
+        "120": {
+          "value": "rgba(245,46,114,0.55)",
+          "type": "color"
+        },
+        "130": {
+          "value": "rgba(245,46,114,0.39)",
+          "type": "color"
+        },
+        "140": {
+          "value": "rgba(245,46,114,0.27)",
+          "type": "color"
+        },
+        "150": {
+          "value": "rgba(245,46,114,0.16)",
+          "type": "color"
+        },
+        "160": {
+          "value": "rgba(245,46,114,0.06)",
           "type": "color"
         }
       }
@@ -1493,7 +1593,7 @@
               "type": "color"
             },
             "info": {
-              "value": "{iclinic.color.branding.60}",
+              "value": "{color.blue.60}",
               "type": "color"
             }
           },
@@ -1572,7 +1672,7 @@
           "feedback": {
             "alert": {
               "accent": {
-                "value": "{color.red.90}",
+                "value": "{color.red.70}",
                 "type": "color"
               },
               "subtle": {
@@ -1582,7 +1682,7 @@
             },
             "warning": {
               "accent": {
-                "value": "{color.yellow.90}",
+                "value": "{color.yellow.70}",
                 "type": "color"
               },
               "subtle": {
@@ -1592,7 +1692,7 @@
             },
             "success": {
               "accent": {
-                "value": "{color.green.90}",
+                "value": "{color.green.70}",
                 "type": "color"
               },
               "subtle": {
@@ -1602,7 +1702,7 @@
             },
             "info": {
               "accent": {
-                "value": "{iclinic.color.branding.90}",
+                "value": "{color.blue.70}",
                 "type": "color"
               },
               "subtle": {
@@ -1626,7 +1726,7 @@
             "value": "{color.alfaBlack.70}"
           },
           "activated": {
-            "value": "{iclinic.color.branding.70}",
+            "value": "{iclinic.color.interactive.accent.default}",
             "type": "color"
           },
           "disabled": {
@@ -1647,7 +1747,7 @@
               "type": "color"
             },
             "info": {
-              "value": "{iclinic.color.branding.90}",
+              "value": "{color.blue.90}",
               "type": "color"
             }
           },
@@ -1703,7 +1803,7 @@
               "type": "color"
             },
             "info": {
-              "value": "{iclinic.color.branding.80}",
+              "value": "{color.blue.80}",
               "type": "color"
             }
           }
@@ -1724,7 +1824,7 @@
         },
         "link": {
           "default": {
-            "value": "{iclinic.color.branding.70}",
+            "value": "{iclinic.color.interactive.accent.default}",
             "type": "color"
           },
           "visited": {
@@ -1938,7 +2038,7 @@
                 "type": "color"
               },
               "info": {
-                "value": "{iclinic.color.branding.120}",
+                "value": "{color.blue.120}",
                 "type": "color"
               }
             },
@@ -2017,7 +2117,7 @@
             "feedback": {
               "alert": {
                 "accent": {
-                  "value": "{color.red.90}",
+                  "value": "{color.red.70}",
                   "type": "color"
                 },
                 "subtle": {
@@ -2027,7 +2127,7 @@
               },
               "warning": {
                 "accent": {
-                  "value": "{color.yellow.90}",
+                  "value": "{color.yellow.70}",
                   "type": "color"
                 },
                 "subtle": {
@@ -2037,7 +2137,7 @@
               },
               "success": {
                 "accent": {
-                  "value": "{color.green.90}",
+                  "value": "{color.green.70}",
                   "type": "color"
                 },
                 "subtle": {
@@ -2047,7 +2147,7 @@
               },
               "info": {
                 "accent": {
-                  "value": "{iclinic.color.branding.90}",
+                  "value": "{iclinic.color.branding.70}",
                   "type": "color"
                 },
                 "subtle": {
@@ -2071,7 +2171,7 @@
               "type": "color"
             },
             "activated": {
-              "value": "{iclinic.color.branding.130}",
+              "value": "{iclinic.color.inverse.interactive.accent.default}",
               "type": "color"
             },
             "disabled": {
@@ -2092,7 +2192,7 @@
                 "type": "color"
               },
               "info": {
-                "value": "{iclinic.color.branding.100}",
+                "value": "{color.blue.100}",
                 "type": "color"
               }
             },
@@ -2148,7 +2248,7 @@
                 "type": "color"
               },
               "info": {
-                "value": "{iclinic.color.branding.90}",
+                "value": "{color.blue.90}",
                 "type": "color"
               }
             }
@@ -2169,7 +2269,7 @@
           },
           "link": {
             "default": {
-              "value": "{iclinic.color.branding.150}",
+              "value": "{iclinic.color.inverse.interactive.accent.default}",
               "type": "color"
             },
             "visited": {
@@ -2339,15 +2439,15 @@
               },
               "subtle": {
                 "default": {
-                  "value": "{color.red.70}",
+                  "value": "{color.alfaRed.100}",
                   "type": "color"
                 },
                 "hovered": {
-                  "value": "{color.red.60}",
+                  "value": "{color.red.70}",
                   "type": "color"
                 },
                 "pressed": {
-                  "value": "{color.red.50}",
+                  "value": "{color.red.60}",
                   "type": "color"
                 }
               }
@@ -2463,7 +2563,7 @@
             "feedback": {
               "alert": {
                 "accent": {
-                  "value": "{color.red.130}",
+                  "value": "{color.red.70}",
                   "type": "color"
                 },
                 "subtle": {
@@ -2473,7 +2573,7 @@
               },
               "warning": {
                 "accent": {
-                  "value": "{color.yellow.130}",
+                  "value": "{color.yellow.70}",
                   "type": "color"
                 },
                 "subtle": {
@@ -2483,7 +2583,7 @@
               },
               "success": {
                 "accent": {
-                  "value": "{color.green.130}",
+                  "value": "{color.green.70}",
                   "type": "color"
                 },
                 "subtle": {
@@ -2493,7 +2593,7 @@
               },
               "info": {
                 "accent": {
-                  "value": "{iclinic.color.branding.130}",
+                  "value": "{color.alfaBlack.130}",
                   "type": "color"
                 },
                 "subtle": {
@@ -2517,7 +2617,7 @@
               "value": "{color.alfaWhite.40}"
             },
             "activated": {
-              "value": "{iclinic.color.branding.150}",
+              "value": "{iclinic.color.brand.interactive.accent.default}",
               "type": "color"
             },
             "disabled": {
@@ -2538,7 +2638,7 @@
                 "type": "color"
               },
               "info": {
-                "value": "{iclinic.color.branding.140}",
+                "value": "{color.blue.140}",
                 "type": "color"
               }
             },
@@ -2594,7 +2694,7 @@
                 "type": "color"
               },
               "info": {
-                "value": "{iclinic.color.branding.140}",
+                "value": "{color.blue.140}",
                 "type": "color"
               }
             }
@@ -2615,11 +2715,11 @@
           },
           "link": {
             "default": {
-              "value": "{iclinic.color.branding.150}",
+              "value": "{iclinic.color.brand.interactive.accent.default}",
               "type": "color"
             },
             "visited": {
-              "value": "{color.purple.100}",
+              "value": "{color.purple.140}",
               "type": "color"
             }
           },

@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 08 May 2023 19:51:33 GMT
+ * Generated on Mon, 10 Jul 2023 14:24:49 GMT
  */
 
 :root {
@@ -64,13 +64,13 @@
 --color-surface-selected-default : #046eec0f;
 --color-surface-selected-hovered : #046eec26;
 --color-surface-selected-pressed : #046eec45;
---color-surface-feedback-alert-accent : #f63737;
+--color-surface-feedback-alert-accent : #cf0303;
 --color-surface-feedback-alert-subtle : #fef6f6;
---color-surface-feedback-warning-accent : #c76a00;
+--color-surface-feedback-warning-accent : #9e5400;
 --color-surface-feedback-warning-subtle : #fff5e0;
---color-surface-feedback-success-accent : #379539;
+--color-surface-feedback-success-accent : #0c790e;
 --color-surface-feedback-success-subtle : #f2f8f2;
---color-surface-feedback-info-accent : #0a7bff;
+--color-surface-feedback-info-accent : #0b63cb;
 --color-surface-feedback-info-subtle : #f0f7ff;
 --color-icon-default : #0000007d;
 --color-icon-hovered : #0000008c;
@@ -157,18 +157,18 @@
 --color-inverse-surface-selected-default : #046eec82;
 --color-inverse-surface-selected-hovered : #046eec9e;
 --color-inverse-surface-selected-pressed : #046eecba;
---color-inverse-surface-feedback-alert-accent : #f63737;
+--color-inverse-surface-feedback-alert-accent : #cf0303;
 --color-inverse-surface-feedback-alert-subtle : #fd5d5d0f;
---color-inverse-surface-feedback-warning-accent : #c76a00;
+--color-inverse-surface-feedback-warning-accent : #9e5400;
 --color-inverse-surface-feedback-warning-subtle : #db790014;
---color-inverse-surface-feedback-success-accent : #379539;
+--color-inverse-surface-feedback-success-accent : #0c790e;
 --color-inverse-surface-feedback-success-subtle : #37953912;
---color-inverse-surface-feedback-info-accent : #0a7bff;
+--color-inverse-surface-feedback-info-accent : #0b63cb;
 --color-inverse-surface-feedback-info-subtle : #046eec0f;
 --color-inverse-icon-default : #ffffffd6;
 --color-inverse-icon-hovered : #ffffffc4;
 --color-inverse-icon-pressed : #ffffffb5;
---color-inverse-icon-activated : #99c8ff;
+--color-inverse-icon-activated : #f0f7ff;
 --color-inverse-icon-disabled : #ffffff78;
 --color-inverse-icon-feedback-alert : #fd5d5d;
 --color-inverse-icon-feedback-warning : #db7900;
@@ -189,7 +189,7 @@
 --color-inverse-background-1 : #1f1f1f;
 --color-inverse-background-2 : #292929;
 --color-inverse-background-3 : #363636;
---color-inverse-link-default : #d6e9ff;
+--color-inverse-link-default : #f0f7ff;
 --color-inverse-link-visited : #8f51e1;
 --color-inverse-focus-default : #75b5ff;
 --color-inverse-focus-inset : #0000000a;
@@ -224,9 +224,9 @@
 --color-brand-interactive-alert-accent-default : #ffe0e0;
 --color-brand-interactive-alert-accent-hovered : #fac7c7;
 --color-brand-interactive-alert-accent-pressed : #fe9494;
---color-brand-interactive-alert-subtle-default : #cf0303;
---color-brand-interactive-alert-subtle-hovered : #b80000;
---color-brand-interactive-alert-subtle-pressed : #a00303;
+--color-brand-interactive-alert-subtle-default : #f63737c9;
+--color-brand-interactive-alert-subtle-hovered : #cf0303;
+--color-brand-interactive-alert-subtle-pressed : #b80000;
 --color-brand-typeface-strong : #fff;
 --color-brand-typeface-pure : #ffffffe3;
 --color-brand-typeface-smooth : #ffffffd6;
@@ -250,18 +250,18 @@
 --color-brand-surface-selected-default : #0000003b;
 --color-brand-surface-selected-hovered : #0000004d;
 --color-brand-surface-selected-pressed : #0000004d;
---color-brand-surface-feedback-alert-accent : #fdafaf;
+--color-brand-surface-feedback-alert-accent : #cf0303;
 --color-brand-surface-feedback-alert-subtle : #fd5d5d0f;
---color-brand-surface-feedback-warning-accent : #ffb82e;
+--color-brand-surface-feedback-warning-accent : #9e5400;
 --color-brand-surface-feedback-warning-subtle : #db790014;
---color-brand-surface-feedback-success-accent : #a1cea1;
+--color-brand-surface-feedback-success-accent : #0c790e;
 --color-brand-surface-feedback-success-subtle : #37953912;
---color-brand-surface-feedback-info-accent : #99c8ff;
+--color-brand-surface-feedback-info-accent : #0000003b;
 --color-brand-surface-feedback-info-subtle : #046eec0f;
 --color-brand-icon-default : #ffffffd6;
 --color-brand-icon-hovered : #ffffffc4;
 --color-brand-icon-pressed : #ffffffb5;
---color-brand-icon-activated : #d6e9ff;
+--color-brand-icon-activated : #f0f7ff;
 --color-brand-icon-disabled : #ffffff94;
 --color-brand-icon-feedback-alert : #fac7c7;
 --color-brand-icon-feedback-warning : #ffcd6b;
@@ -282,8 +282,8 @@
 --color-brand-background-1 : #0b63cb;
 --color-brand-background-2 : #0857b4;
 --color-brand-background-3 : #024aa2;
---color-brand-link-default : #d6e9ff;
---color-brand-link-visited : #ab7ce9;
+--color-brand-link-default : #f0f7ff;
+--color-brand-link-visited : #e0ccfa;
 --color-brand-focus-default : #d6e9ff;
 --color-brand-focus-inset : #046eec0f;
 --color-brand-others-backdrop : #0000006e;
