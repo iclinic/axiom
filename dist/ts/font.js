@@ -1,7 +1,7 @@
 "use strict";
 /**
  * Do not edit directly
- * Generated on Mon, 10 Jul 2023 14:24:49 GMT
+ * Generated on Wed, 09 Aug 2023 12:50:03 GMT
  */
 exports.__esModule = true;
 exports.font = void 0;

@@ -1605,6 +1605,10 @@
         "value": "32px",
         "type": "borderRadius"
       },
+      "pill": {
+        "value": "1000px",
+        "type": "borderRadius"
+      },
       "circular": {
         "value": "100%",
         "type": "borderRadius"
