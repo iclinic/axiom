@@ -1,0 +1,32 @@
+name: App versioning
+description: Action to release a new app version
+inputs:
+  github-token:
+    description: ""
+    required: true
+outputs:
+  version:
+    description: ""
+    value: ${{ steps.versionCheck.outputs.version }}
+
+runs:
+  using: composite
+  steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
+
+    - name: Get version from package.json
+      id: versionCheck
+      uses: EndBug/version-check@v2
+      with:
+        file-name: ./package.json
+
+    - name: Create Release
+      uses: ncipollo/release-action@v1
+      with:
+        generateReleaseNotes: true
+        name: ${{ steps.versionCheck.outputs.version }}
+        tag: ${{ steps.versionCheck.outputs.version }}
+        token: ${{ inputs.github-token }}
