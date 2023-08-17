@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 10 Jul 2023 14:24:49 GMT
+ * Generated on Wed, 23 Aug 2023 16:40:06 GMT
  */
 
 :root {
@@ -10,7 +10,7 @@
   --border-radius-lg: 16px;
   --border-radius-xl: 24px;
   --border-radius-xxl: 32px;
-  --border-radius-circular: 100%;
+  --border-radius-full: 10000px;
   --border-width-none: 0px;
   --border-width-xs: 1px;
   --border-width-sm: 2px;

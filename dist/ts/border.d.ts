@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 10 Jul 2023 14:24:49 GMT
+ * Generated on Wed, 23 Aug 2023 16:40:06 GMT
  */
 export declare const border: {
     readonly radius: {
@@ -10,7 +10,7 @@ export declare const border: {
         readonly lg: "16px";
         readonly xl: "24px";
         readonly xxl: "32px";
-        readonly circular: "100%";
+        readonly full: "10000px";
     };
     readonly width: {
         readonly none: "0px";

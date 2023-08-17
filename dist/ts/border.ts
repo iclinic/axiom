@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 10 Jul 2023 14:24:49 GMT
+ * Generated on Wed, 23 Aug 2023 16:40:06 GMT
  */
 
 export const border = <const>{
@@ -11,7 +11,7 @@ export const border = <const>{
     "lg": "16px",
     "xl": "24px",
     "xxl": "32px",
-    "circular": "100%"
+    "full": "10000px"
   },
   "width": {
     "none": "0px",

@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 10 Jul 2023 14:24:49 GMT
+ * Generated on Wed, 23 Aug 2023 16:40:06 GMT
  */
 
 :root {
@@ -180,7 +180,7 @@
 --color-inverse-icon-on-interactive-alert-subtle : #fef6f6;
 --color-inverse-border-accent : #ffffff94;
 --color-inverse-border-subtle : #ffffff45;
---color-inverse-border-activated : #75b5ff;
+--color-inverse-border-activated : #f0f7ff;
 --color-inverse-border-disable : #ffffff2b;
 --color-inverse-border-feedback-alert : #f63737;
 --color-inverse-border-feedback-warning : #c76a00;
@@ -191,7 +191,7 @@
 --color-inverse-background-3 : #363636;
 --color-inverse-link-default : #f0f7ff;
 --color-inverse-link-visited : #8f51e1;
---color-inverse-focus-default : #75b5ff;
+--color-inverse-focus-default : #f0f7ff;
 --color-inverse-focus-inset : #0000000a;
 --color-inverse-highlight-red-1 : #e02424;
 --color-inverse-highlight-red-2 : #fd5d5d;
@@ -273,7 +273,7 @@
 --color-brand-icon-on-interactive-alert-subtle : #fef6f6;
 --color-brand-border-accent : #ffffffa3;
 --color-brand-border-subtle : #ffffff85;
---color-brand-border-activated : #d6e9ff;
+--color-brand-border-activated : #f0f7ff;
 --color-brand-border-disabled : #ffffff78;
 --color-brand-border-feedback-alert : #fac7c7;
 --color-brand-border-feedback-warning : #ffcd6b;
@@ -284,7 +284,7 @@
 --color-brand-background-3 : #024aa2;
 --color-brand-link-default : #f0f7ff;
 --color-brand-link-visited : #e0ccfa;
---color-brand-focus-default : #d6e9ff;
+--color-brand-focus-default : #f0f7ff;
 --color-brand-focus-inset : #046eec0f;
 --color-brand-others-backdrop : #0000006e;
 --color-brand-others-divider : #ffffff5c;

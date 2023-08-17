@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 10 Jul 2023 14:24:49 GMT
+ * Generated on Wed, 23 Aug 2023 16:40:06 GMT
  */
 
 export const iclinic = <const>{
@@ -305,7 +305,7 @@ export const iclinic = <const>{
       "border": {
         "accent": "#ffffff94",
         "subtle": "#ffffff45",
-        "activated": "#75b5ff",
+        "activated": "#f0f7ff",
         "disable": "#ffffff2b",
         "feedback": {
           "alert": "#f63737",
@@ -324,7 +324,7 @@ export const iclinic = <const>{
         "visited": "#8f51e1"
       },
       "focus": {
-        "default": "#75b5ff",
+        "default": "#f0f7ff",
         "inset": "#0000000a"
       },
       "highlight": {
@@ -472,7 +472,7 @@ export const iclinic = <const>{
       "border": {
         "accent": "#ffffffa3",
         "subtle": "#ffffff85",
-        "activated": "#d6e9ff",
+        "activated": "#f0f7ff",
         "disabled": "#ffffff78",
         "feedback": {
           "alert": "#fac7c7",
@@ -491,7 +491,7 @@ export const iclinic = <const>{
         "visited": "#e0ccfa"
       },
       "focus": {
-        "default": "#d6e9ff",
+        "default": "#f0f7ff",
         "inset": "#046eec0f"
       },
       "others": {

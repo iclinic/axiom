@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 10 Jul 2023 14:24:49 GMT
+ * Generated on Wed, 23 Aug 2023 16:40:06 GMT
  */
 export declare const iclinic: {
     readonly color: {
@@ -304,7 +304,7 @@ export declare const iclinic: {
             readonly border: {
                 readonly accent: "#ffffff94";
                 readonly subtle: "#ffffff45";
-                readonly activated: "#75b5ff";
+                readonly activated: "#f0f7ff";
                 readonly disable: "#ffffff2b";
                 readonly feedback: {
                     readonly alert: "#f63737";
@@ -323,7 +323,7 @@ export declare const iclinic: {
                 readonly visited: "#8f51e1";
             };
             readonly focus: {
-                readonly default: "#75b5ff";
+                readonly default: "#f0f7ff";
                 readonly inset: "#0000000a";
             };
             readonly highlight: {
@@ -471,7 +471,7 @@ export declare const iclinic: {
             readonly border: {
                 readonly accent: "#ffffffa3";
                 readonly subtle: "#ffffff85";
-                readonly activated: "#d6e9ff";
+                readonly activated: "#f0f7ff";
                 readonly disabled: "#ffffff78";
                 readonly feedback: {
                     readonly alert: "#fac7c7";
@@ -490,7 +490,7 @@ export declare const iclinic: {
                 readonly visited: "#e0ccfa";
             };
             readonly focus: {
-                readonly default: "#d6e9ff";
+                readonly default: "#f0f7ff";
                 readonly inset: "#046eec0f";
             };
             readonly others: {
