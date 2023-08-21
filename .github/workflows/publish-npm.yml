@@ -1,17 +1,59 @@
 name: publish package to npmjs
 on:
-  release:
-    types: [created]
+  push:
+    branches: [main]
+
 jobs:
-  build:
+  check-version:
+    runs-on: ubuntu-latest
+    outputs:
+      version-has-changed: ${{ steps.versionCheck.outputs.changed }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Check whether package.json version has changed
+        id: versionCheck
+        uses: EndBug/version-check@v2
+        with:
+          file-name: ./package.json
+
+  create-release:
+    if: needs.check-version.outputs.version-has-changed == 'true'
+    needs: check-version
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Create release
+        uses: ./.github/actions/create-release
+        id: version
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+  publish-release:
+    if: needs.check-version.outputs.version-has-changed == 'true'
+    needs: check-version
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
       - uses: actions/checkout@v3
+        with:
+            fetch-depth: 0
+
+      - name: Build
       - uses: actions/setup-node@v3
         with:
           node-version: '16.x'
           registry-url: 'https://registry.npmjs.org'
       - run: npm ci
+
+      - name: Publish
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
