@@ -26,8 +26,8 @@
           "value": "32px",
           "type": "borderRadius"
         },
-        "circular": {
-          "value": "100%",
+        "full": {
+          "value": "10000px",
           "type": "borderRadius"
         }
       },
@@ -1706,7 +1706,7 @@
                 "type": "color"
               },
               "subtle": {
-                "value": "{iclinic.color.branding.160}",
+                "value": "{color.blue.160}",
                 "type": "color"
               }
             }
@@ -1782,7 +1782,7 @@
             "value": "{color.alfaBlack.150}"
           },
           "activated": {
-            "value": "{iclinic.color.branding.70}",
+            "value": "{iclinic.color.interactive.accent.default}",
             "type": "color"
           },
           "disabled": {
@@ -1834,7 +1834,7 @@
         },
         "focus": {
           "default": {
-            "value": "{iclinic.color.branding.70}",
+            "value": "{iclinic.color.interactive.accent.default}",
             "type": "color"
           },
           "inset": {
@@ -2227,7 +2227,7 @@
               "type": "color"
             },
             "activated": {
-              "value": "{iclinic.color.branding.120}",
+              "value": "{iclinic.color.inverse.interactive.accent.default}",
               "type": "color"
             },
             "disable": {
@@ -2279,7 +2279,7 @@
           },
           "focus": {
             "default": {
-              "value": "{iclinic.color.branding.120}",
+              "value": "{iclinic.color.brand.interactive.accent.default}",
               "type": "color"
             },
             "inset": {
@@ -2673,7 +2673,7 @@
               "value": "{color.alfaWhite.70}"
             },
             "activated": {
-              "value": "{iclinic.color.branding.150}",
+              "value": "{iclinic.color.brand.interactive.accent.default}",
               "type": "color"
             },
             "disabled": {
@@ -2725,7 +2725,7 @@
           },
           "focus": {
             "default": {
-              "value": "{iclinic.color.branding.150}",
+              "value": "{iclinic.color.brand.interactive.accent.default}",
               "type": "color"
             },
             "inset": {
