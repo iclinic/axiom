@@ -1,12 +1,18 @@
 name: App versioning
 description: Action to release a new app version
 inputs:
+  package-name:
+    description: 'Package name'
+    required: true
+  package-filename:
+    description: 'Path to packege.json file'
+    required: true
   github-token:
-    description: ""
+    description: ''
     required: true
 outputs:
   version:
-    description: ""
+    description: ''
     value: ${{ steps.versionCheck.outputs.version }}
 
 runs:
@@ -21,12 +27,12 @@ runs:
       id: versionCheck
       uses: EndBug/version-check@v2
       with:
-        file-name: ./package.json
+        file-name: { { inputs.package-filename } }
 
     - name: Create Release
       uses: ncipollo/release-action@v1
       with:
         generateReleaseNotes: true
-        name: ${{ steps.versionCheck.outputs.version }}
-        tag: ${{ steps.versionCheck.outputs.version }}
+        name: @${{ inputs.package-name }}@${{ steps.versionCheck.outputs.version }}
+        tag: @${{ inputs.package-name }}@${{ steps.versionCheck.outputs.version }}
         token: ${{ inputs.github-token }}
