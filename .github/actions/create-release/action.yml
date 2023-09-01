@@ -27,7 +27,7 @@ runs:
       id: versionCheck
       uses: EndBug/version-check@v2
       with:
-        file-name: { { inputs.package-filename } }
+        file-name: ${{ inputs.package-filename }}
 
     - name: Create Release
       uses: ncipollo/release-action@v1
