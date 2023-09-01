@@ -2,17 +2,17 @@ name: App versioning
 description: Action to release a new app version
 inputs:
   package-name:
-    description: 'Package name'
+    description: "Package name"
     required: true
   package-filename:
-    description: 'Path to packege.json file'
+    description: "Path to packege.json file"
     required: true
   github-token:
-    description: ''
+    description: ""
     required: true
 outputs:
   version:
-    description: ''
+    description: ""
     value: ${{ steps.versionCheck.outputs.version }}
 
 runs:
