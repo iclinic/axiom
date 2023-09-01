@@ -15,8 +15,9 @@
     "afya digital health"
   ],
   "scripts": {
+    "build": "npm run clean && npm run token-transformer && npm run build-dictionary && npm run ts",
     "test": "npm test",
-    "build": "node ./build.js",
+    "build-dictionary": "node ./build.js",
     "token-transformer": "token-transformer tokens/input.json tokens/output.json --expandShadow=false",
     "clean": "rm -rf dist",
     "ts": "npx tsc"
