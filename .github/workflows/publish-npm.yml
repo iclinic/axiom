@@ -18,7 +18,7 @@ jobs:
         id: versionCheck
         uses: EndBug/version-check@v2
         with:
-          file-name: ./package.json
+          file-name: ./packages/tokens/package.json
 
   create-release:
     if: needs.check-version.outputs.version-has-changed == 'true'
@@ -34,6 +34,8 @@ jobs:
         uses: ./.github/actions/create-release
         id: version
         with:
+          package-name: "axiom-ui/tokens"
+          package-filename: ./packages/tokens/package.json
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
   publish-release:
