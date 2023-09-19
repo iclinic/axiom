@@ -159,12 +159,12 @@
         }
       },
       "size": {
-        "xxxs": {
-          "value": "{font.size.xs} * 0.75",
-          "type": "fontSizes"
-        },
         "xxs": {
           "value": "{font.size.xs} * 0.875",
+          "type": "fontSizes"
+        },
+        "xxxs": {
+          "value": "{font.size.xs} * 0.75",
           "type": "fontSizes"
         },
         "xs": {
@@ -195,14 +195,12 @@
       },
       "letterSpacing": {
         "sm": {
-          "value": "0.01em",
-          "type": "letterSpacing",
-          "description": "No Figma esse valor correponde a 1%"
+          "value": "0.72px",
+          "type": "letterSpacing"
         },
         "md": {
-          "value": "0.04em",
-          "type": "letterSpacing",
-          "description": "No Figma esse valor correponde a 4%"
+          "value": "1px",
+          "type": "letterSpacing"
         }
       },
       "family": {
