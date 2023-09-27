@@ -23,10 +23,10 @@ export const Outline: Story = {
     variant: 'outline',
   },
 }
-export const Ghost: Story = {
+export const Transparent: Story = {
   render: (args) => <Button {...args}>Button</Button>,
   args: {
-    variant: 'ghost',
+    variant: 'transparent',
   },
 }
 export const Secondary: Story = {
@@ -39,6 +39,16 @@ export const Link: Story = {
   render: (args) => <Button {...args}>Button</Button>,
   args: {
     variant: 'link',
+  },
+}
+export const Disable: Story = {
+  render: (args) => (
+    <Button disabled {...args}>
+      Button
+    </Button>
+  ),
+  args: {
+    variant: 'primary',
   },
 }
 
@@ -57,7 +67,7 @@ export const Loading: Story = {
 }
 export const StartIcon: Story = {
   render: (args) => (
-    <Button startIcon={<Mail className="h-4 w-4" />} {...args}>
+    <Button startIcon={<Mail />} {...args}>
       Login with Email Button
     </Button>
   ),
@@ -68,7 +78,7 @@ export const StartIcon: Story = {
 
 export const EndIcon: Story = {
   render: (args) => (
-    <Button endIcon={<Mail className="h-4 w-4" />} {...args}>
+    <Button endIcon={<Mail />} {...args}>
       Login with Email Button
     </Button>
   ),

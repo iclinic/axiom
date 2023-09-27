@@ -11,63 +11,86 @@ import { Loader2Icon } from 'lucide-react'
 
 const buttonVariants = cva(
   [
-    'focus-visible:ring-ring',
     'inline-flex',
     'items-center',
     'justify-center',
+    'font-medium',
     'gap-2',
     'rounded-sm',
-    'text-sm',
+    'font-base',
     'filter-none',
     'focus-visible:outline-none',
-    'focus-visible:ring-2',
-    'font-medium',
+    'focus-visible:ring-1',
     'transition-colors',
-    'focus-visible:ring-offset-2',
+    'tracking-md',
+    'focus-visible:ring-offset-1',
+    'focus-visible:ring-focus-default',
+    'focus-visible:ring-offset-focus-inset',
     'disabled:pointer-events-none',
-    'disabled:opacity-50',
+    'disabled:bg-interactive-disabled',
+    'disabled:text-onInteractive-disabled',
+    'disabled:text-icon-disabled',
   ],
   {
     variants: {
       variant: {
-        default: [
+        primary: [
           'bg-interactive-accent-default',
           'text-onInteractive-accent',
           'hover:bg-interactive-accent-hovered',
+          'active:bg-interactive-accent-pressed',
+        ],
+        secondary: [
+          'bg-interactive-subtle-default',
+          'text-onInteractive-subtle',
+          'hover:bg-interactive-subtle-hovered',
+          'active:bg-interactive-subtle-pressed',
         ],
         destructive: [
           'bg-interactive-alert-accent-default',
           'text-onInteractive-alert-accent',
+          '[&>svg]:text-icon-onInteractive-alert-accent',
           'hover:bg-interactive-alert-accent-hovered',
+          'active:bg-interactive-alert-accent-pressed',
         ],
         outline: [
           'border-interactive-accent-default',
           'hover:border-interactive-accent-hovered',
           'text-interactive-accent-default',
           'hover:text-interactive-accent-hovered',
+          'active:border-interactive-accent-pressed',
+          'active:text-interactive-accent-pressed',
           'border',
         ],
-        secondary: [
-          'bg-interactive-subtle-default',
-          'text-onInteractive-subtle',
+        transparent: [
           'hover:bg-interactive-subtle-hovered',
-        ],
-        ghost: [
-          'hover:bg-interactive-subtle-hovered',
+          'active:bg-interactive-subtle-pressed',
           'text-onInteractive-subtle',
         ],
-        link: ['text-link-default', 'underline-offset-4', 'hover:underline'],
+        link: [
+          'text-link-default',
+          'visited:text-link-visited',
+          'underline-offset-4',
+          'hover:underline',
+        ],
       },
       size: {
-        default: 'h-10 px-4 py-3',
-        sm: 'h-9 rounded-md px-3',
-        lg: 'h-11 rounded-md px-8',
-        icon: 'h-10 w-10',
+        // TODO: change text-[14px] to text-xxs
+        small: [
+          'text-[14px]',
+          'leading-xs',
+          'px-4',
+          'py-2',
+          '[&>svg]:h-3',
+          '[&>svg]:w-3',
+        ],
+        medium: ['leading-xl', 'px-4', 'py-3', 'text-xs'],
+        large: ['leading-md', 'p-4', 'text-sm', '[&>svg]:h-5', '[&>svg]:w-5'],
       },
     },
     defaultVariants: {
-      variant: 'default',
-      size: 'default',
+      variant: 'primary',
+      size: 'small',
     },
   },
 )
@@ -109,7 +132,7 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
         {...props}
       >
         {startIcon}
-        {loading && <Loader2Icon className="h-4 w-4 animate-spin" />}
+        {loading && <Loader2Icon className="animate-spin" />}
         {children}
         {endIcon}
       </Comp>
