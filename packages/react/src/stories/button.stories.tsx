@@ -1,5 +1,5 @@
 import { type Meta, type StoryObj } from '@storybook/react'
-import { Loader2, Mail } from 'lucide-react'
+import { Mail } from 'lucide-react'
 
 import { Button } from '@/components/button'
 
@@ -49,20 +49,27 @@ export const Destructive: Story = {
   },
 }
 export const Loading: Story = {
-  render: (args) => (
-    <Button {...args}>
-      <Loader2 className="mr-2 h-4 w-4 animate-spin" />
-      Button
-    </Button>
-  ),
+  render: (args) => <Button {...args}>Button</Button>,
   args: {
+    loading: true,
     variant: 'outline',
   },
 }
-export const WithIcon: Story = {
+export const StartIcon: Story = {
   render: (args) => (
-    <Button {...args}>
-      <Mail className="mr-2 h-4 w-4" /> Login with Email Button
+    <Button startIcon={<Mail className="h-4 w-4" />} {...args}>
+      Login with Email Button
+    </Button>
+  ),
+  args: {
+    variant: 'secondary',
+  },
+}
+
+export const EndIcon: Story = {
+  render: (args) => (
+    <Button endIcon={<Mail className="h-4 w-4" />} {...args}>
+      Login with Email Button
     </Button>
   ),
   args: {

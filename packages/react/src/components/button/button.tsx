@@ -7,6 +7,7 @@ import {
 } from 'class-variance-authority'
 
 import { cn } from '@/lib/utils'
+import { Loader2Icon } from 'lucide-react'
 
 const buttonVariants = cva(
   [
@@ -14,6 +15,7 @@ const buttonVariants = cva(
     'inline-flex',
     'items-center',
     'justify-center',
+    'gap-2',
     'rounded-sm',
     'text-sm',
     'filter-none',
@@ -79,17 +81,38 @@ interface VariantProps extends CvaVariantProps<typeof buttonVariants> {
 
 export interface ButtonProps extends VariantProps, NativeProps {
   asChild?: boolean
+  loading?: boolean
+  startIcon?: React.ReactNode
+  endIcon?: React.ReactNode
 }
 
 const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
-  ({ className, variant, size, asChild = false, ...props }, ref) => {
+  (
+    {
+      className,
+      variant,
+      size,
+      children,
+      startIcon,
+      endIcon,
+      asChild = false,
+      loading = false,
+      ...props
+    },
+    ref,
+  ) => {
     const Comp = asChild ? Slot : 'button'
     return (
       <Comp
         ref={ref}
         className={cn(buttonVariants({ variant, size, className }))}
         {...props}
-      />
+      >
+        {startIcon}
+        {loading && <Loader2Icon className="h-4 w-4 animate-spin" />}
+        {children}
+        {endIcon}
+      </Comp>
     )
   },
 )
