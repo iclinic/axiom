@@ -20,6 +20,7 @@ const {
   typeface,
   link,
   icon,
+  focus,
   others: { backdrop, divider },
 } = color
 
@@ -39,6 +40,12 @@ module.exports = {
       interactive,
       border,
       divider,
+    },
+    ringColor: {
+      focus,
+    },
+    ringOffsetColor: {
+      focus,
     },
     textColor: {
       interactive,
@@ -72,6 +79,7 @@ module.exports = {
       ...shadowBrand.level,
     },
     extend: {
+      // TODO: REMOVE theses colors
       colors: {
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
