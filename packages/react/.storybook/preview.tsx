@@ -3,7 +3,7 @@ import type { Preview } from "@storybook/react"
 
 import "../src/styles.css"
 
-import { TailwindIndicator } from '../src/components/tailwind-indicator'
+// import { TailwindIndicator } from '../src/components/tailwind-indicator'
 
 const decorators = [
   (Story) => (
@@ -11,7 +11,7 @@ const decorators = [
       <div className="m-4">
         <Story />
       </div>
-      <TailwindIndicator />
+      {/* <TailwindIndicator /> */}
     </>
   ),
 ]
