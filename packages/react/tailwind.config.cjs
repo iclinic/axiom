@@ -11,40 +11,73 @@ const {
   // eslint-disable-next-line @typescript-eslint/no-var-requires
 } = require('@axiom-ui/tokens/iclinic')
 
+const {
+  surface,
+  interactive,
+  branding,
+  background,
+  highlight,
+  typeface,
+  link,
+  icon,
+  others: { backdrop, divider },
+} = color
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   darkMode: ['class'],
   content: ['src/**/*.{ts,tsx}'],
   theme: {
+    backgroundColor: {
+      ...background,
+      surface,
+      interactive,
+      branding,
+      backdrop,
+    },
+    borderColor: {
+      interactive,
+      border,
+      divider,
+    },
+    textColor: {
+      interactive,
+      ...typeface,
+      branding,
+      link,
+      icon,
+    },
+    colors: {
+      highlight,
+    },
+    fontSize: {
+      ...font.size,
+    },
+    fontWeight: {
+      ...font.weight,
+    },
+    lineHeight: {
+      ...font.lineHeight,
+    },
+    letterSpacing: {
+      ...font.letterSpacing,
+    },
+    spacing: {
+      ...spacing,
+    },
+    opacity: {
+      ...opacity.level,
+    },
+    boxShadow: {
+      ...shadowBrand.level,
+    },
     extend: {
-      fontSize: {
-        ...font.size,
-      },
-      fontWeight: {
-        ...font.weight,
-      },
-      lineHeight: {
-        ...font.lineHeight,
-      },
-      letterSpacing: {
-        ...font.letterSpacing,
-      },
-      spacing: {
-        ...spacing,
-      },
-      opacity: {
-        ...opacity.level,
-      },
-      boxShadow: {
-        ...shadowBrand.level,
-      },
       colors: {
-        ...color,
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
         ring: 'hsl(var(--ring))',
-        background: color.background[1],
-        foreground: 'hsl(var(--foreground))',
+        // background: color.interactive.accent.default,
+        foreground: color.typeface.onInteractive.accent,
         primary: {
           DEFAULT: 'hsl(var(--primary))',
           foreground: 'hsl(var(--primary-foreground))',
@@ -75,14 +108,11 @@ module.exports = {
         },
       },
       borderRadius: {
-        xl: `calc(var(--radius) + 4px)`,
-        lg: `var(--radius)`,
-        md: `calc(var(--radius) - 2px)`,
-        sm: 'calc(var(--radius) - 4px)',
         ...border.radius,
       },
       fontFamily: {
         sans: ['var(--font-sans)', ...fontFamily.sans],
+        base: font.family.base,
       },
       keyframes: {
         'accordion-down': {
