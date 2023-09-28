@@ -58,6 +58,10 @@ jobs:
         working-directory: ./packages/tokens
         run: npm ci
 
+      - name: Build tokens
+        working-directory: ./packages/tokens
+        run: npm run build
+
       - name: Publish
         working-directory: ./packages/tokens
         run: npm publish
