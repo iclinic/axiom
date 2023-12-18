@@ -1,0 +1,29 @@
+name: test output snapshot
+
+on:
+  pull_request:
+    branches: ["main"]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "16.x"
+
+      - name: Install packages
+        working-directory: ./packages/tokens
+        run: npm ci
+
+      - name: Build tokens
+        working-directory: ./packages/tokens
+        run: npm run build
+
+      - name: Test
+        working-directory: ./packages/tokens
+        run: npm run test

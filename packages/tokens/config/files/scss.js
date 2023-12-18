@@ -54,7 +54,7 @@ const scssFiles = [
     },
   },
   {
-    destination: "iClinic/iClinic-light.scss",
+    destination: "iClinic/theme.scss",
     format: "customCoreTokens",
     filter: {
       attributes: {

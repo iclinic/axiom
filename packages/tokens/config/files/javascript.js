@@ -54,7 +54,7 @@ const jsFiles = [
     },
   },
   {
-    destination: "iClinic/iClinic-light.ts",
+    destination: "iClinic/theme.ts",
     format: "customJsObject",
     filter: {
       attributes: {

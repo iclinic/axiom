@@ -54,7 +54,7 @@ const cssFiles = [
     },
   },
   {
-    destination: "iClinic/iClinic-light.css",
+    destination: "iClinic/theme.css",
     format: "customCoreTokens",
     filter: {
       attributes: {
