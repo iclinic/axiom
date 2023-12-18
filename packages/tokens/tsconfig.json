@@ -1,5 +1,5 @@
 {
-  "include": ["./base", "./iclinic"],
+  "include": ["./base", "./iclinic", "afya-iclinic"],
   "exclude": ["node_modules/**/*", "./dist"],
   "compilerOptions": {
     "moduleResolution": "node",

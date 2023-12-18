@@ -3024,7 +3024,7 @@
     }
   },
   "iclinic_tailwind": {
-    "iclinic": {
+    "afyaIclinic": {
       "color": {
         "branding": {
           "10": {
@@ -4582,285 +4582,281 @@
           ],
           "type": "boxShadow"
         }
-      }
-    },
-    "rounded": {
-      "none": {
-        "value": "{border.radius.none}",
-        "type": "borderRadius"
       },
-      "sm": {
-        "value": "{border.radius.sm}",
-        "type": "borderRadius"
+      "rounded": {
+        "none": {
+          "value": "{border.radius.none}",
+          "type": "borderRadius"
+        },
+        "sm": {
+          "value": "{border.radius.sm}",
+          "type": "borderRadius"
+        },
+        "md": {
+          "value": "{border.radius.md}",
+          "type": "borderRadius"
+        },
+        "lg": {
+          "value": "{border.radius.lg}",
+          "type": "borderRadius"
+        },
+        "xl": {
+          "value": "{border.radius.xl}",
+          "type": "borderRadius"
+        },
+        "xxl": {
+          "value": "{border.radius.xxl}",
+          "type": "borderRadius"
+        },
+        "full": {
+          "value": "{border.radius.full}",
+          "type": "borderRadius"
+        }
       },
-      "md": {
-        "value": "{border.radius.md}",
-        "type": "borderRadius"
+      "border": {
+        "none": {
+          "value": "{border.width.none}",
+          "type": "borderWidth"
+        },
+        "xs": {
+          "value": "{border.width.xs}",
+          "type": "borderWidth"
+        },
+        "sm": {
+          "value": "{border.width.sm}",
+          "type": "borderWidth"
+        }
       },
-      "lg": {
-        "value": "{border.radius.lg}",
-        "type": "borderRadius"
+      "font": {
+        "family": {
+          "value": "{font.family.base}",
+          "type": "fontFamilies"
+        },
+        "regular": {
+          "value": "{font.weight.regular}",
+          "type": "fontWeights"
+        },
+        "medium": {
+          "value": "{font.weight.medium}",
+          "type": "fontWeights"
+        },
+        "bold": {
+          "value": "{font.weight.bold}",
+          "type": "fontWeights"
+        }
       },
-      "xl": {
-        "value": "{border.radius.xl}",
-        "type": "borderRadius"
+      "text": {
+        "xxxs": {
+          "value": "{font.size.xxxs}",
+          "type": "fontSizes"
+        },
+        "xxs": {
+          "value": "{font.size.xxs}",
+          "type": "fontSizes"
+        },
+        "xs": {
+          "value": "{font.size.xs}",
+          "type": "fontSizes"
+        },
+        "sm": {
+          "value": "{font.size.sm}",
+          "type": "fontSizes"
+        },
+        "md": {
+          "value": "{font.size.md}",
+          "type": "fontSizes"
+        },
+        "lg": {
+          "value": "{font.size.lg}",
+          "type": "fontSizes"
+        },
+        "xl": {
+          "value": "{font.size.xl}",
+          "type": "fontSizes"
+        },
+        "xxl": {
+          "value": "{font.size.xxl}",
+          "type": "fontSizes"
+        }
       },
-      "xxl": {
-        "value": "{border.radius.xxl}",
-        "type": "borderRadius"
+      "leading": {
+        "xxs": {
+          "value": "{font.lineHeight.xxs}",
+          "type": "lineHeights"
+        },
+        "xs": {
+          "value": "{font.lineHeight.xs}",
+          "type": "lineHeights"
+        },
+        "sm": {
+          "value": "{font.lineHeight.sm}",
+          "type": "lineHeights"
+        },
+        "md": {
+          "value": "{font.lineHeight.md}",
+          "type": "lineHeights"
+        },
+        "lg": {
+          "value": "{font.lineHeight.lg}",
+          "type": "lineHeights"
+        },
+        "xl": {
+          "value": "{font.lineHeight.xl}",
+          "type": "lineHeights"
+        }
       },
-      "full": {
-        "value": "{border.radius.full}",
-        "type": "borderRadius"
-      }
-    },
-    "border": {
-      "none": {
-        "value": "{border.width.none}",
-        "type": "borderWidth"
+      "tracking": {
+        "sm": {
+          "value": "{font.letterSpacing.sm}",
+          "type": "letterSpacing"
+        },
+        "md": {
+          "value": "{font.letterSpacing.md}",
+          "type": "letterSpacing"
+        }
       },
-      "xs": {
-        "value": "{border.width.xs}",
-        "type": "borderWidth"
+      "opacity": {
+        "1": {
+          "value": "{opacity.level.1}",
+          "type": "opacity"
+        },
+        "2": {
+          "value": "{opacity.level.2}",
+          "type": "opacity"
+        },
+        "3": {
+          "value": "{opacity.level.3}",
+          "type": "opacity"
+        },
+        "4": {
+          "value": "{opacity.level.4}",
+          "type": "opacity"
+        },
+        "5": {
+          "value": "{opacity.level.5}",
+          "type": "opacity"
+        },
+        "6": {
+          "value": "{opacity.level.6}",
+          "type": "opacity"
+        },
+        "7": {
+          "value": "{opacity.level.7}",
+          "type": "opacity"
+        },
+        "8": {
+          "value": "{opacity.level.8}",
+          "type": "opacity"
+        },
+        "9": {
+          "value": "{opacity.level.9}",
+          "type": "opacity"
+        },
+        "10": {
+          "value": "{opacity.level.10}",
+          "type": "opacity"
+        }
       },
-      "sm": {
-        "value": "{border.width.sm}",
-        "type": "borderWidth"
-      }
-    },
-    "font": {
-      "family": {
-        "value": "{font.family.base}",
-        "type": "fontFamilies"
+      "shadow": {
+        "1": {
+          "value": "{shadow.level.1}",
+          "type": "boxShadow"
+        },
+        "2": {
+          "value": "{shadow.level.2}",
+          "type": "boxShadow"
+        },
+        "3": {
+          "value": "{shadow.level.3}",
+          "type": "boxShadow"
+        },
+        "4": {
+          "value": "{shadow.level.4}",
+          "type": "boxShadow"
+        },
+        "5": {
+          "value": "{shadow.level.5}",
+          "type": "boxShadow"
+        },
+        "6": {
+          "value": "{shadow.level.6}",
+          "type": "boxShadow"
+        }
       },
-      "regular": {
-        "value": "{font.weight.regular}",
-        "type": "fontWeights"
-      },
-      "medium": {
-        "value": "{font.weight.medium}",
-        "type": "fontWeights"
-      },
-      "bold": {
-        "value": "{font.weight.bold}",
-        "type": "fontWeights"
-      }
-    },
-    "text": {
-      "xxxs": {
-        "value": "{font.size.xxxs}",
-        "type": "fontSizes"
-      },
-      "xxs": {
-        "value": "{font.size.xxs}",
-        "type": "fontSizes"
-      },
-      "xs": {
-        "value": "{font.size.xs}",
-        "type": "fontSizes"
-      },
-      "sm": {
-        "value": "{font.size.sm}",
-        "type": "fontSizes"
-      },
-      "md": {
-        "value": "{font.size.md}",
-        "type": "fontSizes"
-      },
-      "lg": {
-        "value": "{font.size.lg}",
-        "type": "fontSizes"
-      },
-      "xl": {
-        "value": "{font.size.xl}",
-        "type": "fontSizes"
-      },
-      "xxl": {
-        "value": "{font.size.xxl}",
-        "type": "fontSizes"
-      }
-    },
-    "leading": {
-      "xxs": {
-        "value": "{font.lineHeight.xxs}",
-        "type": "lineHeights"
-      },
-      "xs": {
-        "value": "{font.lineHeight.xs}",
-        "type": "lineHeights"
-      },
-      "sm": {
-        "value": "{font.lineHeight.sm}",
-        "type": "lineHeights"
-      },
-      "md": {
-        "value": "{font.lineHeight.md}",
-        "type": "lineHeights"
-      },
-      "lg": {
-        "value": "{font.lineHeight.lg}",
-        "type": "lineHeights"
-      },
-      "xl": {
-        "value": "{font.lineHeight.xl}",
-        "type": "lineHeights"
-      }
-    },
-    "tracking": {
-      "sm": {
-        "value": "{font.letterSpacing.sm}",
-        "type": "letterSpacing"
-      },
-      "md": {
-        "value": "{font.letterSpacing.md}",
-        "type": "letterSpacing"
-      }
-    },
-    "opacity": {
-      "1": {
-        "value": "{opacity.level.1}",
-        "type": "opacity"
-      },
-      "2": {
-        "value": "{opacity.level.2}",
-        "type": "opacity"
-      },
-      "3": {
-        "value": "{opacity.level.3}",
-        "type": "opacity"
-      },
-      "4": {
-        "value": "{opacity.level.4}",
-        "type": "opacity"
-      },
-      "5": {
-        "value": "{opacity.level.5}",
-        "type": "opacity"
-      },
-      "6": {
-        "value": "{opacity.level.6}",
-        "type": "opacity"
-      },
-      "7": {
-        "value": "{opacity.level.7}",
-        "type": "opacity"
-      },
-      "8": {
-        "value": "{opacity.level.8}",
-        "type": "opacity"
-      },
-      "9": {
-        "value": "{opacity.level.9}",
-        "type": "opacity"
-      },
-      "10": {
-        "value": "{opacity.level.10}",
-        "type": "opacity"
-      }
-    },
-    "shadow": {
-      "1": {
-        "value": "{shadow.level.1}",
-        "type": "boxShadow"
-      },
-      "2": {
-        "value": "{shadow.level.2}",
-        "type": "boxShadow"
-      },
-      "3": {
-        "value": "{shadow.level.3}",
-        "type": "boxShadow"
-      },
-      "4": {
-        "value": "{shadow.level.4}",
-        "type": "boxShadow"
-      },
-      "5": {
-        "value": "{shadow.level.5}",
-        "type": "boxShadow"
-      },
-      "6": {
-        "value": "{shadow.level.6}",
-        "type": "boxShadow"
-      }
-    },
-    "space": {
-      "1": {
-        "value": "{spacing.1}",
-        "type": "spacing"
-      },
-      "2": {
-        "value": "{spacing.2}",
-        "type": "spacing"
-      },
-      "3": {
-        "value": "{spacing.3}",
-        "type": "spacing"
-      },
-      "4": {
-        "value": "{spacing.4}",
-        "type": "spacing"
-      },
-      "5": {
-        "value": "{spacing.5}",
-        "type": "spacing"
-      },
-      "6": {
-        "value": "{spacing.6}",
-        "type": "spacing"
-      },
-      "8": {
-        "value": "{spacing.8}",
-        "type": "spacing"
-      },
-      "10": {
-        "value": "{spacing.10}",
-        "type": "spacing"
-      },
-      "12": {
-        "value": "{spacing.12}",
-        "type": "spacing"
-      },
-      "14": {
-        "value": "{spacing.14}",
-        "type": "spacing"
-      },
-      "16": {
-        "value": "{spacing.16}",
-        "type": "spacing"
-      },
-      "20": {
-        "value": "{spacing.20}",
-        "type": "spacing"
-      },
-      "24": {
-        "value": "{spacing.24}",
-        "type": "spacing"
-      },
-      "32": {
-        "value": "{spacing.32}",
-        "type": "spacing"
-      },
-      "40": {
-        "value": "{spacing.40}",
-        "type": "spacing"
-      },
-      "56": {
-        "value": "{spacing.56}",
-        "type": "spacing"
-      },
-      "72": {
-        "value": "{spacing.72}",
-        "type": "spacing"
+      "space": {
+        "1": {
+          "value": "{spacing.1}",
+          "type": "spacing"
+        },
+        "2": {
+          "value": "{spacing.2}",
+          "type": "spacing"
+        },
+        "3": {
+          "value": "{spacing.3}",
+          "type": "spacing"
+        },
+        "4": {
+          "value": "{spacing.4}",
+          "type": "spacing"
+        },
+        "5": {
+          "value": "{spacing.5}",
+          "type": "spacing"
+        },
+        "6": {
+          "value": "{spacing.6}",
+          "type": "spacing"
+        },
+        "8": {
+          "value": "{spacing.8}",
+          "type": "spacing"
+        },
+        "10": {
+          "value": "{spacing.10}",
+          "type": "spacing"
+        },
+        "12": {
+          "value": "{spacing.12}",
+          "type": "spacing"
+        },
+        "14": {
+          "value": "{spacing.14}",
+          "type": "spacing"
+        },
+        "16": {
+          "value": "{spacing.16}",
+          "type": "spacing"
+        },
+        "20": {
+          "value": "{spacing.20}",
+          "type": "spacing"
+        },
+        "24": {
+          "value": "{spacing.24}",
+          "type": "spacing"
+        },
+        "32": {
+          "value": "{spacing.32}",
+          "type": "spacing"
+        },
+        "40": {
+          "value": "{spacing.40}",
+          "type": "spacing"
+        },
+        "56": {
+          "value": "{spacing.56}",
+          "type": "spacing"
+        },
+        "72": {
+          "value": "{spacing.72}",
+          "type": "spacing"
+        }
       }
     }
   },
   "$themes": [],
   "$metadata": {
-    "tokenSetOrder": [
-      "global",
-      "iclinic",
-      "iclinic_tailwind"
-    ]
+    "tokenSetOrder": ["global", "iclinic", "iclinic_tailwind"]
   }
 }

@@ -62,6 +62,15 @@ const scssFiles = [
       },
     },
   },
+  {
+    destination: "iClinic/afyaIclinic.scss",
+    format: "customCoreTokens",
+    filter: {
+      attributes: {
+        category: "afyaIclinic",
+      },
+    },
+  },
 ];
 
 module.exports = scssFiles;

@@ -62,6 +62,15 @@ const jsFiles = [
       },
     },
   },
+  {
+    destination: "iClinic/afyaIclinic.ts",
+    format: "customJsObject",
+    filter: {
+      attributes: {
+        category: "afyaIclinic",
+      },
+    },
+  },
 ];
 
 module.exports = jsFiles;

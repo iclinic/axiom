@@ -65,6 +65,18 @@ const cssFiles = [
       format: 'css',
     },
   },
+  {
+    destination: "iClinic/afyaIclinic.css",
+    format: "customCoreTokens",
+    filter: {
+      attributes: {
+        category: "afyaIclinic",
+      },
+    },
+    options: {
+      format: 'css',
+    },
+  },
 ];
 
 module.exports = cssFiles;

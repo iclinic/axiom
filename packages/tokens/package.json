@@ -1,12 +1,13 @@
 {
   "name": "@axiom-ui/tokens",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Axiom Design System Tokens",
   "main": "index.js",
   "files": [
     "dist/**",
     "base/**",
-    "iclinic/**"
+    "iclinic/**",
+    "afyaIclinic/**"
   ],
   "keywords": [
     "axiom",
