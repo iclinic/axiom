@@ -3205,7 +3205,7 @@
           "type": "boxShadow"
         }
       },
-      "space": {
+      "dimension": {
         "0": {
           "value": "{spacing.0}",
           "type": "spacing"
