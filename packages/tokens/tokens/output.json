@@ -5,11 +5,7 @@
       "type": "other"
     },
     "1": {
-      "value": "iclinic",
-      "type": "other"
-    },
-    "2": {
-      "value": "iclinic_tailwind",
+      "value": "Iclinic",
       "type": "other"
     }
   },
@@ -330,17 +326,13 @@
         }
       },
       "icon": {
-        "default": {
-          "type": "color",
-          "value": "#0000007d"
-        },
-        "hovered": {
-          "type": "color",
-          "value": "#0000008c"
-        },
-        "pressed": {
+        "accent": {
           "type": "color",
           "value": "#00000099"
+        },
+        "subtle": {
+          "type": "color",
+          "value": "#0000006e"
         },
         "activated": {
           "value": "#0b63cb",
@@ -348,7 +340,7 @@
         },
         "disabled": {
           "type": "color",
-          "value": "#0000003b"
+          "value": "#0000002b"
         },
         "feedback": {
           "alert": {
@@ -425,20 +417,18 @@
           }
         }
       },
-      "bg": {
-        "base": {
-          "1": {
-            "value": "#fff",
-            "type": "color"
-          },
-          "2": {
-            "value": "#f7f7f7",
-            "type": "color"
-          },
-          "3": {
-            "value": "#e6e6e6",
-            "type": "color"
-          }
+      "canvas": {
+        "1": {
+          "value": "#fff",
+          "type": "color"
+        },
+        "2": {
+          "value": "#f7f7f7",
+          "type": "color"
+        },
+        "3": {
+          "value": "#e6e6e6",
+          "type": "color"
         }
       },
       "link": {
@@ -451,7 +441,7 @@
           "type": "color"
         }
       },
-      "focus": {
+      "ring": {
         "default": {
           "value": "#0b63cb",
           "type": "color"
@@ -547,17 +537,19 @@
           }
         }
       },
-      "backdrop": {
-        "type": "color",
-        "value": "#0000006e"
-      },
-      "divider": {
-        "type": "color",
-        "value": "#0000001a"
-      },
-      "skeleton": {
-        "value": "#0000001a",
-        "type": "color"
+      "others": {
+        "backdrop": {
+          "type": "color",
+          "value": "#0000006e"
+        },
+        "divider": {
+          "type": "color",
+          "value": "#0000001a"
+        },
+        "skeleton": {
+          "value": "#0000001a",
+          "type": "color"
+        }
       },
       "inverse": {
         "interactive": {
@@ -775,16 +767,12 @@
           }
         },
         "icon": {
-          "default": {
+          "accent": {
             "value": "#ffffffd6",
             "type": "color"
           },
-          "hovered": {
+          "subtle": {
             "value": "#ffffffc4",
-            "type": "color"
-          },
-          "pressed": {
-            "value": "#ffffffb5",
             "type": "color"
           },
           "activated": {
@@ -870,20 +858,18 @@
             }
           }
         },
-        "bg": {
-          "base": {
-            "1": {
-              "value": "#1f1f1f",
-              "type": "color"
-            },
-            "2": {
-              "value": "#292929",
-              "type": "color"
-            },
-            "3": {
-              "value": "#363636",
-              "type": "color"
-            }
+        "canvas": {
+          "1": {
+            "value": "#1f1f1f",
+            "type": "color"
+          },
+          "2": {
+            "value": "#292929",
+            "type": "color"
+          },
+          "3": {
+            "value": "#363636",
+            "type": "color"
           }
         },
         "link": {
@@ -896,7 +882,7 @@
             "type": "color"
           }
         },
-        "focus": {
+        "ring": {
           "default": {
             "value": "#f0f7ff",
             "type": "color"
@@ -992,17 +978,19 @@
             }
           }
         },
-        "backdrop": {
-          "value": "#000000b3",
-          "type": "color"
-        },
-        "divider": {
-          "value": "#ffffff45",
-          "type": "color"
-        },
-        "skeleton": {
-          "value": "#ffffff45",
-          "type": "color"
+        "others": {
+          "backdrop": {
+            "value": "#000000b3",
+            "type": "color"
+          },
+          "divider": {
+            "value": "#ffffff45",
+            "type": "color"
+          },
+          "skeleton": {
+            "value": "#ffffff45",
+            "type": "color"
+          }
         }
       },
       "brand": {
@@ -1221,17 +1209,13 @@
           }
         },
         "icon": {
-          "default": {
+          "accent": {
             "type": "color",
             "value": "#ffffffd6"
           },
-          "hovered": {
+          "subtle": {
             "type": "color",
             "value": "#ffffffc4"
-          },
-          "pressed": {
-            "type": "color",
-            "value": "#ffffffb5"
           },
           "activated": {
             "value": "#f0f7ff",
@@ -1316,20 +1300,18 @@
             }
           }
         },
-        "bg": {
-          "sabe": {
-            "1": {
-              "value": "#0b63cb",
-              "type": "color"
-            },
-            "2": {
-              "value": "#0857b4",
-              "type": "color"
-            },
-            "3": {
-              "value": "#024aa2",
-              "type": "color"
-            }
+        "canvas": {
+          "1": {
+            "value": "#0b63cb",
+            "type": "color"
+          },
+          "2": {
+            "value": "#0857b4",
+            "type": "color"
+          },
+          "3": {
+            "value": "#024aa2",
+            "type": "color"
           }
         },
         "link": {
@@ -1342,7 +1324,7 @@
             "type": "color"
           }
         },
-        "focus": {
+        "ring": {
           "default": {
             "value": "#f0f7ff",
             "type": "color"
@@ -1351,18 +1333,6 @@
             "type": "color",
             "value": "#046eec0f"
           }
-        },
-        "backdrop": {
-          "type": "color",
-          "value": "#0000006e"
-        },
-        "divider": {
-          "type": "color",
-          "value": "#ffffff5c"
-        },
-        "skeleton": {
-          "value": "#ffffffa3",
-          "type": "color"
         },
         "highlight": {
           "red": {
@@ -1448,6 +1418,20 @@
               "value": "#eee2fd",
               "type": "color"
             }
+          }
+        },
+        "others": {
+          "backdrop": {
+            "type": "color",
+            "value": "#0000006e"
+          },
+          "divider": {
+            "type": "color",
+            "value": "#ffffff5c"
+          },
+          "skeleton": {
+            "value": "#ffffffa3",
+            "type": "color"
           }
         }
       }
@@ -1617,7 +1601,7 @@
       }
     },
     "font": {
-      "family": {
+      "base": {
         "value": "Roboto",
         "type": "fontFamilies"
       },
@@ -1756,19 +1740,6 @@
             "y": 1,
             "blur": 2,
             "spread": 0
-          }
-        ],
-        "type": "boxShadow"
-      },
-      "2": {
-        "value": [
-          {
-            "color": "#0000000a",
-            "type": "dropShadow",
-            "x": 0,
-            "y": 1,
-            "blur": 2,
-            "spread": 0
           },
           {
             "color": "#0000000a",
@@ -1781,10 +1752,10 @@
         ],
         "type": "boxShadow"
       },
-      "3": {
+      "2": {
         "value": [
           {
-            "color": "#0000000a",
+            "color": "#0000001a",
             "type": "dropShadow",
             "x": 0,
             "y": 2,
@@ -1802,10 +1773,10 @@
         ],
         "type": "boxShadow"
       },
-      "4": {
+      "3": {
         "value": [
           {
-            "color": "#0000001a",
+            "color": "#0000002b",
             "type": "dropShadow",
             "x": 0,
             "y": 12,
@@ -1823,10 +1794,10 @@
         ],
         "type": "boxShadow"
       },
-      "5": {
+      "4": {
         "value": [
           {
-            "color": "#0000001a",
+            "color": "#0000002b",
             "type": "dropShadow",
             "x": 0,
             "y": 32,
@@ -1834,12 +1805,33 @@
             "spread": -16
           },
           {
-            "color": "#0000000a",
+            "color": "#0000001a",
             "type": "dropShadow",
             "x": 0,
             "y": 2,
             "blur": 6,
             "spread": 0
+          }
+        ],
+        "type": "boxShadow"
+      },
+      "5": {
+        "value": [
+          {
+            "color": "#0000003b",
+            "type": "dropShadow",
+            "x": 0,
+            "y": 24,
+            "blur": 48,
+            "spread": -12
+          },
+          {
+            "color": "#0000001a",
+            "type": "dropShadow",
+            "x": 0,
+            "y": 48,
+            "blur": 64,
+            "spread": -24
           }
         ],
         "type": "boxShadow"
@@ -1859,14 +1851,18 @@
             "y": 48,
             "blur": 64,
             "spread": -24,
-            "color": "#0000001a",
+            "color": "#0000002b",
             "type": "dropShadow"
           }
         ],
         "type": "boxShadow"
       }
     },
-    "space": {
+    "dimension": {
+      "0": {
+        "value": "0rem",
+        "type": "spacing"
+      },
       "1": {
         "value": "0.25rem",
         "type": "spacing"
@@ -1983,7 +1979,11 @@
       }
     }
   },
-  "spacing": {
+  "dimension": {
+    "0": {
+      "value": "0rem",
+      "type": "spacing"
+    },
     "1": {
       "value": "0.25rem",
       "type": "spacing",
@@ -2096,12 +2096,12 @@
       }
     },
     "size": {
-      "xxs": {
-        "value": "0.875rem",
-        "type": "fontSizes"
-      },
       "xxxs": {
         "value": "0.75rem",
+        "type": "fontSizes"
+      },
+      "xxs": {
+        "value": "0.875rem",
         "type": "fontSizes"
       },
       "xs": {
@@ -3232,19 +3232,6 @@
             "y": 1,
             "blur": 2,
             "spread": 0
-          }
-        ],
-        "type": "boxShadow"
-      },
-      "2": {
-        "value": [
-          {
-            "color": "#0000000a",
-            "type": "dropShadow",
-            "x": 0,
-            "y": 1,
-            "blur": 2,
-            "spread": 0
           },
           {
             "color": "#0000000a",
@@ -3257,10 +3244,10 @@
         ],
         "type": "boxShadow"
       },
-      "3": {
+      "2": {
         "value": [
           {
-            "color": "#0000000a",
+            "color": "#0000001a",
             "type": "dropShadow",
             "x": 0,
             "y": 2,
@@ -3278,10 +3265,10 @@
         ],
         "type": "boxShadow"
       },
-      "4": {
+      "3": {
         "value": [
           {
-            "color": "#0000001a",
+            "color": "#0000002b",
             "type": "dropShadow",
             "x": 0,
             "y": 12,
@@ -3299,10 +3286,10 @@
         ],
         "type": "boxShadow"
       },
-      "5": {
+      "4": {
         "value": [
           {
-            "color": "#0000001a",
+            "color": "#0000002b",
             "type": "dropShadow",
             "x": 0,
             "y": 32,
@@ -3310,12 +3297,33 @@
             "spread": -16
           },
           {
-            "color": "#0000000a",
+            "color": "#0000001a",
             "type": "dropShadow",
             "x": 0,
             "y": 2,
             "blur": 6,
             "spread": 0
+          }
+        ],
+        "type": "boxShadow"
+      },
+      "5": {
+        "value": [
+          {
+            "color": "#0000003b",
+            "type": "dropShadow",
+            "x": 0,
+            "y": 24,
+            "blur": 48,
+            "spread": -12
+          },
+          {
+            "color": "#0000001a",
+            "type": "dropShadow",
+            "x": 0,
+            "y": 48,
+            "blur": 64,
+            "spread": -24
           }
         ],
         "type": "boxShadow"
@@ -3335,7 +3343,7 @@
             "y": 48,
             "blur": 64,
             "spread": -24,
-            "color": "#0000001a",
+            "color": "#0000002b",
             "type": "dropShadow"
           }
         ],

@@ -46,74 +46,78 @@
         }
       }
     },
-    "spacing": {
+    "dimension": {
+      "0": {
+        "value": "0rem",
+        "type": "spacing"
+      },
       "1": {
         "value": "0.25rem",
         "type": "spacing",
         "description": "Esse é nosso valor base. Todos os outros tokens de spacing, multiplicam o valor desse token para gerar novos tokens."
       },
       "2": {
-        "value": "{spacing.1} * 2",
+        "value": "{dimension.1} * 2",
         "type": "spacing"
       },
       "3": {
-        "value": "{spacing.1} * 3",
+        "value": "{dimension.1} * 3",
         "type": "spacing"
       },
       "4": {
-        "value": "{spacing.1} * 4",
+        "value": "{dimension.1} * 4",
         "type": "spacing"
       },
       "5": {
-        "value": "{spacing.1} * 5",
+        "value": "{dimension.1} * 5",
         "type": "spacing"
       },
       "6": {
-        "value": "{spacing.1} * 6",
+        "value": "{dimension.1} * 6",
         "type": "spacing"
       },
       "8": {
-        "value": "{spacing.1} * 8",
+        "value": "{dimension.1} * 8",
         "type": "spacing"
       },
       "10": {
-        "value": "{spacing.1} * 10",
+        "value": "{dimension.1} * 10",
         "type": "spacing"
       },
       "12": {
-        "value": "{spacing.1} * 12",
+        "value": "{dimension.1} * 12",
         "type": "spacing"
       },
       "14": {
-        "value": "{spacing.1} * 14",
+        "value": "{dimension.1} * 14",
         "type": "spacing"
       },
       "16": {
-        "value": "{spacing.1} * 16",
+        "value": "{dimension.1} * 16",
         "type": "spacing"
       },
       "20": {
-        "value": "{spacing.1} * 20",
+        "value": "{dimension.1} * 20",
         "type": "spacing"
       },
       "24": {
-        "value": "{spacing.1} * 24",
+        "value": "{dimension.1} * 24",
         "type": "spacing"
       },
       "32": {
-        "value": "{spacing.1} * 32",
+        "value": "{dimension.1} * 32",
         "type": "spacing"
       },
       "40": {
-        "value": "{spacing.1} * 40",
+        "value": "{dimension.1} * 40",
         "type": "spacing"
       },
       "56": {
-        "value": "{spacing.1} * 56",
+        "value": "{dimension.1} * 56",
         "type": "spacing"
       },
       "72": {
-        "value": "{spacing.1} * 72",
+        "value": "{dimension.1} * 72",
         "type": "spacing"
       }
     },
@@ -159,12 +163,12 @@
         }
       },
       "size": {
-        "xxs": {
-          "value": "{font.size.xs} * 0.875",
-          "type": "fontSizes"
-        },
         "xxxs": {
           "value": "{font.size.xs} * 0.75",
+          "type": "fontSizes"
+        },
+        "xxs": {
+          "value": "{font.size.xs} * 0.875",
           "type": "fontSizes"
         },
         "xs": {
@@ -1295,19 +1299,6 @@
               "y": "1",
               "blur": "2",
               "spread": "0"
-            }
-          ],
-          "type": "boxShadow"
-        },
-        "2": {
-          "value": [
-            {
-              "color": "{color.alfaBlack.160}",
-              "type": "dropShadow",
-              "x": "0",
-              "y": "1",
-              "blur": "2",
-              "spread": "0"
             },
             {
               "color": "{color.alfaBlack.160}",
@@ -1320,10 +1311,10 @@
           ],
           "type": "boxShadow"
         },
-        "3": {
+        "2": {
           "value": [
             {
-              "color": "{color.alfaBlack.160}",
+              "color": "{color.alfaBlack.150}",
               "type": "dropShadow",
               "x": "0",
               "y": "2",
@@ -1341,10 +1332,10 @@
           ],
           "type": "boxShadow"
         },
-        "4": {
+        "3": {
           "value": [
             {
-              "color": "{color.alfaBlack.150}",
+              "color": "{color.alfaBlack.140}",
               "type": "dropShadow",
               "x": "0",
               "y": "12",
@@ -1362,10 +1353,10 @@
           ],
           "type": "boxShadow"
         },
-        "5": {
+        "4": {
           "value": [
             {
-              "color": "{color.alfaBlack.150}",
+              "color": "{color.alfaBlack.140}",
               "type": "dropShadow",
               "x": "0",
               "y": "32",
@@ -1373,12 +1364,33 @@
               "spread": "-16"
             },
             {
-              "color": "{color.alfaBlack.160}",
+              "color": "{color.alfaBlack.150}",
               "type": "dropShadow",
               "x": "0",
               "y": "2",
               "blur": "6",
               "spread": "0"
+            }
+          ],
+          "type": "boxShadow"
+        },
+        "5": {
+          "value": [
+            {
+              "color": "{color.alfaBlack.130}",
+              "type": "dropShadow",
+              "x": "0",
+              "y": "24",
+              "blur": "48",
+              "spread": "-12"
+            },
+            {
+              "color": "{color.alfaBlack.150}",
+              "type": "dropShadow",
+              "x": "0",
+              "y": "48",
+              "blur": "64",
+              "spread": "-24"
             }
           ],
           "type": "boxShadow"
@@ -1398,7 +1410,7 @@
               "y": "48",
               "blur": "64",
               "spread": "-24",
-              "color": "{color.alfaBlack.150}",
+              "color": "{color.alfaBlack.140}",
               "type": "dropShadow"
             }
           ],
@@ -1451,7 +1463,7 @@
       }
     }
   },
-  "iclinic_tailwind": {
+  "Iclinic": {
     "iclinic": {
       "color": {
         "branding": {
@@ -1769,17 +1781,13 @@
           }
         },
         "icon": {
-          "default": {
-            "type": "color",
-            "value": "{color.alfaBlack.90}"
-          },
-          "hovered": {
-            "type": "color",
-            "value": "{color.alfaBlack.80}"
-          },
-          "pressed": {
+          "accent": {
             "type": "color",
             "value": "{color.alfaBlack.70}"
+          },
+          "subtle": {
+            "type": "color",
+            "value": "{color.alfaBlack.100}"
           },
           "activated": {
             "value": "{iclinic.color.interactive.accent.default}",
@@ -1787,7 +1795,7 @@
           },
           "disabled": {
             "type": "color",
-            "value": "{color.alfaBlack.130}"
+            "value": "{color.alfaBlack.140}"
           },
           "feedback": {
             "alert": {
@@ -1864,20 +1872,18 @@
             }
           }
         },
-        "bg": {
-          "base": {
-            "1": {
-              "value": "{color.pure.white}",
-              "type": "color"
-            },
-            "2": {
-              "value": "{color.gray.160}",
-              "type": "color"
-            },
-            "3": {
-              "value": "{color.gray.150}",
-              "type": "color"
-            }
+        "canvas": {
+          "1": {
+            "value": "{color.pure.white}",
+            "type": "color"
+          },
+          "2": {
+            "value": "{color.gray.160}",
+            "type": "color"
+          },
+          "3": {
+            "value": "{color.gray.150}",
+            "type": "color"
           }
         },
         "link": {
@@ -1890,7 +1896,7 @@
             "type": "color"
           }
         },
-        "focus": {
+        "ring": {
           "default": {
             "value": "{iclinic.color.interactive.accent.default}",
             "type": "color"
@@ -1986,17 +1992,19 @@
             }
           }
         },
-        "backdrop": {
-          "type": "color",
-          "value": "{color.alfaBlack.100}"
-        },
-        "divider": {
-          "type": "color",
-          "value": "{color.alfaBlack.150}"
-        },
-        "skeleton": {
-          "value": "{color.alfaBlack.150}",
-          "type": "color"
+        "others": {
+          "backdrop": {
+            "type": "color",
+            "value": "{color.alfaBlack.100}"
+          },
+          "divider": {
+            "type": "color",
+            "value": "{color.alfaBlack.150}"
+          },
+          "skeleton": {
+            "value": "{color.alfaBlack.150}",
+            "type": "color"
+          }
         },
         "inverse": {
           "interactive": {
@@ -2214,16 +2222,12 @@
             }
           },
           "icon": {
-            "default": {
+            "accent": {
               "value": "{color.alfaWhite.20}",
               "type": "color"
             },
-            "hovered": {
+            "subtle": {
               "value": "{color.alfaWhite.30}",
-              "type": "color"
-            },
-            "pressed": {
-              "value": "{color.alfaWhite.40}",
               "type": "color"
             },
             "activated": {
@@ -2309,20 +2313,18 @@
               }
             }
           },
-          "bg": {
-            "base": {
-              "1": {
-                "value": "{color.gray.10}",
-                "type": "color"
-              },
-              "2": {
-                "value": "{color.gray.20}",
-                "type": "color"
-              },
-              "3": {
-                "value": "{color.gray.30}",
-                "type": "color"
-              }
+          "canvas": {
+            "1": {
+              "value": "{color.gray.10}",
+              "type": "color"
+            },
+            "2": {
+              "value": "{color.gray.20}",
+              "type": "color"
+            },
+            "3": {
+              "value": "{color.gray.30}",
+              "type": "color"
             }
           },
           "link": {
@@ -2335,7 +2337,7 @@
               "type": "color"
             }
           },
-          "focus": {
+          "ring": {
             "default": {
               "value": "{iclinic.color.brand.interactive.accent.default}",
               "type": "color"
@@ -2431,17 +2433,19 @@
               }
             }
           },
-          "backdrop": {
-            "value": "{color.alfaBlack.50}",
-            "type": "color"
-          },
-          "divider": {
-            "value": "{color.alfaWhite.120}",
-            "type": "color"
-          },
-          "skeleton": {
-            "value": "{color.alfaWhite.120}",
-            "type": "color"
+          "others": {
+            "backdrop": {
+              "value": "{color.alfaBlack.50}",
+              "type": "color"
+            },
+            "divider": {
+              "value": "{color.alfaWhite.120}",
+              "type": "color"
+            },
+            "skeleton": {
+              "value": "{color.alfaWhite.120}",
+              "type": "color"
+            }
           }
         },
         "brand": {
@@ -2660,17 +2664,13 @@
             }
           },
           "icon": {
-            "default": {
+            "accent": {
               "type": "color",
               "value": "{color.alfaWhite.20}"
             },
-            "hovered": {
+            "subtle": {
               "type": "color",
               "value": "{color.alfaWhite.30}"
-            },
-            "pressed": {
-              "type": "color",
-              "value": "{color.alfaWhite.40}"
             },
             "activated": {
               "value": "{iclinic.color.brand.interactive.accent.default}",
@@ -2755,20 +2755,18 @@
               }
             }
           },
-          "bg": {
-            "sabe": {
-              "1": {
-                "value": "{iclinic.color.branding.70}",
-                "type": "color"
-              },
-              "2": {
-                "value": "{iclinic.color.branding.60}",
-                "type": "color"
-              },
-              "3": {
-                "value": "{iclinic.color.branding.50}",
-                "type": "color"
-              }
+          "canvas": {
+            "1": {
+              "value": "{iclinic.color.branding.70}",
+              "type": "color"
+            },
+            "2": {
+              "value": "{iclinic.color.branding.60}",
+              "type": "color"
+            },
+            "3": {
+              "value": "{iclinic.color.branding.50}",
+              "type": "color"
             }
           },
           "link": {
@@ -2781,7 +2779,7 @@
               "type": "color"
             }
           },
-          "focus": {
+          "ring": {
             "default": {
               "value": "{iclinic.color.brand.interactive.accent.default}",
               "type": "color"
@@ -2790,18 +2788,6 @@
               "type": "color",
               "value": "{iclinic.color.branding.alfa.160}"
             }
-          },
-          "backdrop": {
-            "type": "color",
-            "value": "{color.alfaBlack.100}"
-          },
-          "divider": {
-            "type": "color",
-            "value": "{color.alfaWhite.100}"
-          },
-          "skeleton": {
-            "value": "{color.alfaWhite.50}",
-            "type": "color"
           },
           "highlight": {
             "red": {
@@ -2887,6 +2873,20 @@
                 "value": "{color.purple.150}",
                 "type": "color"
               }
+            }
+          },
+          "others": {
+            "backdrop": {
+              "type": "color",
+              "value": "{color.alfaBlack.100}"
+            },
+            "divider": {
+              "type": "color",
+              "value": "{color.alfaWhite.100}"
+            },
+            "skeleton": {
+              "value": "{color.alfaWhite.50}",
+              "type": "color"
             }
           }
         }
@@ -3056,7 +3056,7 @@
         }
       },
       "font": {
-        "family": {
+        "base": {
           "value": "{font.family.base}",
           "type": "fontFamilies"
         },
@@ -3211,73 +3211,77 @@
           "type": "boxShadow"
         }
       },
-      "space": {
+      "dimension": {
+        "0": {
+          "value": "{dimension.0}",
+          "type": "spacing"
+        },
         "1": {
-          "value": "{spacing.1}",
+          "value": "{dimension.1}",
           "type": "spacing"
         },
         "2": {
-          "value": "{spacing.2}",
+          "value": "{dimension.2}",
           "type": "spacing"
         },
         "3": {
-          "value": "{spacing.3}",
+          "value": "{dimension.3}",
           "type": "spacing"
         },
         "4": {
-          "value": "{spacing.4}",
+          "value": "{dimension.4}",
           "type": "spacing"
         },
         "5": {
-          "value": "{spacing.5}",
+          "value": "{dimension.5}",
           "type": "spacing"
         },
         "6": {
-          "value": "{spacing.6}",
+          "value": "{dimension.6}",
           "type": "spacing"
         },
         "8": {
-          "value": "{spacing.8}",
+          "value": "{dimension.8}",
           "type": "spacing"
         },
         "10": {
-          "value": "{spacing.10}",
+          "value": "{dimension.10}",
           "type": "spacing"
         },
         "12": {
-          "value": "{spacing.12}",
+          "value": "{dimension.12}",
           "type": "spacing"
         },
         "14": {
-          "value": "{spacing.14}",
+          "value": "{dimension.14}",
           "type": "spacing"
         },
         "16": {
-          "value": "{spacing.16}",
+          "value": "{dimension.16}",
           "type": "spacing"
         },
         "20": {
-          "value": "{spacing.20}",
+          "value": "{dimension.20}",
           "type": "spacing"
         },
         "24": {
-          "value": "{spacing.24}",
+          "value": "{dimension.24}",
           "type": "spacing"
         },
         "32": {
-          "value": "{spacing.32}",
+          "value": "{dimension.32}",
           "type": "spacing"
         },
         "40": {
-          "value": "{spacing.40}",
+          "value": "{dimension.40}",
           "type": "spacing"
         },
         "56": {
-          "value": "{spacing.56}",
+          "value": "{dimension.56}",
           "type": "spacing"
         },
         "72": {
-          "value": "{spacing.72}",
+          "value": "{dimension.72}",
           "type": "spacing"
         }
       }
@@ -3285,6 +3289,6 @@
   },
   "$themes": [],
   "$metadata": {
-    "tokenSetOrder": ["global", "iclinic", "iclinic_tailwind"]
+    "tokenSetOrder": ["global", "Iclinic"]
   }
 }

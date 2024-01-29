@@ -9,11 +9,11 @@ const cssFiles = [
     },
   },
   {
-    destination: "spacing.css",
+    destination: "dimension.css",
     format: "css/variables",
     filter: {
       attributes: {
-        category: "spacing",
+        category: "dimension",
       },
     },
   },

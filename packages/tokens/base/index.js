@@ -11,7 +11,7 @@ var __createBinding = (this && this.__createBinding) || (Object.create ? (functi
     o[k2] = m[k];
 }));
 exports.__esModule = true;
-exports.spacing = exports.shadow = exports.opacity = exports.font = exports.color = exports.border = void 0;
+exports.dimension = exports.shadow = exports.opacity = exports.font = exports.color = exports.border = void 0;
 var border_1 = require("../dist/ts/border");
 __createBinding(exports, border_1, "border");
 var color_1 = require("../dist/ts/color");
@@ -22,5 +22,5 @@ var opacity_1 = require("../dist/ts/opacity");
 __createBinding(exports, opacity_1, "opacity");
 var shadow_1 = require("../dist/ts/shadow");
 __createBinding(exports, shadow_1, "shadow");
-var spacing_1 = require("../dist/ts/spacing");
-__createBinding(exports, spacing_1, "spacing");
+var dimension_1 = require("../dist/ts/dimension");
+__createBinding(exports, dimension_1, "dimension");

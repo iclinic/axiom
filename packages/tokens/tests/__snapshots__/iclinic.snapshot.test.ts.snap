@@ -8,14 +8,6 @@ exports[`iclinic theme tokens should match snapshot 1`] = `
     "xs": "1px",
   },
   "color": {
-    "backdrop": "#0000006e",
-    "bg": {
-      "base": {
-        "1": "#fff",
-        "2": "#f7f7f7",
-        "3": "#e6e6e6",
-      },
-    },
     "border": {
       "accent": "#0000003b",
       "activated": "#0b63cb",
@@ -29,14 +21,6 @@ exports[`iclinic theme tokens should match snapshot 1`] = `
       "subtle": "#0000001a",
     },
     "brand": {
-      "backdrop": "#0000006e",
-      "bg": {
-        "sabe": {
-          "1": "#0b63cb",
-          "2": "#0857b4",
-          "3": "#024aa2",
-        },
-      },
       "border": {
         "accent": "#ffffffa3",
         "activated": "#f0f7ff",
@@ -49,10 +33,10 @@ exports[`iclinic theme tokens should match snapshot 1`] = `
         },
         "subtle": "#ffffff85",
       },
-      "divider": "#ffffff5c",
-      "focus": {
-        "default": "#f0f7ff",
-        "inset": "#046eec0f",
+      "canvas": {
+        "1": "#0b63cb",
+        "2": "#0857b4",
+        "3": "#024aa2",
       },
       "highlight": {
         "blue": {
@@ -87,8 +71,8 @@ exports[`iclinic theme tokens should match snapshot 1`] = `
         },
       },
       "icon": {
+        "accent": "#ffffffd6",
         "activated": "#f0f7ff",
-        "default": "#ffffffd6",
         "disabled": "#ffffff94",
         "feedback": {
           "alert": "#fac7c7",
@@ -96,7 +80,6 @@ exports[`iclinic theme tokens should match snapshot 1`] = `
           "success": "#bcdcbc",
           "warning": "#ffcd6b",
         },
-        "hovered": "#ffffffc4",
         "onInteractive": {
           "accent": "#003e8a",
           "alert": {
@@ -105,7 +88,7 @@ exports[`iclinic theme tokens should match snapshot 1`] = `
           },
           "subtle": "#f0f7ff",
         },
-        "pressed": "#ffffffb5",
+        "subtle": "#ffffffc4",
       },
       "interactive": {
         "accent": {
@@ -136,7 +119,15 @@ exports[`iclinic theme tokens should match snapshot 1`] = `
         "default": "#f0f7ff",
         "visited": "#e0ccfa",
       },
-      "skeleton": "#ffffffa3",
+      "others": {
+        "backdrop": "#0000006e",
+        "divider": "#ffffff5c",
+        "skeleton": "#ffffffa3",
+      },
+      "ring": {
+        "default": "#f0f7ff",
+        "inset": "#046eec0f",
+      },
       "surface": {
         "accent": {
           "default": "#0000001a",
@@ -223,10 +214,10 @@ exports[`iclinic theme tokens should match snapshot 1`] = `
         "90": "#046eeccf",
       },
     },
-    "divider": "#0000001a",
-    "focus": {
-      "default": "#0b63cb",
-      "inset": "#ffffffd6",
+    "canvas": {
+      "1": "#fff",
+      "2": "#f7f7f7",
+      "3": "#e6e6e6",
     },
     "highlight": {
       "blue": {
@@ -261,16 +252,15 @@ exports[`iclinic theme tokens should match snapshot 1`] = `
       },
     },
     "icon": {
+      "accent": "#00000099",
       "activated": "#0b63cb",
-      "default": "#0000007d",
-      "disabled": "#0000003b",
+      "disabled": "#0000002b",
       "feedback": {
         "alert": "#f63737",
         "info": "#0a7bff",
         "success": "#379539",
         "warning": "#c76a00",
       },
-      "hovered": "#0000008c",
       "onInteractive": {
         "accent": "#f0f7ff",
         "alert": {
@@ -279,7 +269,7 @@ exports[`iclinic theme tokens should match snapshot 1`] = `
         },
         "subtle": "#003e8a",
       },
-      "pressed": "#00000099",
+      "subtle": "#0000006e",
     },
     "interactive": {
       "accent": {
@@ -307,14 +297,6 @@ exports[`iclinic theme tokens should match snapshot 1`] = `
       },
     },
     "inverse": {
-      "backdrop": "#000000b3",
-      "bg": {
-        "base": {
-          "1": "#1f1f1f",
-          "2": "#292929",
-          "3": "#363636",
-        },
-      },
       "border": {
         "accent": "#ffffff94",
         "activated": "#f0f7ff",
@@ -327,10 +309,10 @@ exports[`iclinic theme tokens should match snapshot 1`] = `
         },
         "subtle": "#ffffff45",
       },
-      "divider": "#ffffff45",
-      "focus": {
-        "default": "#f0f7ff",
-        "inset": "#0000000a",
+      "canvas": {
+        "1": "#1f1f1f",
+        "2": "#292929",
+        "3": "#363636",
       },
       "highlight": {
         "blue": {
@@ -365,8 +347,8 @@ exports[`iclinic theme tokens should match snapshot 1`] = `
         },
       },
       "icon": {
+        "accent": "#ffffffd6",
         "activated": "#f0f7ff",
-        "default": "#ffffffd6",
         "disabled": "#ffffff78",
         "feedback": {
           "alert": "#fd5d5d",
@@ -374,7 +356,6 @@ exports[`iclinic theme tokens should match snapshot 1`] = `
           "success": "#56a457",
           "warning": "#db7900",
         },
-        "hovered": "#ffffffc4",
         "onInteractive": {
           "accent": "#003e8a",
           "alert": {
@@ -383,7 +364,7 @@ exports[`iclinic theme tokens should match snapshot 1`] = `
           },
           "subtle": "#f0f7ff",
         },
-        "pressed": "#ffffffb5",
+        "subtle": "#ffffffc4",
       },
       "interactive": {
         "accent": {
@@ -414,7 +395,15 @@ exports[`iclinic theme tokens should match snapshot 1`] = `
         "default": "#f0f7ff",
         "visited": "#8f51e1",
       },
-      "skeleton": "#ffffff45",
+      "others": {
+        "backdrop": "#000000b3",
+        "divider": "#ffffff45",
+        "skeleton": "#ffffff45",
+      },
+      "ring": {
+        "default": "#f0f7ff",
+        "inset": "#0000000a",
+      },
       "surface": {
         "accent": {
           "default": "#ffffff1c",
@@ -477,7 +466,15 @@ exports[`iclinic theme tokens should match snapshot 1`] = `
       "default": "#0b63cb",
       "visited": "#641ec2",
     },
-    "skeleton": "#0000001a",
+    "others": {
+      "backdrop": "#0000006e",
+      "divider": "#0000001a",
+      "skeleton": "#0000001a",
+    },
+    "ring": {
+      "default": "#0b63cb",
+      "inset": "#ffffffd6",
+    },
     "surface": {
       "accent": {
         "default": "#0000000a",
@@ -536,9 +533,29 @@ exports[`iclinic theme tokens should match snapshot 1`] = `
       "strong": "#000000d6",
     },
   },
+  "dimension": {
+    "0": "0rem",
+    "1": "0.25rem",
+    "10": "2.5rem",
+    "12": "3rem",
+    "14": "3.5rem",
+    "16": "4rem",
+    "2": "0.5rem",
+    "20": "5rem",
+    "24": "6rem",
+    "3": "0.75rem",
+    "32": "8rem",
+    "4": "1rem",
+    "40": "10rem",
+    "5": "1.25rem",
+    "56": "14rem",
+    "6": "1.5rem",
+    "72": "18rem",
+    "8": "2rem",
+  },
   "font": {
+    "base": "Roboto",
     "bold": 700,
-    "family": "Roboto",
     "medium": 500,
     "regular": 400,
   },
@@ -572,12 +589,12 @@ exports[`iclinic theme tokens should match snapshot 1`] = `
     "xxl": "32px",
   },
   "shadow": {
-    "1": "0px 1px 2px 0px rgba(0, 0, 0, 0.04)",
-    "2": "0px 1px 2px 0px rgba(0, 0, 0, 0.04), 0px 5px 4px -4px rgba(0, 0, 0, 0.04)",
-    "3": "0px 2px 2px 0px rgba(0, 0, 0, 0.04), 0px 0px 2px 0px rgba(0, 0, 0, 0.04)",
-    "4": "0px 12px 12px -8px rgba(0, 0, 0, 0.1), 0px 0px 4px 0px rgba(0, 0, 0, 0.04)",
-    "5": "0px 32px 40px -16px rgba(0, 0, 0, 0.1), 0px 2px 6px 0px rgba(0, 0, 0, 0.04)",
-    "6": "0px 24px 48px -8px rgba(0, 0, 0, 0.17), 0px 48px 64px -24px rgba(0, 0, 0, 0.1)",
+    "1": "0px 1px 2px 0px rgba(0, 0, 0, 0.04), 0px 5px 4px -4px rgba(0, 0, 0, 0.04)",
+    "2": "0px 2px 2px 0px rgba(0, 0, 0, 0.1), 0px 0px 2px 0px rgba(0, 0, 0, 0.04)",
+    "3": "0px 12px 12px -8px rgba(0, 0, 0, 0.17), 0px 0px 4px 0px rgba(0, 0, 0, 0.04)",
+    "4": "0px 32px 40px -16px rgba(0, 0, 0, 0.17), 0px 2px 6px 0px rgba(0, 0, 0, 0.1)",
+    "5": "0px 24px 48px -12px rgba(0, 0, 0, 0.23), 0px 48px 64px -24px rgba(0, 0, 0, 0.1)",
+    "6": "0px 24px 48px -8px rgba(0, 0, 0, 0.17), 0px 48px 64px -24px rgba(0, 0, 0, 0.17)",
   },
   "shadowBrand": {
     "1": "0px 1px 2px 0px rgba(4, 110, 236, 0.06)",
@@ -586,25 +603,6 @@ exports[`iclinic theme tokens should match snapshot 1`] = `
     "4": "0px 12px 12px -8px rgba(4, 110, 236, 0.15), 0px 0px 4px 0px rgba(4, 110, 236, 0.06)",
     "5": "0px 32px 40px -16px rgba(4, 110, 236, 0.15), 0px 2px 6px 0px rgba(4, 110, 236, 0.06)",
     "6": "0px 24px 48px -8px rgba(4, 110, 236, 0.15), 0px 48px 64px -24px rgba(4, 110, 236, 0.15)",
-  },
-  "space": {
-    "1": "0.25rem",
-    "10": "2.5rem",
-    "12": "3rem",
-    "14": "3.5rem",
-    "16": "4rem",
-    "2": "0.5rem",
-    "20": "5rem",
-    "24": "6rem",
-    "3": "0.75rem",
-    "32": "8rem",
-    "4": "1rem",
-    "40": "10rem",
-    "5": "1.25rem",
-    "56": "14rem",
-    "6": "1.5rem",
-    "72": "18rem",
-    "8": "2rem",
   },
   "text": {
     "lg": "1.75rem",

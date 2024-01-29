@@ -8,7 +8,7 @@ export const {
   opacity,
   rounded,
   shadow,
-  space,
+  dimension,
   text,
   tracking,
 } = iclinic;

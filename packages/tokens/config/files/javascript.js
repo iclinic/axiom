@@ -9,11 +9,11 @@ const jsFiles = [
     },
   },
   {
-    destination: "spacing.ts",
+    destination: "dimension.ts",
     format: "customJsObject",
     filter: {
       attributes: {
-        category: "spacing",
+        category: "dimension",
       },
     },
   },

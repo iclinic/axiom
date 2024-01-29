@@ -1,6 +1,6 @@
 import { expect, test } from "vitest";
 
-import { iclinic } from "../dist/ts/iClinic/theme";
+import * as iclinic from "../iclinic/index.ts";
 
 test("iclinic theme tokens should match snapshot", () => {
   try {
