@@ -1992,17 +1992,19 @@
             }
           }
         },
-        "backdrop": {
-          "type": "color",
-          "value": "{color.alfaBlack.100}"
-        },
-        "divider": {
-          "type": "color",
-          "value": "{color.alfaBlack.150}"
-        },
-        "skeleton": {
-          "value": "{color.alfaBlack.150}",
-          "type": "color"
+        "others": {
+          "backdrop": {
+            "type": "color",
+            "value": "{color.alfaBlack.100}"
+          },
+          "divider": {
+            "type": "color",
+            "value": "{color.alfaBlack.150}"
+          },
+          "skeleton": {
+            "value": "{color.alfaBlack.150}",
+            "type": "color"
+          }
         },
         "inverse": {
           "interactive": {
@@ -2431,17 +2433,19 @@
               }
             }
           },
-          "backdrop": {
-            "value": "{color.alfaBlack.50}",
-            "type": "color"
-          },
-          "divider": {
-            "value": "{color.alfaWhite.120}",
-            "type": "color"
-          },
-          "skeleton": {
-            "value": "{color.alfaWhite.120}",
-            "type": "color"
+          "others": {
+            "backdrop": {
+              "value": "{color.alfaBlack.50}",
+              "type": "color"
+            },
+            "divider": {
+              "value": "{color.alfaWhite.120}",
+              "type": "color"
+            },
+            "skeleton": {
+              "value": "{color.alfaWhite.120}",
+              "type": "color"
+            }
           }
         },
         "brand": {
@@ -2785,17 +2789,19 @@
               "value": "{iclinic.color.branding.alfa.160}"
             }
           },
-          "backdrop": {
-            "type": "color",
-            "value": "{color.alfaBlack.100}"
-          },
-          "divider": {
-            "type": "color",
-            "value": "{color.alfaWhite.100}"
-          },
-          "skeleton": {
-            "value": "{color.alfaWhite.50}",
-            "type": "color"
+          "others": {
+            "backdrop": {
+              "type": "color",
+              "value": "{color.alfaBlack.100}"
+            },
+            "divider": {
+              "type": "color",
+              "value": "{color.alfaWhite.100}"
+            },
+            "skeleton": {
+              "value": "{color.alfaWhite.50}",
+              "type": "color"
+            }
           },
           "highlight": {
             "red": {
