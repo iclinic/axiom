@@ -33,6 +33,6 @@ runs:
       uses: ncipollo/release-action@v1
       with:
         generateReleaseNotes: true
-        name: @${{ inputs.package-name }}@${{ steps.versionCheck.outputs.version }}
-        tag: @${{ inputs.package-name }}@${{ steps.versionCheck.outputs.version }}
+        name: "@${{ inputs.package-name }}@${{ steps.versionCheck.outputs.version }}"
+        tag: "@${{ inputs.package-name }}@${{ steps.versionCheck.outputs.version }}"
         token: ${{ inputs.github-token }}
