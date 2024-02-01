@@ -1,0 +1,40 @@
+name: test output snapshot
+
+on:
+  pull_request:
+    branches: ["main"]
+
+jobs:
+  check-version:
+    runs-on: ubuntu-latest
+    outputs:
+      version-has-changed: ${{ steps.versionCheck.outputs.changed }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Check whether package.json version has changed
+        id: versionCheck
+        uses: EndBug/version-check@v2
+        with:
+          file-name: ./packages/tokens/package.json
+
+  create-release:
+    if: needs.check-version.outputs.version-has-changed == 'true'
+    needs: check-version
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Create release
+        uses: ./.github/actions/create-release
+        id: version
+        with:
+          package-name: axiom-ui/tokens
+          package-filename: ./packages/tokens/package.json
+          github-token: ${{ secrets.GITHUB_TOKEN }}
