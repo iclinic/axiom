@@ -1,3 +1,14 @@
-import { iclinic } from "../dist/ts/iClinic/iClinic-light";
-export { border, font, opacity, shadow, spacing } from "../base";
-export const { color, shadowBrand } = iclinic;
+import { iclinic } from "../dist/ts/iClinic/theme";
+export const {
+  color,
+  shadowBrand,
+  border,
+  font,
+  leading,
+  opacity,
+  rounded,
+  shadow,
+  dimension,
+  text,
+  tracking,
+} = iclinic;

@@ -1,8 +1,9 @@
 
 ![image](https://user-images.githubusercontent.com/9949206/180495595-4c9d4b6a-642d-459f-9361-fd0f4d200658.png)
-<!-- TODO: add npm package version badge -->
+
 
 # **Axiom Design System Tokens**
+![NPM Version](https://img.shields.io/npm/v/%40axiom-ui%2Ftokens)
 
 Repositório destinado a gestão dos tokens de design do Design System Axiom.
 
@@ -16,9 +17,9 @@ yarn add @axiom-ui/tokens
 
 ### Desing Token
 
-Um *token de design* é uma **decsão de design codificado e armazenado em variáveis promovendo a padronização de vários elementos de estilo** como: tipografia, cores, regras de espaçamento, elevação e relacionados. São os alicerces para um Design System e promovem unidade entre os diferentes produtos de nosso Pilar, sendo compartilhados entre designers e pessoas desenvolvedoras.
+Um *token de design* é uma **decisão de design codificado e armazenado em variáveis promovendo a padronização de vários elementos de estilo** como: tipografia, cores, regras de espaçamento, elevação e relacionados. São os alicerces para um Design System e promovem unidade entre os diferentes produtos de nosso Pilar, sendo compartilhados entre designers e pessoas desenvolvedoras.
 
-Os tokens estão sendo disponibilizados em 2 cateorias: tokens "base" e tokens de "tema" como descrito abaixo.
+Os tokens estão sendo disponibilizados em 2 categorias: tokens "base" e tokens de "tema" como descrito abaixo.
 
 ### **Axiom Base Tokens: `@axiom-ui/tokens/base`**
 
@@ -28,7 +29,7 @@ Base Tokens armazenam valores absolutos de propriedades css como cores, espaçam
 Exemplo:
 ```ts
 // Axiom Base Tokens Example
-import { color } from '@axiom-ui/tokens/global'
+import { color } from '@axiom-ui/tokens/base'
 
 
 // Color

@@ -15,12 +15,20 @@ Esse projeto também utiliza a biblioteca [token-transformer](https://www.npmjs.
 
 ### Scripts
 
+`npm run build` -  Executa os comandos de remoção, transformação e build de maneira sequencial, unificando em um processo único de build, se o foco do desenvolvimento não for uma etapa específica do processo, esse comando pode ser usado para a geração dos tokens.
+
 `npm run clean` - remove os tokens antigos
 
 `npm run token-transformer` -  processa o arquivo tokens/inputs.json e gera um novo arquivo tokens/output.json que vai servir de source para o script do Style Dictionary.
 
-`npm run build` -  Executa o arquivo build.js, que é o arquivo que roda o Style Dictionary, lendo o arquivo output.json e gera a pasta `build`, que contém dentro dela todas as plataformas prontas para serem consumidas.
+`npm run build-dictionary` -  Executa o arquivo build.js, que é o arquivo que roda o Style Dictionary, lendo o arquivo output.json e gera a pasta `build`, que contém dentro dela todas as plataformas prontas para serem consumidas.
 As configurações de plataformas e arquivos que devem ser gerados estão na pasta `config`.
+
+`npm run test` -  Executa os testes do projeto.
+
+`npm run test:watch` -  Executa os testes do projeto em modo *livereload*.
+
+`npm run test:update` - Executa os testes do projeto e atualiza os snapshots de acordo com o código atual.
 
 
 ### Referências

@@ -9,11 +9,11 @@ const cssFiles = [
     },
   },
   {
-    destination: "spacing.css",
+    destination: "dimension.css",
     format: "css/variables",
     filter: {
       attributes: {
-        category: "spacing",
+        category: "dimension",
       },
     },
   },
@@ -54,7 +54,7 @@ const cssFiles = [
     },
   },
   {
-    destination: "iClinic/iClinic-light.css",
+    destination: "iClinic/theme.css",
     format: "customCoreTokens",
     filter: {
       attributes: {

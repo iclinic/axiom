@@ -1,4 +1,3 @@
-export { border, font, opacity, shadow, spacing } from "../base";
 export declare const color: {
     readonly branding: {
         readonly "10": "#001f3d";
@@ -53,7 +52,7 @@ export declare const color: {
             };
         };
     };
-    readonly typeface: {
+    readonly text: {
         readonly strong: "#000000d6";
         readonly pure: "#000000bd";
         readonly smooth: "#0000008c";
@@ -111,11 +110,10 @@ export declare const color: {
         };
     };
     readonly icon: {
-        readonly default: "#0000007d";
-        readonly hovered: "#0000008c";
-        readonly pressed: "#00000099";
+        readonly accent: "#00000099";
+        readonly subtle: "#0000006e";
         readonly activated: "#0b63cb";
-        readonly disabled: "#0000003b";
+        readonly disabled: "#0000002b";
         readonly feedback: {
             readonly alert: "#f63737";
             readonly warning: "#c76a00";
@@ -143,7 +141,7 @@ export declare const color: {
             readonly info: "#046eec";
         };
     };
-    readonly background: {
+    readonly canvas: {
         readonly "1": "#fff";
         readonly "2": "#f7f7f7";
         readonly "3": "#e6e6e6";
@@ -152,7 +150,7 @@ export declare const color: {
         readonly default: "#0b63cb";
         readonly visited: "#641ec2";
     };
-    readonly focus: {
+    readonly ring: {
         readonly default: "#0b63cb";
         readonly inset: "#ffffffd6";
     };
@@ -219,7 +217,7 @@ export declare const color: {
                 };
             };
         };
-        readonly typeface: {
+        readonly text: {
             readonly strong: "#ffffffe3";
             readonly pure: "#ffffffd6";
             readonly smooth: "#ffffffb5";
@@ -277,9 +275,8 @@ export declare const color: {
             };
         };
         readonly icon: {
-            readonly default: "#ffffffd6";
-            readonly hovered: "#ffffffc4";
-            readonly pressed: "#ffffffb5";
+            readonly accent: "#ffffffd6";
+            readonly subtle: "#ffffffc4";
             readonly activated: "#f0f7ff";
             readonly disabled: "#ffffff78";
             readonly feedback: {
@@ -309,7 +306,7 @@ export declare const color: {
                 readonly info: "#0a7bff";
             };
         };
-        readonly background: {
+        readonly canvas: {
             readonly "1": "#1f1f1f";
             readonly "2": "#292929";
             readonly "3": "#363636";
@@ -318,7 +315,7 @@ export declare const color: {
             readonly default: "#f0f7ff";
             readonly visited: "#8f51e1";
         };
-        readonly focus: {
+        readonly ring: {
             readonly default: "#f0f7ff";
             readonly inset: "#0000000a";
         };
@@ -386,7 +383,7 @@ export declare const color: {
                 };
             };
         };
-        readonly typeface: {
+        readonly text: {
             readonly strong: "#fff";
             readonly pure: "#ffffffe3";
             readonly smooth: "#ffffffd6";
@@ -444,9 +441,8 @@ export declare const color: {
             };
         };
         readonly icon: {
-            readonly default: "#ffffffd6";
-            readonly hovered: "#ffffffc4";
-            readonly pressed: "#ffffffb5";
+            readonly accent: "#ffffffd6";
+            readonly subtle: "#ffffffc4";
             readonly activated: "#f0f7ff";
             readonly disabled: "#ffffff94";
             readonly feedback: {
@@ -476,7 +472,7 @@ export declare const color: {
                 readonly info: "#b8d9ff";
             };
         };
-        readonly background: {
+        readonly canvas: {
             readonly "1": "#0b63cb";
             readonly "2": "#0857b4";
             readonly "3": "#024aa2";
@@ -485,14 +481,9 @@ export declare const color: {
             readonly default: "#f0f7ff";
             readonly visited: "#e0ccfa";
         };
-        readonly focus: {
+        readonly ring: {
             readonly default: "#f0f7ff";
             readonly inset: "#046eec0f";
-        };
-        readonly others: {
-            readonly backdrop: "#0000006e";
-            readonly divider: "#ffffff5c";
-            readonly skeleton: "#ffffffa3";
         };
         readonly highlight: {
             readonly red: {
@@ -526,14 +517,90 @@ export declare const color: {
                 readonly "3": "#eee2fd";
             };
         };
+        readonly others: {
+            readonly backdrop: "#0000006e";
+            readonly divider: "#ffffff5c";
+            readonly skeleton: "#ffffffa3";
+        };
     };
 }, shadowBrand: {
-    readonly level: {
-        readonly "1": "0px 1px 2px 0px #d6e9ff, 0px 5px 4px -4px #d6e9ff";
-        readonly "2": "0px 2px 2px 0px #d6e9ff, 0px 0px 2px 0px #d6e9ff";
-        readonly "3": "0px 12px 12px -8px #d6e9ff, 0px 0px 4px 0px #d6e9ff";
-        readonly "4": "0px 32px 40px -16px #d6e9ff, 0px 2px 6px 0px #d6e9ff";
-        readonly "5": "0px 24px 48px -12px #d6e9ff, 0px 48px 64px -24px #d6e9ff";
-        readonly "6": "0px 24px 48px -8px #d6e9ff, 0px 48px 64px -24px #d6e9ff";
-    };
+    readonly "1": "0px 1px 2px 0px rgba(4, 110, 236, 0.06), 0px 3px 4px -4px rgba(4, 110, 236, 0.06)";
+    readonly "2": "0px 1px 2px 0px rgba(4, 110, 236, 0.06), 0px 5px 4px -4px rgba(4, 110, 236, 0.06)";
+    readonly "3": "0px 3px 8px 0px rgba(4, 110, 236, 0.06), 0px 6px 6px 0px rgba(4, 110, 236, 0.06)";
+    readonly "4": "0px 12px 12px -8px rgba(4, 110, 236, 0.15), 0px 0px 4px 0px rgba(4, 110, 236, 0.06)";
+    readonly "5": "0px 32px 40px -16px rgba(4, 110, 236, 0.15), 0px 2px 6px -4px rgba(4, 110, 236, 0.06)";
+    readonly "6": "0px 24px 48px -8px rgba(4, 110, 236, 0.15), 0px 48px 64px -24px rgba(4, 110, 236, 0.15)";
+}, border: {
+    readonly none: "0px";
+    readonly xs: "1px";
+    readonly sm: "2px";
+}, font: {
+    readonly base: "Roboto";
+    readonly regular: 400;
+    readonly medium: 500;
+    readonly bold: 700;
+}, leading: {
+    readonly xxs: "100%";
+    readonly xs: "116%";
+    readonly sm: "128%";
+    readonly md: "132%";
+    readonly lg: "142%";
+    readonly xl: "150%";
+}, opacity: {
+    readonly "1": 0.04;
+    readonly "2": 0.08;
+    readonly "3": 0.12;
+    readonly "4": 0.16;
+    readonly "5": 0.24;
+    readonly "6": 0.32;
+    readonly "7": 0.48;
+    readonly "8": 0.64;
+    readonly "9": 0.8;
+    readonly "10": 0.96;
+}, rounded: {
+    readonly none: "0px";
+    readonly sm: "4px";
+    readonly md: "8px";
+    readonly lg: "16px";
+    readonly xl: "24px";
+    readonly xxl: "32px";
+    readonly full: "10000px";
+}, shadow: {
+    readonly "1": "0px 1px 2px 0px rgba(0, 0, 0, 0.04), 0px 3px 4px -4px rgba(0, 0, 0, 0.04)";
+    readonly "2": "0px 1px 2px 0px rgba(0, 0, 0, 0.04), 0px 5px 4px -4px rgba(0, 0, 0, 0.04)";
+    readonly "3": "0px 3px 8px 0px rgba(0, 0, 0, 0.04), 0px 6px 6px 0px rgba(0, 0, 0, 0.04)";
+    readonly "4": "0px 12px 12px -8px rgba(0, 0, 0, 0.1), 0px 0px 4px 0px rgba(0, 0, 0, 0.04)";
+    readonly "5": "0px 32px 40px -16px rgba(0, 0, 0, 0.1), 0px 2px 6px -4px rgba(0, 0, 0, 0.04)";
+    readonly "6": "0px 24px 48px -8px rgba(0, 0, 0, 0.1), 0px 48px 64px -24px rgba(0, 0, 0, 0.1)";
+}, dimension: {
+    readonly "0": "0rem";
+    readonly "1": "0.25rem";
+    readonly "2": "0.5rem";
+    readonly "3": "0.75rem";
+    readonly "4": "1rem";
+    readonly "5": "1.25rem";
+    readonly "6": "1.5rem";
+    readonly "8": "2rem";
+    readonly "10": "2.5rem";
+    readonly "12": "3rem";
+    readonly "14": "3.5rem";
+    readonly "16": "4rem";
+    readonly "20": "5rem";
+    readonly "24": "6rem";
+    readonly "32": "8rem";
+    readonly "40": "10rem";
+    readonly "56": "14rem";
+    readonly "72": "18rem";
+}, text: {
+    readonly xxxs: "0.75rem";
+    readonly xxs: "0.875rem";
+    readonly xs: "1rem";
+    readonly sm: "1.125rem";
+    readonly md: "1.5rem";
+    readonly lg: "1.75rem";
+    readonly xl: "2.25rem";
+    readonly xxl: "2.5rem";
+}, tracking: {
+    readonly sm: "0.72px";
+    readonly md: "1px";
 };
