@@ -35,6 +35,6 @@ jobs:
         uses: ./.github/actions/create-release
         id: version
         with:
-          package-name: axiom-ui/tokens
+          package-name: "axiom-ui/tokens"
           package-filename: ./packages/tokens/package.json
           github-token: ${{ secrets.GITHUB_TOKEN }}
